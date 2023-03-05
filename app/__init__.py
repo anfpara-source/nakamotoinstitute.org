@@ -12,11 +12,11 @@ import jinja2
 from flask import Flask
 from flask_assets import Bundle, Environment
 from flask_caching import Cache
-from flask_flatpages import FlatPages
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.middleware.proxy_fix import ProxyFix
 
 from config import Config
+from ext.flatpages import FlatPages
 
 db = SQLAlchemy()
 pages = FlatPages()
