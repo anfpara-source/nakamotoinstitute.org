@@ -14,21 +14,21 @@ Thus, the first person who is able to use a good as a medium of exchange must bu
 
 To recap, the regression theorem says that:
 
-* To become a medium of exchange, a thing must be demanded for other reasons.
-* Among a set of competing media of exchanges, one tends to emerge as money.
+- To become a medium of exchange, a thing must be demanded for other reasons.
+- Among a set of competing media of exchanges, one tends to emerge as money.
 
 Both of these are necessarily market phenomena because they take place as peoples' individual decisions as to what they wish to trade with and with whom. Institutionalized coercion can affect the process, but always from the outside: for example, a State could try to promote one media of exchange over others by outlawing the rest. This might affect which media of exchange becomes money, but they cannot cause a thing to become money or a medium of exchange directly through decree.
 
-<div class="my-4 text-center">
-  <img class="img-fluid rounded d-block mx-auto" alt="Mises" src="/static/img/mempool/the-original-value-of-bitcoins/mises-tmc.jpg"></a>
-</div>
+<figure>
+  <img src="/static/img/mempool/the-original-value-of-bitcoins/mises-tmc.jpg" alt="Mises" />
+</figure>
 
 On the other hand, the regression theorem does _not_ say that:
 
-* Something must be _widely_ demanded to become a medium of exchange. It must begin its use as a medium of exchange with people who demand it, but from there it can spread to more people.
-* Something must be _strongly_ demanded to become a medium of exchange. Praxeology could not make a statement like this because subjective value theory does not allow a distinction between a strong or a weak desire. Desires can be compared to one another, but not characterized absolutely.
-* The future of a medium of exchange is dependent upon its origins. Some origins are possible for a medium of exchange and others are not, but once it exists its origins do not need to haunt it: its future demand depends on its present demand and upon other present factors affecting it, not directly upon anything that happened in the past.
-* A medium of exchange not adhering to the regression theorem is possible. Rather, any medium of exchange which apparently does not adhere to the regression theorem will, under closer examination, be found to be completely in accordance with it.[^2]
+- Something must be _widely_ demanded to become a medium of exchange. It must begin its use as a medium of exchange with people who demand it, but from there it can spread to more people.
+- Something must be _strongly_ demanded to become a medium of exchange. Praxeology could not make a statement like this because subjective value theory does not allow a distinction between a strong or a weak desire. Desires can be compared to one another, but not characterized absolutely.
+- The future of a medium of exchange is dependent upon its origins. Some origins are possible for a medium of exchange and others are not, but once it exists its origins do not need to haunt it: its future demand depends on its present demand and upon other present factors affecting it, not directly upon anything that happened in the past.
+- A medium of exchange not adhering to the regression theorem is possible. Rather, any medium of exchange which apparently does not adhere to the regression theorem will, under closer examination, be found to be completely in accordance with it.[^2]
 
 These fallacies underpin the negative reactions many Austrian economists have to the Bitcoin network's currency, bitcoins.
 
@@ -77,14 +77,11 @@ This explains how an appreciation of Bitcoin's engineering could lead someone to
 At that point, bitcoins had developed an exchange value. Both groups of entrepreneurs were happy because both had turned a profit. Bitcoin was still not money, but its potential was far easier for others to grasp. Thus, new entrepreneurs entered the market, both as merchants and investors. This cycle repeated itself to this day, and there is no reason that it will not continue as long as there are people ready to stake money on the vision of a Bitcoin economy.
 
 [^1]: The regression theorem is credited to Ludwig von Mises in Mises, L., _[The Theory of Money and Credit](https://mises.org/books/tmc.pdf)_, Yale University Press, 1953 but Carl Menger nearly had it all figured it out in Menger, C., _[Principles of Economics](https://mises.org/Books/Mengerprinciples.pdf)_, Ludwig von Mises Institute, 2007.
-
 [^2]: Please see Šurda, P., ["Economics of Bitcoin: is Bitcoin an Alternative to Fiat Currencies and Gold?"](/static/docs/economics-of-bitcoin.pdf), 2012, pp. 38-41 for Šurda's discussion of the regression theorem, upon which I have relied quite heavily.
-
 [^3]: This argument has emphasized by other pro-Bitcoin Austrians. See [Šurda, 2012](/static/docs/economics-of-bitcoin.pdf), Graf, K., ["Bitcoins, the Regression Theorem, and that Curious but Unthreatening Empirical World"](http://konradsgraf.com/blog1/2013/2/27/in-depth-bitcoins-the-regression-theorem-and-that-curious-bu.html), 23 Feb 2013, and Selgin, G., ["Bitcoin"](http://www.freebanking.org/2013/04/22/bitcoin/), 22 Apr 2013.
-
 [^4]: See [Šurda, 2012](/static/docs/economics-of-bitcoin.pdf), pp. 41-42.
-
-[^5]: See Gertchev, N., "The Moneyness of Bitcoins", Mises Daily, 14 Apr 2013 for an article that gives subjective arguments against Bitcoin. See Shostak, F., ["The Bitcoin Money Myth"](http://mises.org/daily/6411/The-Bitcoin-Money-Myth), _Mises Daily_, 17 Apr 2013 for an article which falls into numerous fallacies in an attempt to refute Bitcoin. This article is so sloppy that it could not even manage to spell "Nakamoto" correctly. Though it is an embarrassment, is useful as a compendium of fallacies and as an indication of the level of disdain and ignorance with which some Austrians discuss Bitcoin. I will briefly discuss its problems.
+[^5]:
+    See Gertchev, N., "The Moneyness of Bitcoins", Mises Daily, 14 Apr 2013 for an article that gives subjective arguments against Bitcoin. See Shostak, F., ["The Bitcoin Money Myth"](http://mises.org/daily/6411/The-Bitcoin-Money-Myth), _Mises Daily_, 17 Apr 2013 for an article which falls into numerous fallacies in an attempt to refute Bitcoin. This article is so sloppy that it could not even manage to spell "Nakamoto" correctly. Though it is an embarrassment, is useful as a compendium of fallacies and as an indication of the level of disdain and ignorance with which some Austrians discuss Bitcoin. I will briefly discuss its problems.
 
     First, Shostak describes bitcoins as a medium of exchange but then argues that the regression theorem says that it cannot become money because it has no intrinsic value. However, the _origin_ of a medium of exchange has no bearing on the reasons that a medium of exchange becomes money.
 
@@ -95,11 +92,7 @@ At that point, bitcoins had developed an exchange value. Both groups of entrepre
     Fourth, he then goes on to say that "Bitcoin can function only as long as individuals know that they can convert it into fiat money" and "Bitcoin is not a new form of money that replaces previous forms, but rather a new way of employing existent money in transactions". These statements are both obviously ridiculous. He apparently regards fiat currencies as somehow the _real_ yardstick because of their historical ties to gold and therefore simply will not take Bitcoin seriously. Shostak is guilty of historicism.
 
 [^6]: See Pattison, M., ["Buying into Bitcoin: An Austrian Analysis of the Virtual Currency's Sustainability"](http://www2.gcc.edu/dept/econ/ASSC/Papers%202012/Buying%20into%20Bitcoin.pdf), 14 Dec 2011 for the most detailed article which makes this argument.
-
 [^7]: [Šurda, 2012](/static/docs/economics-of-bitcoin.pdf), pp. 37-38.
-
 [^8]: This is an explanation proposed in [Graf, 2013](http://konradsgraf.com/blog1/2013/2/27/in-depth-bitcoins-the-regression-theorem-and-that-curious-bu.html). However, Graf is really just making the point that we do not need to state bitcoins' original value to say that they _had_ value.
-
 [^9]: [Graf, 2013](http://konradsgraf.com/blog1/2013/2/27/in-depth-bitcoins-the-regression-theorem-and-that-curious-bu.html).
-
 [^10]: [Šurda, 2012](/static/docs/economics-of-bitcoin.pdf), pg. 42.

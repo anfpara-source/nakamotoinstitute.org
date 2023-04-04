@@ -62,9 +62,9 @@ more business for them. I do not see how investors in the appcoin could expect
 to prevent this. That should eliminate the expectation that any appcoin could
 ever be a good investment.
 
-<div class="my-4 text-center">
-  <img class="img-fluid rounded d-block mx-auto" src="/static/img/mempool/appcoins-are-snake-oil/underpants-gnomes.png" />
-</div>
+<figure>
+  <img src="/static/img/mempool/appcoins-are-snake-oil/underpants-gnomes.png" alt="" />
+</figure>
 
 ## Beating a Dead Horse
 
@@ -119,24 +119,24 @@ Appcoins are pump-and-dump scams disguised as [Rube Goldberg
 machines](http://en.wikipedia.org/wiki/Rube_Goldberg_machine), so don't get
 fooled.
 
-<div class="my-4 text-center">
-  <img class="img-fluid rounded d-block mx-auto" width="60%" src="/static/img/mempool/appcoins-are-snake-oil/inconvenience-store.jpg" />
-</div>
+<figure>
+  <img src="/static/img/mempool/appcoins-are-snake-oil/inconvenience-store.jpg" alt="" />
+</figure>
 
 _[Update 6/16/2014: Added argument about developers changing the app
 themselves. Slight edits for clarity. Added footnote about frauds.]_
 
-
-[^1]: I have been criticized over my use of the word _fraud_ in an earlier
-version of this article. This usually implies an intent to deceive. I do not
-know whether the appcoins that already exist were sold under intentionally
-false pretenses; I merely consider it to be a likely possibility. As a
-comparison, if someone were selling a perpetual motion machine or homeopathic
-medicine, then obviously he is making false claims about his product. Without
-evidence as to what the seller is thinking it cannot be established that he is
-deliberately lying. However, the truth should be so easily available to the
-seller that deception on his part becomes a likely explanation for his
-actions.
+[^1]:
+    I have been criticized over my use of the word _fraud_ in an earlier
+    version of this article. This usually implies an intent to deceive. I do not
+    know whether the appcoins that already exist were sold under intentionally
+    false pretenses; I merely consider it to be a likely possibility. As a
+    comparison, if someone were selling a perpetual motion machine or homeopathic
+    medicine, then obviously he is making false claims about his product. Without
+    evidence as to what the seller is thinking it cannot be established that he is
+    deliberately lying. However, the truth should be so easily available to the
+    seller that deception on his part becomes a likely explanation for his
+    actions.
 
     In the case of appcoins, I do not think that the issues discussed in this
     article are very difficult to understand, so I would suspect someone who
@@ -156,9 +156,10 @@ actions.
     which is to say that they might be deceiving others or they might be
     deceiving themselves.
 
-[^2]: There is a similar effect between Bitcoin and the dollar, but because
-Bitcoin is such an enormous technological achievement over the dollar, Bitcoin
-[continues to grow](/mempool/why-bitcoin-will-continue-to-grow/) despite the
-dollar's superior network. If an appcoin could manage to reduce transaction
-costs by an order of magnitude versus Bitcoin, then it should be expected to
-defeat Bitcoin and all the other appcoins too.
+[^2]:
+    There is a similar effect between Bitcoin and the dollar, but because
+    Bitcoin is such an enormous technological achievement over the dollar, Bitcoin
+    [continues to grow](/mempool/why-bitcoin-will-continue-to-grow/) despite the
+    dollar's superior network. If an appcoin could manage to reduce transaction
+    costs by an order of magnitude versus Bitcoin, then it should be expected to
+    defeat Bitcoin and all the other appcoins too.

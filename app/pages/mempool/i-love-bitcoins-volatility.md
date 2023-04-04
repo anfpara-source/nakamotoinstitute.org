@@ -25,12 +25,10 @@ A currency can be volatile and still be liquid. It is liquid if one person can b
 
 ## The Right Price
 
-<div class="my-4 text-center">
-	<img class="img-fluid rounded d-block mx-auto" img-alt="Biohazard" src="/static/img/mempool/i-love-bitcoins-volatility/biohazard.jpg">
-	<p>
-		<em>Warning: volatile commodity</em>
-	</p>
-</div>
+<figure>
+  <img src="/static/img/mempool/i-love-bitcoins-volatility/biohazard.jpg" alt="" />
+  <figcaption>Warning: volatile commodity</figcaption>
+</figure>
 
 This brings up the question of what a good price for Bitcoin would be. When will Bitcoin stabilize? It should become less volatile as it becomes more widely adopted because it will be harder for local events and individual people to affect the price very much, right?
 

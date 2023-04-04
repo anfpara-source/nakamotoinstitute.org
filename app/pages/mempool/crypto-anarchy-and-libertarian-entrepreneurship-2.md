@@ -5,7 +5,7 @@ image_alt: Internet
 
 [_Chapter 1: The Strategy_](/mempool/crypto-anarchy-and-libertarian-entrepreneurship-1/ "Crypto-Anarchy and Libertarian Entrepreneurship – Chapter 1: The Strategy")
 
-* * *
+---
 
 ## Symmetric-Key Cryptography
 
@@ -21,9 +21,9 @@ JHBYEUXRBLPDWJXOBELNEHNTBFYDJHBWDCYUWJWLNUUWZBDJXLYERWRJRWEIBBCWEGJHBWDOYEBXWEJH
 
 Two things to note here. First, this algorithm is insecure. Regardless of how the letters are replaced, it would be easy to decipher, especially with a computer. We will need something much more complicated to make a message that is secret enough. More importantly, however, is that knowing the sequence of letter replacements is sufficient both to decrypt and to encrypt a message. It is, in fact, impossible to know how to encrypt a message without simultaneously knowing how to decrypt it.
 
-<div class="my-4 text-center">
-  <img class="img-fluid rounded d-block mx-auto" alt="Symmetric Key" src="/static/img/mempool/crypto-anarchy-and-libertarian-entrepreneurship-2/symmetric.jpg"/>
-</div>
+<figure>
+  <img src="/static/img/mempool/crypto-anarchy-and-libertarian-entrepreneurship-2/symmetric.jpg" alt="Symmetric Key" />
+</figure>
 
 This is the essence of symmetric-key cryptography: it is impossible to know how to encrypt a message without knowing how to decrypt it, and vice versa. This is a real problem. If, for example, my enemy got ahold of one of my secret messages and managed to decipher it, he would not only be able to read the rest of my messages but make new ones, perhaps to trick me and my friends.
 
@@ -43,9 +43,9 @@ For example, suppose you could design an algorithm that can run in a fraction of
 
 However, there is an upgrade to this idea that makes it useful. Suppose there are two algorithms which are inverses of one another. Both are fast to do forward and very slow to reverse. One algorithm can be used to encrypt and the other to decrypt. I keep the decryption algorithm secret but let my friends see the encryption algorithm. Now they can send me messages but only I can read them, and I have not given away any secrets that I cannot afford to have compromised. In fact, I can let my enemies see the encryption algorithm too. They can do nothing with it but make their own messages to me.
 
-<div class="my-4 text-center">
-  <img class="img-fluid rounded d-block mx-auto" alt="Public Key" src="/static/img/mempool/crypto-anarchy-and-libertarian-entrepreneurship-2/public-key.jpg"/>
-</div>
+<figure>
+  <img src="/static/img/mempool/crypto-anarchy-and-libertarian-entrepreneurship-2/public-key.jpg" alt="Public Key" />
+</figure>
 
 The final upgrade is that everyone has two algorithms. Everyone keeps one algorithm secret and publicizes the other. How can we discover so many algorithms? Typically there is a class of algorithms, each of which is specified by a number, or key. So we each have a public key and a private key. This is public-key encryption.
 
@@ -73,12 +73,11 @@ This is libertarianism. It is exactly what libertarians have always yearned for.
 
 There is one other service people might want that I have not provided for: anonymity. An interloper may not know what you are saying, but he might still know that you are a member. Maybe a spy can become a member himself and try to tie a real-life person to a public key. Ideally, you might want to prevent your communications from being linked to the community at all. Anonymity is a little bit trickier to provide, but it can be achieved with services like Tor. I do not wish to go into more detail about what is possible, but suffice to say there is much more that can be built upon the basic structure I have described here.
 
-* * *
+---
 
 [_Chapter 3: The Killer App of Liberty_](/mempool/crypto-anarchy-and-libertarian-entrepreneurship-3/ "Crypto-Anarchy and Libertarian Entrepreneurship – Chapter 3: The Killer App of Liberty")
 
 [_Chapter 4: The Risk From the Software Industry_](/mempool/crypto-anarchy-and-libertarian-entrepreneurship-4/ "Crypto-Anarchy and Libertarian Entrepreneurship – Chapter 4: The Risk From the Software Industry")
 
 [^1]: See Stallings, W., _Cryptography and Network Security: Principles and Practice, 5th ed._, Pearson Education, 2011 for an introduction to cryptography that explains everything I introduce here in detail. Or just read [Wikipedia](http://en.wikipedia.org/wiki/Public-key_cryptography).
-
 [^2]: In fact you would more likely you would use something called [Diffie-Hellman](http://www.youtube.com/watch?v=YEBfamv-_do) key exchange to establish a communication channel. The principle is the same even though it is slightly different than the method I explained.

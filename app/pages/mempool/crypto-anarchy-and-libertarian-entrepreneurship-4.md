@@ -9,7 +9,7 @@ image_alt: Make Install Anarchy
 
 [_Chapter 3: The Killer App of Liberty_](/mempool/crypto-anarchy-and-libertarian-entrepreneurship-3/ "Crypto-Anarchy and Libertarian Entrepreneurship – Chapter 3: The Killer App of Liberty")
 
-* * *
+---
 
 ## The Government Attack
 
@@ -27,9 +27,9 @@ This may seem far-fetched. Today it appears that we have won the battle on file-
 
 Furthermore, consider the criteria I gave in chapter one for evaluating the risk of an industry to government attack.
 
-* It is obvious that any government would consider communication to be a high-priority industry. The fourth amendment is still theoretically in effect in the USA, but the government has merely to collude with computer manufacturers, service providers, and software companies, to access your data through them without a search warrant. It can use this strategy to censor the internet as well.
-* The software industry is highly centralized, not in the sense that a single company produces nearly all the software, but rather that there are some software packages that are used by most people. If Microsoft, Apple, Google, and Facebook, were all corrupted (which they already are) nearly all computer users would be affected.
-* The software industry promotes dependence. It is very difficult to switch from Windows to iOS, for example. So difficult, in fact, that people people cover up for their dependence on Microsoft or Apple by developing irrational loyalties to one brand so as to make it appear as if they continue to choose their favorite brand for reasons other than an inability to leave it.
+- It is obvious that any government would consider communication to be a high-priority industry. The fourth amendment is still theoretically in effect in the USA, but the government has merely to collude with computer manufacturers, service providers, and software companies, to access your data through them without a search warrant. It can use this strategy to censor the internet as well.
+- The software industry is highly centralized, not in the sense that a single company produces nearly all the software, but rather that there are some software packages that are used by most people. If Microsoft, Apple, Google, and Facebook, were all corrupted (which they already are) nearly all computer users would be affected.
+- The software industry promotes dependence. It is very difficult to switch from Windows to iOS, for example. So difficult, in fact, that people people cover up for their dependence on Microsoft or Apple by developing irrational loyalties to one brand so as to make it appear as if they continue to choose their favorite brand for reasons other than an inability to leave it.
 
 As yet the government does not appear to be pursuing a deliberate policy of cartelization, but as these companies lobby their way into privilege through software patents and legally enforced DRM, the government may eventually find itself in the position of having the internet within its grasp. This is why computer manufacturers and the software industries should be seen as high-risk. The service provider industry is also at risk, but if we can retain control over our devices and software, then its threat will have been mostly eliminated as well.
 
@@ -41,9 +41,9 @@ But there is really only one defense: to retain control over our computers, our 
 
 Fortunately, the necessary philosophy was developed by Richard Stallman, founder of the free software movement and of [GNU](https://www.gnu.org/), a project to create a free operating system that eventually evolved into the GNU/Linux.[^3] Free software is software whose source code is as available as its binaries and which comes with the right to edit and redistribute edited versions.[^4] This term refers only to the rights that come with the software, not to its money price. Proprietary software is software that is not free software. The major goal of the free software movement is that all software should be free software.
 
-<div class="my-4 text-center">
-  <img class="img-fluid rounded d-block mx-auto" alt="Stallman" src="/static/img/mempool/crypto-anarchy-and-libertarian-entrepreneurship-4/stallman.jpg"/>
-</div>
+<figure>
+  <img src="/static/img/mempool/crypto-anarchy-and-libertarian-entrepreneurship-4/stallman.jpg" alt="Stallman" />
+</figure>
 
 Libertarians have not had much of a connection with the free software movement before. I would rate it as at least as important an ally to the libertarian movement as the homeschooling movement. There is much that is admirable about it: Stallman, for example, was against copyright and patents long before libertarians got the picture. He invented copyleft, which, though not entirely compatible with libertarianism, is, as a form of self-defense in a world oppressed by intellectual property, a stroke of genius.[^5]
 
@@ -63,9 +63,9 @@ Finally, the third way we give up control is to use proprietary devices. A free 
 
 To retain control over our computers, we must drastically reduce proprietary software, proprietary devices, and software-as-a-service as business practices. Libertarian entrepreneurs should try to compete with other business practices that make our computers more secure against outside control. This will greatly reduce the risk of a government invasion of our computers and the internet.
 
-<div class="my-4 text-center">
-  <img class="img-fluid rounded d-block mx-auto" alt="Tux" src="/static/img/mempool/crypto-anarchy-and-libertarian-entrepreneurship-4/tux.png"/>
-</div>
+<figure>
+  <img src="/static/img/mempool/crypto-anarchy-and-libertarian-entrepreneurship-4/tux.png" alt="Tux" />
+</figure>
 
 ## Free Software and Voluntary Slavery
 
@@ -75,9 +75,9 @@ The issue is relevant because a person whose computer is restrained is not liter
 
 Already people depend on their computers so much that they are getting to be like body parts. Our computers are a conduit to the rest of the world. They are our eyes, ears, and mouth. Thus, I do not consider myself to be speaking hyperbolically to say that a person who buys an iPhone becomes a voluntary slave. He uses the device as his eyes and ears to the world and he does not even have the right to say what software he wants to install on it. Apple retains the ability to remotely control his device, so at any moment, Apple might shut off his vision, send him hallucinations, or secretly watch him.
 
-<div class="my-4 text-center">
-  <img class="img-fluid rounded d-block mx-auto" alt="Apple" src="/static/img/mempool/crypto-anarchy-and-libertarian-entrepreneurship-4/apple.jpg"/>
-</div>
+<figure>
+  <img src="/static/img/mempool/crypto-anarchy-and-libertarian-entrepreneurship-4/apple.jpg" alt="Apple" />
+</figure>
 
 ## Free Software Values
 
@@ -96,13 +96,8 @@ But the world still hangs in the balance. People are blundering along the path t
 My prescriptions are simple: promote Bitcoin and oppose proprietary software and proprietary devices. These will greatly diminish the risk imposed on us from the banking and financial industries, and from the software and computer industries. If you are a coder, improve cryptographic free software, such as Bitcoin, Tor, or RetroShare. Above all, however, is to keep the mind open for new ideas. Search for government risks that have not yet been addressed. Search for new services that can be provided by cryptographic communities. Stay one step ahead of the government and don't get embroiled in politics.
 
 [^1]: See Anderson, R., ["'Trusted Computing' Frequently Asked Questions"](http://www.cl.cam.ac.uk/~rja14/tcpa-faq.html), Jul 2003 and Stallman, R., ["Can You Trust Your Computer?"](https://www.gnu.org/philosophy/can-you-trust.html), 28 Feb 2013 for discussions of Trusted (Treacherous) Computing. See [Wikipedia](http://en.wikipedia.org/wiki/Fritz-chip) for a more neutral explanation.
-
 [^2]: Wikipedia, ["Trusted Computing Platform"](https://en.wikipedia.org/wiki/Trusted_Platform_Module), Wikimedia Foundation, 6 May 2013.
-
 [^3]: See Stallman, R., ["The GNU Project"](https://www.gnu.org/gnu/thegnuproject.html), 28 Feb 2013 for a history of the GNU Project.
-
 [^4]: See Stallman, R., ["What is Free Software"](https://www.gnu.org/philosophy/free-sw.html), 28 Feb 2013 for a much more detailed description. Also see Stallman, R., [_Free Software, Free Society: Selected Essays of Richard Stallman_](http://www.gnu.org/philosophy/fsfs/rms-essays.pdf), GNU Press, 2002 for a wonderful collection of essays expounding upon the philosophy of free software.
-
 [^5]: See Stallman, R., ["What is Copyleft?"](https://www.gnu.org/philosophy/freedom-or-power.html), 28 Feb 2013 and Stallman, R., ["Freedom or Power"](https://www.gnu.org/philosophy/freedom-or-power.html), 28 Feb 2013 for Stallman's views on copyleft.
-
 [^6]: See Block, W., ["Toward a Libertarian Theory of Inalienability: A Critique of Rothbard, Barnett, Smith, Kinsella, Gordon, and Epstein"](http://mises.org/journals/jls/17_2/17_2_3.pdf), vol. 17, no. 2, _Journal of Libertarian Studies_, 2003, pp. 39-85 for a libertarian defense of voluntary slavery. See Kinsella, N., ["How We Come to Own Ourselves"](http://www.mises.org/story/2291), _Mises Daily_, 7 Sep 2006 for a libertarian argument against it.

@@ -21,26 +21,23 @@ This problem persisted for so long that some left the solution to others and dre
 
 Bitcoin was therefore birthed onto fertile ground and was recognized by those that had been waiting for it. This was an historic moment for them, far more important than pizzas or electric bills run up from mining. The promise of freedom and the allure of destiny energized the early community. Bitcoin was consciously, yet spontaneously taken up as money while no one was watching, and our world will never be the same.
 
-***
+---
 
-<div class="my-4 text-center d-sm-flex">
-  <a href="/static/img/mempool/bitcoin-equals-freedom/scan-1.jpg" target="_blank" rel="noopener noreferrer" class="mr-4">
-    <img class="img-fluid rounded d-block mx-auto" src="/static/img/mempool/bitcoin-equals-freedom/scan-1.jpg" />
+<figure>
+  <a href="/static/img/mempool/bitcoin-equals-freedom/scan-1.jpg" target="_blank">
+    <img src="/static/img/mempool/bitcoin-equals-freedom/scan-1.jpg" alt="" />
   </a>
-  <a href="/static/img/mempool/bitcoin-equals-freedom/scan-2.jpg" target="_blank" rel="noopener noreferrer">
-    <img class="img-fluid rounded d-block mx-auto" src="/static/img/mempool/bitcoin-equals-freedom/scan-2.jpg" />
+  <a href="/static/img/mempool/bitcoin-equals-freedom/scan-2.jpg" target="_blank">
+    <img src="/static/img/mempool/bitcoin-equals-freedom/scan-2.jpg" alt="" />
   </a>
-</div>
+  <a href="/static/img/mempool/bitcoin-equals-freedom/scan-3.jpg" target="_blank">
+    <img src="/static/img/mempool/bitcoin-equals-freedom/scan-3.jpg" alt="" />
+  </a>
+  <a href="/static/img/mempool/bitcoin-equals-freedom/scan-4.jpg" target="_blank">
+    <img src="/static/img/mempool/bitcoin-equals-freedom/scan-4.jpg" alt="" />
+  </a>
+</figure>
 
-<div class="my-4 text-center d-sm-flex">
-  <a href="/static/img/mempool/bitcoin-equals-freedom/scan-3.jpg" target="_blank" rel="noopener noreferrer" class="mr-4">
-    <img class="img-fluid rounded d-block mx-auto" src="/static/img/mempool/bitcoin-equals-freedom/scan-3.jpg" />
-  </a>
-  <a href="/static/img/mempool/bitcoin-equals-freedom/scan-4.jpg" target="_blank" rel="noopener noreferrer">
-    <img class="img-fluid rounded d-block mx-auto" src="/static/img/mempool/bitcoin-equals-freedom/scan-4.jpg" />
-  </a>
-</div>
-
-***
+---
 
 Learn more about Ross Ulbricht at [freeross.org](https://freeross.org/). You can sign his petition for clemency [here](https://freeross.org/petition).

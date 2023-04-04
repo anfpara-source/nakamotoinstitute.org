@@ -9,12 +9,10 @@ While the [scaling debate has been going on for years](https://medium.com/p/why-
 
 The [Bitcoin Dominance Index](https://coinmarketcap.com/charts/#dominance-percentage) was put together a few years ago to show exactly how much of the entire cryptocurrency economy is dominated by Bitcoin. Recently, the Dominance Index has been dropping and many point to the scaling debate within the community as a convenient reason why.
 
-<div class="my-4 text-center">
-  <img class="img-fluid rounded d-block mx-auto" src="/static/img/mempool/why-the-bitcoin-dominance-index-is-deceiving/bitcoin-dominance-index.png" />
-  <p>
-    <em>From <a href="http://coinmarketcap.com/">coinmarketcap.com</a></em>
-  </p>
-</div>
+<figure>
+  <img src="/static/img/mempool/why-the-bitcoin-dominance-index-is-deceiving/bitcoin-dominance-index.png" alt="" />
+  <figcaption>From <a href="http://coinmarketcap.com/">coinmarketcap.com</a></figcaption>
+</figure>
 
 The argument goes something like this. Bitcoin isn’t as useful anymore as the on-chain fees are too high, therefore, people are looking at alternatives to Bitcoin. Thus, value is flowing out of Bitcoin into other currencies and this can be clearly seen in the lack of Bitcoin dominance. Users want new features and they’re going to other coins to get it. If current conditions persist, then Bitcoin will eventually be overtaken by another currency such as Ethereum and Bitcoin will become the MySpace of cryptocurrency.
 
@@ -36,15 +34,15 @@ About the only real current usage would be to make small-ish transactions. And p
 
 Just to be clear, speculating on future utility is a perfectly legitimate form of investment, but let’s not mistake speculation with current utility. Speculation generally has the property that there’s a pretty large risk of failure and very frankly speaking, many of these coins have a lot of risk, specifically of their features not being a great fit for the market at large.
 
-<div class="my-4 text-center">
-  <img class="img-fluid rounded d-block mx-auto" src="/static/img/mempool/why-the-bitcoin-dominance-index-is-deceiving/namecoin-charts.png" />
-</div>
+<figure>
+  <img src="/static/img/mempool/why-the-bitcoin-dominance-index-is-deceiving/namecoin-charts.png" alt="" />
+</figure>
 
 To give just a couple of examples, Namecoin at one point had close to $100M market cap back in 2013 and was at one point thought to be a solution for a decentralized domain name service among other things. Unfortunately, most people found that the idea wasn’t quite as useful as thought and most domains on Namecoin are squatted and very few people use the .bit domain that it provides.
 
-<div class="my-4 text-center">
-  <img class="img-fluid rounded d-block mx-auto" src="/static/img/mempool/why-the-bitcoin-dominance-index-is-deceiving/auroracoin-charts.png" />
-</div>
+<figure>
+  <img src="/static/img/mempool/why-the-bitcoin-dominance-index-is-deceiving/auroracoin-charts.png" alt="" />
+</figure>
 
 Auroracoin at one point had close to a $1 Billion market cap back in 2014 and was at one point thought to be the digital currency that would be used in Iceland. It turned out that the market cap was largely manipulated by very low liquidity and the coin quickly capsized when more became available.
 
@@ -70,12 +68,10 @@ The scenario I’ve laid out for FoolCoin doesn’t even assume the more siniste
 
 ## Conclusion
 
-<div class="my-4 text-center">
-  <img class="img-fluid rounded d-block mx-auto" src="/static/img/mempool/why-the-bitcoin-dominance-index-is-deceiving/current-bitcoin-price.png" />
-  <p>
-    <em>Proof of Bitcoin's health</em>
-  </p>
-</div>
+<figure>
+  <img src="/static/img/mempool/why-the-bitcoin-dominance-index-is-deceiving/current-bitcoin-price.png" alt="" />
+  <figcaption>Proof of Bitcoin's health</figcaption>
+</figure>
 
 First, Bitcoin is very healthy. Healthier than ever in terms of price, market cap, usage, censorship resistance and pretty much every metric utility-wise. To say otherwise is to ignore the market signals.
 

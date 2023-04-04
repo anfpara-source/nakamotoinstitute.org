@@ -21,12 +21,12 @@ The 7 network effects of Bitcoin are as follows:
 
 Bitcoin is a strong currency: it thrives on the internet; it frees its users from 3rd parties; it saves merchants money; it is deflationary; its code can be audited by all; its developers work tirelessly to improve upon it; the list goes on. The above-listed network effects can only serve to strengthen it. Competitors beware.
 
-* * *
+---
 
 Trace Mayer's talk:
 
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TCU-soMs1wY?rel=0" allowfullscreen></iframe>
-</div>
+<figure>
+  <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/TCU-soMs1wY?rel=0" allowfullscreen></iframe>
+</figure>
 
 Audio available [here](https://www.bitcoin.kn/2015/06/crypsa-event-with-trace-mayer/).

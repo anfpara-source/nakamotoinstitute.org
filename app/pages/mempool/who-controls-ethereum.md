@@ -44,10 +44,10 @@ I want to draw an analogy to F. A. Hayek’s concept of liberty which he explain
 
 Those who have chosen ETC have chosen abstract rules over arbitrary interventions. They have said that the developers will be designers, not rulers. This is a choice that I respect. Furthermore, if ETC succeeds, the initial investors in it today will become disproportionately influential over it as it grows. Therefore, the intelligence which characterized its inception will continue to influence its evolution in the future. I would then have to consider it the strongest Bitcoin competitor yet.
 
-<div class="my-4 text-center">
-  <img class="img-fluid rounded d-block mx-auto" width="70%" src="/static/img/mempool/who-controls-ethereum/devs-cant-control-ethereum.png" />
-  <p><em>Artwork by the author.</em></p>
-</div>
+<figure>
+  <img src="/static/img/mempool/who-controls-ethereum/devs-cant-control-ethereum.png" alt="" />
+  <figcaption>Artwork by the author.</figcaption>
+</figure>
 
 ## Implications for Bitcoin
 
@@ -57,7 +57,8 @@ If it became easier for people to trade different forks of the same currency, th
 
 The process will tend to benefit the Bitcoin network because investors will gain the most by promoting growth the most. Furthermore, anyone who attempted to subvert Bitcoin would tend to lose money.
 
-[^1]: I noticed the page setting forth the terms of the DAO has disappeared and I had to link to it through the Wayback Machine. If I wrote something like this, I’d be embarrassed too, but jeez guys, don’t make the _1984_ comparisons so easy. Let me just quote the opening paragraph in full so that people don’t forget:
+[^1]:
+    I noticed the page setting forth the terms of the DAO has disappeared and I had to link to it through the Wayback Machine. If I wrote something like this, I’d be embarrassed too, but jeez guys, don’t make the _1984_ comparisons so easy. Let me just quote the opening paragraph in full so that people don’t forget:
 
     > The terms of The DAO Creation are set forth in the smart contract code existing on the Ethereum blockchain at 0xbb9bc244d798123fde783fcc1c72d3bb8c189413. Nothing in this explanation of terms or in any other document or communication may modify or add any additional obligations or guarantees beyond those set forth in The DAO’s code. Any and all explanatory terms or descriptions are merely offered for educational purposes and do not supercede or modify the express terms of The DAO’s code set forth on the blockchain; to the extent you believe there to be any conflict or discrepancy between the descriptions offered here and the functionality of The DAO’s code at 0xbb9bc244d798123fde783fcc1c72d3bb8c189413, The DAO’s code controls and sets forth all terms of The DAO Creation.
 
@@ -66,10 +67,9 @@ The process will tend to benefit the Bitcoin network because investors will gain
     I am not saying that the bug in the DAO was not obviously a bug; I am saying that similar cases are possible which are not so clear-cut. The devs are opening up an endless unresolvable debate by intervening. Ultimately, the only way to distinguish between an obvious bug and one which is not so obvious is to have some subjective principle embodied in a bunch of specific cases that a human has to look at and make a judgement. That’s just the legal system we have now and I thought that’s what Ethereum was supposed to avoid. Also, did you know that DAO stands for “distributed autonomous organization”? Well obviously it’s _not_ that if it needs a central body to fix it every time it screws up.
 
 [^2]: Also, don’t take this as a recommendation. Just because I took a risk does not mean you should.
-
 [^3]: Note that if ETC wins, the miners will have had nothing to do with it. The miners who chose to mine ETC instead of ETH chose it because it was more profitable to mine, not because they thought it was better. Thus, the miners do not control Ethereum. The investors control which fork is more profitable to mine, and therefore they control the miners.
-
-[^4]: Although Rawls is considered to be more of a socialist and Hayek more of a libertarian, their philosophies are pretty similar, although I think Hayek's fits better here because Hayek specifically emphasized the importance of abstract rules, whereas Rawls is more interested in preventing class interests from influencing our politics.
+[^4]:
+    Although Rawls is considered to be more of a socialist and Hayek more of a libertarian, their philosophies are pretty similar, although I think Hayek's fits better here because Hayek specifically emphasized the importance of abstract rules, whereas Rawls is more interested in preventing class interests from influencing our politics.
 
     Now note that I’m not saying here that Ethereum investors should necessarily be treated like free citizens with certain rights, as we would expect in a free society. They choose to buy into Ethereum. I’m saying that they can also choose to _sell_ Ethereum, and if they’re not going to be treated like the people in charge, why shouldn’t they? It would be perfectly appropriate under some circumstances, such as in a MMORPG, to make a centrally managed currency with a bunch of overlords who try to ensure everyone has a good experience and who ultimately run everything for their own benefit. In that circumstance, however, I certainly wouldn’t treat the currency as an investment. I would expect the overlords do do all the work and risk of maintaining the value of the currency, which would only be possible if they had a steady source of revenue from satisfied customers of some actual service they provided. This is not something that the Ethereum Foundation does.
 

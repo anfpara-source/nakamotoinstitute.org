@@ -22,12 +22,10 @@ someone in Bitcoin looking back at the dollar sees the [worst and
 longest](http://bitcoinism.blogspot.com/2013/11/us-dollar-falls-to-new-lows-against.html)
 economic crash in history.
 
-<div class="my-4 text-center">
-	<img class="img-fluid rounded d-block mx-auto" src="/static/img/mempool/bitcoin-is-the-best-unit-of-account/SP500inBTC.png">
-	<p>
-		<em>Worst recession ever.</em>
-	</p>
-</div>
+<figure>
+  <img src="/static/img/mempool/bitcoin-is-the-best-unit-of-account/SP500inBTC.png" alt="" />
+  <figcaption>Worst recession ever.</figcaption>
+</figure>
 
 Upon entering the Bitcoin world, one gradually realizes that dollars make a
 lot less sense in this new world. Suppose, for example, that one considers

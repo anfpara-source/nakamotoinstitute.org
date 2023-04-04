@@ -7,12 +7,10 @@ image_alt: Elvis Impersonators
 
 New ideas attract not only visionaries and pioneers but also charlatans and fools. The former group understands the nature and potential of the new idea and attempts to extend it in new ways. The latter observes the success of the former and expects similar results through blind imitation and empty hope, rather like the Melanesian [cargo cults](http://en.wikipedia.org/wiki/Cargo_cult) which arose after World War II when the American military abandoned its airports there.
 
-<div class="my-4 text-center">
-  <img class="img-fluid rounded d-block mx-auto" alt="The litecoiners of aeronautics" src="/static/img/mempool/the-problem-with-altcoins/cargo-cult.jpg" />
-	<p>
-		<em>The litecoiners of aeronautics</em>
-	</p>
-</div>
+<figure>
+  <img src="/static/img/mempool/the-problem-with-altcoins/cargo-cult.jpg" alt="The litecoiners of aeronautics" />
+  <figcaption>The litecoiners of aeronautics</figcaption>
+</figure>
 
 This analogy is absolutely appropriate to characterize the many alternative cryptocurrencies modeled on Bitcoin, which are collectively referred to as altcoins. Technologically, they are all very similar to Bitcoin: there is a block chain to store transactions, a consensus mechanism to build the block chain, and a cryptographic protocol to register transactions. Some prominent examples are PPCoin, Primecoin, Litecoin, and Freicoin.
 
@@ -24,12 +22,10 @@ The Bitcoin community is not just overwhelmingly larger but of overwhelmingly be
 
 ## Motivated reasoning
 
-<div class="my-4 text-center">
-  <img class="img-fluid rounded d-block mx-auto" alt="Altcoiners obsessing over Cryptsy's exchange rates" src="/static/img/mempool/the-problem-with-altcoins/altcoiners.png" />
-	<p>
-		<em>Altcoiners obsessing over Cryptsy's exchange rates</em>
-	</p>
-</div>
+<figure>
+  <img src="/static/img/mempool/the-problem-with-altcoins/altcoiners.png" alt="Altcoiners obsessing over Cryptsy's exchange rates" />
+  <figcaption>Altcoiners obsessing over Cryptsy's exchange rates</figcaption>
+</figure>
 
 What is a cryptocurrency actually for? I say that its purpose is to become money. It is obvious that creating altcoins impedes that purpose. Altcoins can only be explained if we believe the purpose of cryptocurrencies is to _make_ money rather than to _become_ money. If you can trick people into investing in your new altcoin, then you can make a profit trading it or mining and selling it. All the arguments of the altcoin promoters serve as misdirection from [that basic purpose](http://en.wikipedia.org/wiki/Motivated_reasoning). They have developed a series of fallacies capable of fooling newcomers into joining them, but they are all disingenuous.
 
@@ -83,12 +79,10 @@ There is a class of very similar cryptocurrencies that rely on an algorithm call
 
 When Bitcoin first came out, it was possible for anyone to mine coins with his CPU. Once software was developed that mined using GPUs, then CPU mining quickly became obsolete. GPU mining remained profitable for some time thereafter because the price of Bitcoin continued to increase as more people became miners. This could not persist indefinitely, and eventually there began work into the development of FPGA and ASIC mining. Once these technologies were developed, GPU mining would become obsolete as well.
 
-<div class="my-4 text-center">
-  <img class="img-fluid rounded d-block mx-auto" alt="The Golden Age of mining, according to altcoiners" src="/static/img/mempool/the-problem-with-altcoins/mining.jpg" />
-	<p>
-		<em>The Golden Age of mining, according to altcoiners</em>
-	</p>
-</div>
+<figure>
+  <img src="/static/img/mempool/the-problem-with-altcoins/mining.jpg" alt="The Golden Age of mining, according to altcoiners" />
+  <figcaption>The Golden Age of mining, according to altcoiners</figcaption>
+</figure>
 
 However, some miners who had heavily invested in GPUs did not wish to see this happen and didn't want their investments in GPUs to go sour. Obviously, this was a vain hope. It cannot be expected that it should be possible to run an ordinary computer at a profit for very long. Profits draw more investors, which leads to lower profits as the available opportunities are used up.
 
@@ -167,17 +161,10 @@ _\[Update 8/25/2013: the Freicoin was altered from an earlier version to correct
 _\[Update 8/28/2013: two citations added. Last paragraph added to section on competition.\]_
 
 [^1]: See Miers, I., Garman, C., Green, M., Rubin, A., ["Zerocoin: Anonymous Distributed E-Cash from Bitcoin"](http://spar.isi.jhu.edu/~mgreen/ZerocoinOakland.pdf), 9 Apr 2013 to learn about Zerocoin, a proposal that would greatly improve Bitcoin's anonymity. It would be wonderful if this could be made to work, but it would require a substantial coordinated effort to implement because it would involve an incompatible change to the Bitcoin protocol. This is actually one way an altcoin might be useful—its could implement Zerocoin as practice for doing the same to Bitcoin later. See J.D.Bruce, ["Purely P2P Crypto-Currency With Finite Mini-Blockchain"](http://www.bitfreak.info/files/pp2p-ccmbc-rev1.pdf), Apr 2013 for a proposal to limit the size of the block chain. Right now, the block chain becomes more costly to store as it grows and there is no built-in means to compensate for that. This paper shows that it is possible to split the functions of the block chain among three different data structures whose total size increases far more slowly. It is already possible for users (but not miners) to store shortened versions of the block chain, a feature which has been implemented in clients like MultiBit. However, the shortened block chain requires the client to make some assumptions about the validity of the full block chain which are not necessary with the Mini-Blockchain.
-
 [^2]: See Hayek, F., _The Road to Serfdom_, Routledge Classics, 2006, "Why the Worst Get On Top" and Hoppe, H., _Democracy: The God That Failed_, Transaction Publishers, 2007, "On Time Preference, Government, and the Process of Decivilization" for discussions of the bad sort of competition.
-
 [^3]: Bastiat, F., _[Petition of the Manufacturers of Candles, Waxlights, Lamps, Candlelights, Street Lamps, Snuffers, Extinguishers, and the Producers of Oil, Tallow, Resin, Alcohol, and, Generally, of Everything Connected with Lighting](https://mises.org/books/bastiat1.pdf)_, vol. 1, The Ludwig von Mises Institute, 2007.
-
 [^4]: O.Karame, G., Androulaki, E., Capkun, S., ["Two Bitcoins for the Price of One? Double-Spending Attacks on Fast Payments in Bitcoin"](http://eprint.iacr.org/2012/248.pdf), _Cryptology ePrint Archive_, 2012\.
-
 [^5]: See Grinstead, C., Snell, J., _[Introduction to Probability](http://www.dartmouth.edu/~chance/teaching_aids/books_articles/probability_book/amsbook.mac.pdf)_, American Mathematical Society for a pleasant discussion of random walks. See if you can solve the problem of the 51% attack yourself!
-
 [^6]: King, S., Nadal, S., ["PPCoin: Peer-to-Peer Crypto-Currency with Proof-of-Stake"](http://barkingshibes.com/wp-content/uploads/2014/02/ppcoin-paper.pdf), 19 Aug 2012.
-
 [^7]: King, S., ["Primecoin: Cryptocurrency with Prime Number Proof-of-Work"](http://ppcoin.org/static/primecoin-paper.pdf), 7 Jul 2013.
-
 [^8]: Freicoin Developers, ["Freicoin: About"](http://freico.in/about/), 2013\.

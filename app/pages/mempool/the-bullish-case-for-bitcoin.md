@@ -7,19 +7,19 @@ With the price of a bitcoin surging to new highs in 2017, the bullish case for i
 
 ## Genesis
 
-Never in the history of the world had it been possible to transfer value between distant peoples without relying on a trusted intermediary, such as a bank or government. In 2008 Satoshi Nakamoto, whose identity is still unknown, published a [9 page solution](/bitcoin/) to a long-standing problem of computer science known as the Byzantine General’s Problem. Nakamoto’s solution and the system he built from it—Bitcoin—allowed, for the first time ever, value to be quickly transferred, at great distance, in a completely trustless way. The ramifications of the creation of Bitcoin are so profound for both economics and computer science that Nakamoto should rightly be the first person to qualify for both a Nobel prize in Economics *and* the Turing award.
+Never in the history of the world had it been possible to transfer value between distant peoples without relying on a trusted intermediary, such as a bank or government. In 2008 Satoshi Nakamoto, whose identity is still unknown, published a [9 page solution](/bitcoin/) to a long-standing problem of computer science known as the Byzantine General’s Problem. Nakamoto’s solution and the system he built from it—Bitcoin—allowed, for the first time ever, value to be quickly transferred, at great distance, in a completely trustless way. The ramifications of the creation of Bitcoin are so profound for both economics and computer science that Nakamoto should rightly be the first person to qualify for both a Nobel prize in Economics _and_ the Turing award.
 
 For an investor the salient fact of the invention of Bitcoin is the creation of a new scarce digital good—bitcoins. Bitcoins are transferable digital tokens that are created on the Bitcoin network in a process known as “mining”. Bitcoin mining is roughly analogous to gold mining except that production follows a designed, predictable schedule. By design, only 21 million bitcoins will ever be mined and most of these already have been—approximately 16.8 million bitcoins have been mined at the time of writing. Every four years the number of bitcoins produced by mining halves and the production of new bitcoins will end completely by the year 2140.
 
-<div class="my-4 text-center">
-  <img class="img-fluid rounded d-block mx-auto" alt="Bitcoin inflation" src="/static/img/mempool/the-bullish-case-for-bitcoin/bitcoin-inflation.jpg" />
-</div>
+<figure>
+  <img src="/static/img/mempool/the-bullish-case-for-bitcoin/bitcoin-inflation.jpg" alt="" />
+</figure>
 
 Bitcoins are not backed by any physical commodity, nor are they guaranteed by any government or company, which raises the obvious question for a new bitcoin investor: why do they have any value at all? Unlike stocks, bonds, real-estate or even commodities such as oil and wheat, bitcoins cannot be valued using standard discounted cash flow analysis or by demand for their use in the production of higher order goods. Bitcoins fall into an entirely different category of goods, known as monetary goods, whose value is set game-theoretically. I.e., each market participant values the good based on their appraisal of whether and how much other participants will value it. To understand the game-theoretic nature of monetary goods, we need to explore the origins of money.
 
 ## **The Origins of Money**
 
-In the earliest human societies, trade between groups of people occurred through barter. The incredible inefficiencies inherent to barter trade drastically limited the scale and geographical scope at which trade could occur. A major disadvantage with barter based trade is the double coincidence of wants problem. An apple grower may desire trade with a fisherman, for example, but if the fisherman does not desire apples at the same moment, the trade will not take place. Over time humans evolved a desire to hold certain collectible items for their rarity and symbolic value (examples include shells, animal teeth and flint). Indeed, as Nick Szabo argues in his brilliant [essay on the origins of money](/shelling-out/), the human desire for collectibles provided a distinct evolutionary advantage for early man over his nearest biological competitors, *Homo neanderthalensis*.
+In the earliest human societies, trade between groups of people occurred through barter. The incredible inefficiencies inherent to barter trade drastically limited the scale and geographical scope at which trade could occur. A major disadvantage with barter based trade is the double coincidence of wants problem. An apple grower may desire trade with a fisherman, for example, but if the fisherman does not desire apples at the same moment, the trade will not take place. Over time humans evolved a desire to hold certain collectible items for their rarity and symbolic value (examples include shells, animal teeth and flint). Indeed, as Nick Szabo argues in his brilliant [essay on the origins of money](/shelling-out/), the human desire for collectibles provided a distinct evolutionary advantage for early man over his nearest biological competitors, _Homo neanderthalensis_.
 
 > The primary and ultimate evolutionary function of collectibles was as a medium for storing and transferring wealth.
 
@@ -29,9 +29,9 @@ Collectibles served as a sort of “proto-money” by making trade possible betw
 
 Early man faced an important game-theoretic dilemma when deciding which collectibles to gather or create: which objects would be desired by other humans? By correctly anticipating which objects might be demanded for their collectible value, a tremendous benefit was conferred on the possessor in their ability to complete trade and to acquire wealth. Some Native American tribes, such as the Narragansetts, specialized in the manufacture of otherwise useless collectibles simply for their value in trade. It is worth noting that the earlier the anticipation of future demand for a collectible good, the greater the advantage conferred to its possessor; it can be acquired more cheaply than when it is widely demanded and its trade value appreciates as the population which demands it expands. Furthermore, acquiring a good in hopes that it will be demanded as a future store of value hastens its adoption for that very purpose. This seeming circularity is actually a feedback loop that drives societies to quickly converge on a single store of value. In game-theoretic terms, this is known as a “[Nash Equilibrium](https://www.investopedia.com/terms/n/nash-equilibrium.asp)”. Achieving a Nash Equilibrium for a store of value is a major boon to any society, as it greatly facilitates trade and the division of labor, paving the way for the advent of civilization.
 
-<div class="my-4 text-center">
-  <img class="img-fluid rounded d-block mx-auto" alt="The Silk Road" src="/static/img/mempool/the-bullish-case-for-bitcoin/the-silk-road.jpg" />
-</div>
+<figure>
+  <img src="/static/img/mempool/the-bullish-case-for-bitcoin/the-silk-road.jpg" alt="" />
+</figure>
 
 Over the millennia, as human societies grew and trade routes developed, the stores of value that had emerged in individual societies came to compete against each other. Merchants and traders would face a choice of whether to save the proceeds of their trade in the store of value of their own society or the store of value of the society they were trading with, or some balance of both. The benefit of maintaining savings in a foreign store of value was the enhanced ability to complete trade in the associated foreign society. Merchants holding savings in a foreign store of value also had an incentive to encourage its adoption within their own society, as this would increase the purchasing power of their savings. The benefits of an imported store of value accrued not only to the merchants doing the importing, but also to the societies themselves. Two societies converging on a single store of value would see a substantial decrease in the cost of completing trade with each other and an attendant increase in trade-based wealth. Indeed, the 19th century was the first time when most of the world converged on a single store of value—gold—and this period saw the greatest explosion of trade in the history of the world. Of this halcyon period, Lord Keynes wrote:
 
@@ -41,20 +41,20 @@ Over the millennia, as human societies grew and trade routes developed, the stor
 
 When stores of value compete against each other, it is the specific attributes that make a good store of value that allows one to out-compete another at the margin and increase demand for it over time. While many goods have been used as stores of value or “proto-money”, certain attributes emerged that were particularly demanded and allowed goods with these attributes to out-compete others. An ideal store of value will be:
 
-* Durable: the good must not be perishable or easily destroyed. Thus wheat is not an ideal store of value
-* Portable: the good must be easy to transport and store, making it possible to secure it against loss or theft and allowing it to facilitate long-distance trade. A cow is thus less ideal than a gold bracelet.
-* Fungible: one specimen of the good should be interchangeable with another of equal quantity. Without fungibility, the coincidence of wants problem remains unsolved. Thus gold is better than diamonds, which are irregular in shape and quality.
-* Verifiable: the good must be easy to quickly identify and verify as authentic. Easy verification increases the confidence of its recipient in trade and increases the likelihood a trade will be consummated.
-* Divisible: the good must be easy to subdivide. While this attribute was less important in early societies where trade was infrequent, it became more important as trade flourished and the quantities exchanged became smaller and more precise.
-* Scarce: As Nick Szabo termed it, a monetary good must have “unforgeable costliness”. In other words, the good must not be abundant or easy to either obtain or produce in quantity. Scarcity is perhaps the most important attribute of a store of value as it taps into the innate human desire to collect that which is rare. It is the source of the original value of the store of value.
-* Established history: the longer the good is perceived to have been valuable by society, the greater its appeal as a store of value. A long-established store of value will be hard to displace by a new upstart except by force of conquest or if the arriviste is endowed with a significant advantage among the other attributes listed above.
-* Censorship-resistant: a new attribute, which has become increasingly important in our modern, digital society with pervasive surveillance, is censorship-resistance. That is, how difficult is it for an external party such as a corporation or state to prevent the owner of the good from keeping and using it. Goods that are censorship-resistant are ideal to those living under regimes that are trying to enforce capital controls or to outlaw various forms of peaceful trade.
+- Durable: the good must not be perishable or easily destroyed. Thus wheat is not an ideal store of value
+- Portable: the good must be easy to transport and store, making it possible to secure it against loss or theft and allowing it to facilitate long-distance trade. A cow is thus less ideal than a gold bracelet.
+- Fungible: one specimen of the good should be interchangeable with another of equal quantity. Without fungibility, the coincidence of wants problem remains unsolved. Thus gold is better than diamonds, which are irregular in shape and quality.
+- Verifiable: the good must be easy to quickly identify and verify as authentic. Easy verification increases the confidence of its recipient in trade and increases the likelihood a trade will be consummated.
+- Divisible: the good must be easy to subdivide. While this attribute was less important in early societies where trade was infrequent, it became more important as trade flourished and the quantities exchanged became smaller and more precise.
+- Scarce: As Nick Szabo termed it, a monetary good must have “unforgeable costliness”. In other words, the good must not be abundant or easy to either obtain or produce in quantity. Scarcity is perhaps the most important attribute of a store of value as it taps into the innate human desire to collect that which is rare. It is the source of the original value of the store of value.
+- Established history: the longer the good is perceived to have been valuable by society, the greater its appeal as a store of value. A long-established store of value will be hard to displace by a new upstart except by force of conquest or if the arriviste is endowed with a significant advantage among the other attributes listed above.
+- Censorship-resistant: a new attribute, which has become increasingly important in our modern, digital society with pervasive surveillance, is censorship-resistance. That is, how difficult is it for an external party such as a corporation or state to prevent the owner of the good from keeping and using it. Goods that are censorship-resistant are ideal to those living under regimes that are trying to enforce capital controls or to outlaw various forms of peaceful trade.
 
 The table below grades Bitcoin, gold and fiat money (such as dollars) against the attributes listed above and is followed by an explanation of each grade:
 
-<div class="my-4 text-center">
-  <img class="img-fluid rounded d-block mx-auto" alt="Bitcoin, Gold, Fiat comparison" src="/static/img/mempool/the-bullish-case-for-bitcoin/bitcoin-gold-fiat-comparison.png" />
-</div>
+<figure>
+  <img src="/static/img/mempool/the-bullish-case-for-bitcoin/bitcoin-gold-fiat-comparison.png" alt="" />
+</figure>
 
 ### Durability
 
@@ -84,15 +84,15 @@ The attribute that most clearly distinguishes Bitcoin from fiat currencies and g
 
 No monetary good has a history as long and storied as gold, which has been valued for as long as human civilization has existed. Coins minted in the distant days of antiquity [still maintain significant value today](https://en.wikipedia.org/wiki/Hoxne_Hoard). The same cannot be said of fiat currencies, which are a relatively recent anomaly of history. From their inception, fiat currencies have had a near-universal tendency toward eventual worthlessness. The use of inflation as an insidious means of invisibly taxing a citizenry has been a temptation that few states in history have been able to resist. If the 20th century, in which fiat monies came to dominate the global monetary order, established any economic truth, it is that fiat money cannot be trusted to maintain its value over the long or even medium term. Bitcoin, despite its short existence, has weathered enough trials in the market that there is a high likelihood it will not vanish as a valued asset any time soon. Furthermore, the [Lindy effect](https://en.wikipedia.org/wiki/Lindy_effect) suggests that the longer Bitcoin remains in existence the greater society’s confidence that it will continue to exist long into the future. In other words, the societal trust of a new monetary good is asymptotic in nature, as is illustrated in the graph below:
 
-<div class="my-4 text-center">
-  <img class="img-fluid rounded d-block mx-auto" alt="Trust vs. Time" src="/static/img/mempool/the-bullish-case-for-bitcoin/trust-vs-time.png" />
-</div>
+<figure>
+  <img src="/static/img/mempool/the-bullish-case-for-bitcoin/trust-vs-time.png" alt="" />
+</figure>
 
 If Bitcoin exists for 20 years, there will be near-universal confidence that it will be available forever, much as people believe the Internet is a permanent feature of the modern world.
 
 ### Censorship resistance
 
-One of the most significant sources of early demand for bitcoins was their use in the illicit drug trade. Many subsequently surmised, mistakenly, that the primary demand for bitcoins was due to their ostensible anonymity. Bitcoin, however, is far from an anonymous currency; every transaction transmitted on the Bitcoin network is forever recorded on a public blockchain. The historical record of transactions allows for later forensic analysis to identify the source of a flow of funds. It was [such an analysis](http://blog.wizsec.jp/2017/07/breaking-open-mtgox-1.html) that led to the apprehending of a perpetrator of the infamous MtGox heist. While it is true that a sufficiently careful and diligent person can conceal their identity when using Bitcoin, this is not why Bitcoin was so popular for trading drugs. The key attribute that makes Bitcoin valuable for proscribed activities is that it is “permissionless” at the network level. When bitcoins are transmitted on the Bitcoin network, there is no human intervention deciding whether the transaction should be allowed. As a distributed peer-to-peer network, Bitcoin is, by its very nature, designed to be censorship-resistant. This is in stark contrast to the fiat banking system, where states regulate banks and the other gatekeepers of money transmission to report and prevent outlawed uses of monetary goods. A classic example of regulated money transmission is capital controls. A wealthy millionaire, for instance, may find it very hard to transfer their wealth to a new domicile if they wish to flee an oppressive regime. Although gold is not issued by states, its physical nature makes it difficult to transmit at distance, making it far more susceptible to state regulation than Bitcoin. India’s [Gold Control Act](https://en.wikipedia.org/wiki/The_Gold_(Control)_Act,_ 1968) is an example of such regulation.
+One of the most significant sources of early demand for bitcoins was their use in the illicit drug trade. Many subsequently surmised, mistakenly, that the primary demand for bitcoins was due to their ostensible anonymity. Bitcoin, however, is far from an anonymous currency; every transaction transmitted on the Bitcoin network is forever recorded on a public blockchain. The historical record of transactions allows for later forensic analysis to identify the source of a flow of funds. It was [such an analysis](http://blog.wizsec.jp/2017/07/breaking-open-mtgox-1.html) that led to the apprehending of a perpetrator of the infamous MtGox heist. While it is true that a sufficiently careful and diligent person can conceal their identity when using Bitcoin, this is not why Bitcoin was so popular for trading drugs. The key attribute that makes Bitcoin valuable for proscribed activities is that it is “permissionless” at the network level. When bitcoins are transmitted on the Bitcoin network, there is no human intervention deciding whether the transaction should be allowed. As a distributed peer-to-peer network, Bitcoin is, by its very nature, designed to be censorship-resistant. This is in stark contrast to the fiat banking system, where states regulate banks and the other gatekeepers of money transmission to report and prevent outlawed uses of monetary goods. A classic example of regulated money transmission is capital controls. A wealthy millionaire, for instance, may find it very hard to transfer their wealth to a new domicile if they wish to flee an oppressive regime. Although gold is not issued by states, its physical nature makes it difficult to transmit at distance, making it far more susceptible to state regulation than Bitcoin. India’s [Gold Control Act](https://en.wikipedia.org/wiki/The_Gold_(Control)_Act,\_ 1968) is an example of such regulation.
 
 Bitcoin excels across the majority of attributes listed above, allowing it to outcompete modern and ancient monetary goods at the margin and providing a strong incentive for its increasing adoption. In particular, the potent combination of censorship resistance and absolute scarcity has been a powerful motivator for wealthy investors to allocate a portion of their wealth to the nascent asset class.
 
@@ -122,13 +122,13 @@ Bitcoin is currently transitioning from the first stage of monetization to the s
 
 In the process of being monetized, a monetary good will soar in purchasing power. Many have commented that the increase in purchasing power of Bitcoin creates the appearance of a “bubble”. While this term is often using disparagingly to suggest that Bitcoin is grossly overvalued, it is unintentionally apt. A characteristic that is common to all monetary goods is that their purchasing power is higher than can be justified by their use-value alone. Indeed, many historical monies had no use-value at all. The difference between the purchasing power of a monetary good and the exchange-value it could command for its inherent usefulness can be thought of as a “monetary premium”. As a monetary good transitions through the stages of monetization (listed in the section above), the monetary premium will increase. The premium does not, however, move in a straight, predictable line. A good X that was in the process of being monetized may be outcompeted by another good Y that is more suitable as money, and the monetary premium of X may drop or vanish entirely. The monetary premium of silver disappeared almost entirely in the late 19th century when governments across the world largely abandoned it as money in favor of gold.
 
-<div class="my-4 text-center">
-  <img class="img-fluid rounded d-block mx-auto" alt="Monetary premium" src="/static/img/mempool/the-bullish-case-for-bitcoin/monetary-premium.png" />
-</div>
+<figure>
+  <img src="/static/img/mempool/the-bullish-case-for-bitcoin/monetary-premium.png" alt="" />
+</figure>
 
 Even in the absence of exogenous factors such as government intervention or competition from other monetary goods, the monetary premium for a new money will not follow a predictable path. Economist Larry White [observed that](http://oll.libertyfund.org/pages/misestmc):
 
-> the trouble with [the] bubble story, of course, is that is consistent with *any* price path, and thus gives no explanation for a particular price path
+> the trouble with [the] bubble story, of course, is that is consistent with _any_ price path, and thus gives no explanation for a particular price path
 
 The process of monetization is game-theoretic; every market participant attempts to anticipate the aggregate demand of other participants and thereby the future monetary premium. Because the monetary premium is unanchored to any inherent usefulness, market participants tend to default to past prices when determining whether a monetary good is cheap or expensive and whether to buy or sell it. The connection of current demand to past prices is known as “path dependence” and is perhaps the greatest source of confusion in understanding the price movements of monetary goods.
 
@@ -140,23 +140,23 @@ The truth is that the notions of “cheap” and “expensive” are essentially
 
 Further complicating the path-dependent nature of money is the fact that market participants do not merely act as dispassionate observers, trying to buy or sell in anticipation of future movements of the monetary premium, but also act as active evangelizers. Since there is no objectively correct monetary premium, proselytizing the superior attributes of a monetary good is more effective than for regular goods, whose value is ultimately anchored to cash flow or use-demand. The religious fervor of participants in the Bitcoin market can be observed in various online forums where owners actively promote the benefits of Bitcoin and the wealth that can be made by investing in it. In observing the Bitcoin market, [Leigh Drogen comments](https://www.cnbc.com/2017/10/19/josh-brown-goes-down-the-bitcoin-rabbit-hole-commentary.html):
 
-> You recognize this as a religion—a story we all tell each other and agree upon. Religion is the adoption curve we ought to be thinking about. It’s almost perfect—as soon as someone gets in, they tell everyone and go out evangelizing. Then their friends get in and *they* start evangelizing.
+> You recognize this as a religion—a story we all tell each other and agree upon. Religion is the adoption curve we ought to be thinking about. It’s almost perfect—as soon as someone gets in, they tell everyone and go out evangelizing. Then their friends get in and _they_ start evangelizing.
 
 While the comparison to religion may give Bitcoin an aura of irrational faith, it is entirely rational for the individual owner to evangelize for a superior monetary good and for society as a whole to standardize on it. Money acts as the foundation for all trade and savings, so the adoption of a superior form of money has tremendous multiplicative benefits to wealth creation for all members of a society.
 
 ## **The shape of monetization**
 
-While there are no *a priori* rules about the path a monetary good will take as it is monetized, a curious pattern has emerged during the relatively brief history of Bitcoin’s monetization. Bitcoin’s price appears to follow a fractal pattern of increasing magnitude, where each iteration of the fractal matches the classic shape of a Gartner hype cycle.
+While there are no _a priori_ rules about the path a monetary good will take as it is monetized, a curious pattern has emerged during the relatively brief history of Bitcoin’s monetization. Bitcoin’s price appears to follow a fractal pattern of increasing magnitude, where each iteration of the fractal matches the classic shape of a Gartner hype cycle.
 
-<div class="my-4 text-center">
-  <img class="img-fluid rounded d-block mx-auto" alt="Gartner hype cycle" src="/static/img/mempool/the-bullish-case-for-bitcoin/gartner-hype-cycle.png" />
-</div>
+<figure>
+  <img src="/static/img/mempool/the-bullish-case-for-bitcoin/gartner-hype-cycle.png" alt="" />
+</figure>
 
 In his article on [the Speculative Bitcoin Adoption/Price Theory](https://medium.com/@mcasey0827/speculative-bitcoin-adoption-price-theory-2eed48ecf7da), Michael Casey posits that the expanding Gartner hype cycles represent phases of a standard S-curve of adoption that was followed by many transformative technologies as they become commonly used in society.
 
-<div class="my-4 text-center">
-  <img class="img-fluid rounded d-block mx-auto" alt="Technological adoption" src="/static/img/mempool/the-bullish-case-for-bitcoin/technological-adoption.jpg" />
-</div>
+<figure>
+  <img src="/static/img/mempool/the-bullish-case-for-bitcoin/technological-adoption.jpg" alt="" />
+</figure>
 
 Each Gartner hype cycle begins with a burst of enthusiasm for the new technology, and the price is bid up by the market participants who are “reachable” in that iteration. The earliest buyers in a Gartner hype cycle typically have a strong conviction about the transformative nature of the technology they are investing in. Eventually the market reaches a crescendo of enthusiasm as the supply of new participants who can be reached in the cycle is exhausted and the buying becomes dominated by speculators more interested in quick profits than the underlying technology.
 
@@ -168,9 +168,9 @@ Very few people participating in an iteration of a Gartner hype cycle will corre
 
 It is telling that gold followed the classic pattern of a Gartner hype cycle from the late 1970s to the early 2000s. One might speculate that the hype cycle is an inherent social dynamic to the process of monetization.
 
-<div class="my-4 text-center">
-  <img class="img-fluid rounded d-block mx-auto" alt="Gold historical price" src="/static/img/mempool/the-bullish-case-for-bitcoin/gold-historical-price.jpg" />
-</div>
+<figure>
+  <img src="/static/img/mempool/the-bullish-case-for-bitcoin/gold-historical-price.jpg" alt="" />
+</figure>
 
 ## Gartner cohorts
 
@@ -190,9 +190,9 @@ It was only after the collapse of the MtGox exchange and a two-year lull in the 
 
 At the time of writing, the Bitcoin market is undergoing its fourth major hype cycle. Participation in the current hype cycle has been dominated by what Michael Casey described as the “early majority” of retail and institutional investors.
 
-<div class="my-4 text-center">
-  <img class="img-fluid rounded d-block mx-auto" alt="Market penetration" src="/static/img/mempool/the-bullish-case-for-bitcoin/market-penetration.png" />
-</div>
+<figure>
+  <img src="/static/img/mempool/the-bullish-case-for-bitcoin/market-penetration.png" alt="" />
+</figure>
 
 As sources of liquidity have deepened and matured, major institutional investors now have the opportunity to participate through regulated futures markets. The availability of a regulated futures market paves the way for the creation of a Bitcoin ETF, which will then usher in the “late majority” and “laggards” in subsequent hype cycles.
 
@@ -218,13 +218,13 @@ More precisely, a monetary good will only be suitable as a medium of exchange wh
 
 In a barter-based society, the transition of a store of value to a medium of exchange can occur even when the monetary good is increasing in purchasing power because the transactional costs of barter trade are extremely high. In a developed economy, where transactional costs are low, it is possible for a nascent and rapidly appreciating store of value, such as Bitcoin, to be used as a medium of exchange, albeit in a very limited scope. An example is the illicit drug market where buyers are willing to sacrifice the opportunity of holding bitcoins to minimize the substantial risk of purchasing the drugs using fiat currency.
 
-There are, however, major institutional barriers to a nascent store of value becoming a *generally* accepted medium of exchange in a developed society. States use taxation as a powerful means to protect their sovereign money from being displaced by competing monetary goods. Not only does a sovereign money enjoy the advantage of a constant source of demand, by way of taxes being remittable only in it, but competing monetary goods are taxed whenever they are exchanged at an appreciated value. This latter kind of taxation creates significant friction to using a store of value as a medium of exchange.
+There are, however, major institutional barriers to a nascent store of value becoming a _generally_ accepted medium of exchange in a developed society. States use taxation as a powerful means to protect their sovereign money from being displaced by competing monetary goods. Not only does a sovereign money enjoy the advantage of a constant source of demand, by way of taxes being remittable only in it, but competing monetary goods are taxed whenever they are exchanged at an appreciated value. This latter kind of taxation creates significant friction to using a store of value as a medium of exchange.
 
 The handicapping of market-based monetary goods is not an insurmountable barrier to their adoption as a generally accepted medium of exchange, however. If faith is lost in a sovereign money, its value can collapse in a process known as hyperinflation. When a sovereign money hyperinflates, its value first collapses against the most liquid goods in the society, such as gold or a foreign money like the US dollar, if they are available. When no liquid goods are available or their supply is limited, a hyperinflating money collapses against real goods, such as real estate and commodities. The archetypal image of a hyperinflation is a grocery store emptied of all its produce as consumers flee the rapidly diminishing value of their nation’s money.
 
-<div class="my-4 text-center">
-  <img class="img-fluid rounded d-block mx-auto" alt="Empty Venezuelan supermarket" src="/static/img/mempool/the-bullish-case-for-bitcoin/empty-venezuelan-supermarket.jpg" />
-</div>
+<figure>
+  <img src="/static/img/mempool/the-bullish-case-for-bitcoin/empty-venezuelan-supermarket.jpg" alt="" />
+</figure>
 
 Eventually, when faith is completely lost during a hyperinflation, a sovereign money will no longer be accepted by anyone, and the society will either devolve to barter or the monetary unit will be completely replaced as a medium of exchange. An example of this process was the replacement of the Zimbabwe dollar with the US dollar. The replacement of a sovereign money with a foreign one is made more difficult by the scarcity of the foreign money and the absence of foreign banking institutions to provide liquidity.
 
@@ -234,13 +234,13 @@ The ability to easily transmit bitcoins across borders and absence of a need for
 
 Much of this article has focused on the monetary nature of Bitcoin. With this foundation we can now address some of the most commonly held misconceptions about Bitcoin.
 
-<div class="my-4 text-center">
-  <img class="img-fluid rounded d-block mx-auto" alt="Bitcoin and fiat" src="/static/img/mempool/the-bullish-case-for-bitcoin/bitcoin-fiat.gif" />
-</div>
+<figure>
+  <img src="/static/img/mempool/the-bullish-case-for-bitcoin/bitcoin-fiat.gif" alt="" />
+</figure>
 
 ### Bitcoin is a bubble
 
-Bitcoin, like all market-based monetary goods, displays a monetary premium. The monetary premium is what gives rise to the common criticism that Bitcoin is a “bubble”. However, *all* monetary goods display a monetary premium. Indeed, it is this premium (the excess over the use-demand price) that is the defining characteristic of all monies. In other words, money is always and everywhere a bubble. Paradoxically, a monetary good is both a bubble and may be undervalued if it’s in the early stages of its adoption for use as money.
+Bitcoin, like all market-based monetary goods, displays a monetary premium. The monetary premium is what gives rise to the common criticism that Bitcoin is a “bubble”. However, _all_ monetary goods display a monetary premium. Indeed, it is this premium (the excess over the use-demand price) that is the defining characteristic of all monies. In other words, money is always and everywhere a bubble. Paradoxically, a monetary good is both a bubble and may be undervalued if it’s in the early stages of its adoption for use as money.
 
 ### Bitcoin is too volatile
 
@@ -258,9 +258,9 @@ The specious root of the criticism of Bitcoin’s “high” transaction fees is
 
 As an open-source software protocol, it has always been possible to copy Bitcoin’s software and imitate its network. Over the years, many imitators have been created, ranging from ersatz facsimiles, such as Litecoin, to complex variants like Ethereum that promise to allow arbitrarily complex contractual arrangements using a distributed computational system. A common investment criticism of Bitcoin is that it cannot maintain its value when competitors can be easily created that are able to incorporate the latest innovations and software features.
 
-<div class="my-4 text-center">
-  <img class="img-fluid rounded d-block mx-auto" alt="Bitcoin and altcoins" src="/static/img/mempool/the-bullish-case-for-bitcoin/bitcoin-and-altcoins.jpg" />
-</div>
+<figure>
+  <img src="/static/img/mempool/the-bullish-case-for-bitcoin/bitcoin-and-altcoins.jpg" alt="" />
+</figure>
 
 The fallacy in this argument is that the scores of Bitcoin competitors that have been created over the years lack the “network effect” of the first and dominant technology in the space. A network effect—the increased value of using Bitcoin simply because it is already the dominant network—is a feature in and of itself. For any technology that possesses a network effect, it is by far the most important feature.
 
@@ -270,9 +270,9 @@ The network effect for Bitcoin encompasses the liquidity of its market, the numb
 
 A trend that became popular in 2017 was not only to imitate Bitcoin’s software, but to copy the entire history of its past transactions (known as the blockchain). By copying Bitcoin’s blockchain up to a certain point and then splitting off into a new network, in a process known as “forking”, competitors to Bitcoin were able to solve the problem of distributing their token to a large user base.
 
-<div class="my-4 text-center">
-  <img class="img-fluid rounded d-block mx-auto" alt="Fork in the road" src="/static/img/mempool/the-bullish-case-for-bitcoin/fork-in-the-road.jpg" />
-</div>
+<figure>
+  <img src="/static/img/mempool/the-bullish-case-for-bitcoin/fork-in-the-road.jpg" alt="" />
+</figure>
 
 The most significant fork of this kind occurred on August 1st, 2017 when a new network known as Bitcoin Cash (BCash) was created. An owner of N bitcoins before August 1st, 2017, would then own both N bitcoins and N BCash tokens. The small but vocal community of BCash proponents have tirelessly attempted to expropriate Bitcoin’s brand recognition, both through the naming of their new network and a campaign to convince neophytes in the Bitcoin market that Bcash is the “real” Bitcoin. These attempts have largely failed, and this failure is reflected in the market capitalizations of the two networks. However, for new investors, there remains an apparent risk that a competitor might clone Bitcoin and its blockchain and succeed in overtaking it in market capitalization, thus becoming the de facto Bitcoin.
 
@@ -326,37 +326,37 @@ Beyond the financial case for Bitcoin, its rise as a non-sovereign store of valu
 
 This article has been translated into:
 
-* [English podcast](https://soundcloud.com/heardit_io/the-bullish-case-for-bitcoin-vijay-boyapati) by [Heardit](https://twitter.com/k_heardit).
+- [English podcast](https://soundcloud.com/heardit_io/the-bullish-case-for-bitcoin-vijay-boyapati) by [Heardit](https://twitter.com/k_heardit).
 
-* [English podcast](https://cryptoconomy.podbean.com/e/cryptoquickread_021-the-bullish-case-for-bitcoin/) by [Cryptoconomy](https://twitter.com/TheCryptoconomy).
+- [English podcast](https://cryptoconomy.podbean.com/e/cryptoquickread_021-the-bullish-case-for-bitcoin/) by [Cryptoconomy](https://twitter.com/TheCryptoconomy).
 
-* [Podcast interview about the article](https://hackernoon.com/vijay-boyapatis-bullish-case-for-bitcoin-e274eda46bbc) with [Peter McCormack](https://twitter.com/PeterMcCormack).
+- [Podcast interview about the article](https://hackernoon.com/vijay-boyapatis-bullish-case-for-bitcoin-e274eda46bbc) with [Peter McCormack](https://twitter.com/PeterMcCormack).
 
-* [Deutsche](https://medium.com/@danielschnurr089/das-bullische-argument-f%C3%BCr-bitcoin-9665e9375727) by [Daniel Schnurr](http://@schnurr_daniel), [Simon Lutz](http://@simonlutz21) and [Arlene Roa Aillaud](http://@Arrrleeene).
+- [Deutsche](https://medium.com/@danielschnurr089/das-bullische-argument-f%C3%BCr-bitcoin-9665e9375727) by [Daniel Schnurr](http://@schnurr_daniel), [Simon Lutz](http://@simonlutz21) and [Arlene Roa Aillaud](http://@Arrrleeene).
 
-* [Österreichisches Deutsch](https://medium.com/@b.eder/bitcoin-die-zukunft-des-geldes-ebfbf063fb6e) by [Bernie Eder](http://@burns_eder).
+- [Österreichisches Deutsch](https://medium.com/@b.eder/bitcoin-die-zukunft-des-geldes-ebfbf063fb6e) by [Bernie Eder](http://@burns_eder).
 
-* Korean by [Hyungmok joh](https://twitter.com/HyungmokJoh) ([part 1](https://medium.com/@hyungjoh/https-medium-com-hyungjoh-the-bullish-case-for-bitcoin-part-1-of-4-korean-7e454dc539bc), [part 2](https://medium.com/@hyungjoh/https-medium-com-hyungjoh-the-bullish-case-for-bitcoin-part-2-of-4-korean-c540ff608f11), [part 3](https://medium.com/@hyungjoh/https-medium-com-hyungjoh-the-bullish-case-for-bitcoin-part-3-of-4-58ba827992b4), [part 4](https://medium.com/@hyungjoh/https-medium-com-hyungjoh-the-bullish-case-for-bitcoin-part-4-of-4-a1d3293e023e)).
+- Korean by [Hyungmok joh](https://twitter.com/HyungmokJoh) ([part 1](https://medium.com/@hyungjoh/https-medium-com-hyungjoh-the-bullish-case-for-bitcoin-part-1-of-4-korean-7e454dc539bc), [part 2](https://medium.com/@hyungjoh/https-medium-com-hyungjoh-the-bullish-case-for-bitcoin-part-2-of-4-korean-c540ff608f11), [part 3](https://medium.com/@hyungjoh/https-medium-com-hyungjoh-the-bullish-case-for-bitcoin-part-3-of-4-58ba827992b4), [part 4](https://medium.com/@hyungjoh/https-medium-com-hyungjoh-the-bullish-case-for-bitcoin-part-4-of-4-a1d3293e023e)).
 
-* Traditional Chinese by [Flora Sun](https://twitter.com/sunflora) ([part 1](https://medium.com/@sunflora98/%E6%AF%94%E7%89%B9%E5%B9%A3%E7%9C%8B%E6%BC%B2%E8%AB%96-%E4%B8%80-33d753d60fa0), [part 2](https://medium.com/@sunflora98/%E6%AF%94%E7%89%B9%E5%B9%A3%E7%9C%8B%E6%BC%B2%E8%AB%96-%E4%BA%8C-6e8f31272bbd), [part 3](https://medium.com/@sunflora98/%E6%AF%94%E7%89%B9%E5%B9%A3%E7%9C%8B%E6%BC%B2%E8%AB%96-%E4%B8%89-6cdc512302d5), [part 4](https://medium.com/@sunflora98/%E6%AF%94%E7%89%B9%E5%B9%A3%E7%9C%8B%E6%BC%B2%E8%AB%96-%E5%9B%9B-e45de99f75e7))
+- Traditional Chinese by [Flora Sun](https://twitter.com/sunflora) ([part 1](https://medium.com/@sunflora98/%E6%AF%94%E7%89%B9%E5%B9%A3%E7%9C%8B%E6%BC%B2%E8%AB%96-%E4%B8%80-33d753d60fa0), [part 2](https://medium.com/@sunflora98/%E6%AF%94%E7%89%B9%E5%B9%A3%E7%9C%8B%E6%BC%B2%E8%AB%96-%E4%BA%8C-6e8f31272bbd), [part 3](https://medium.com/@sunflora98/%E6%AF%94%E7%89%B9%E5%B9%A3%E7%9C%8B%E6%BC%B2%E8%AB%96-%E4%B8%89-6cdc512302d5), [part 4](https://medium.com/@sunflora98/%E6%AF%94%E7%89%B9%E5%B9%A3%E7%9C%8B%E6%BC%B2%E8%AB%96-%E5%9B%9B-e45de99f75e7))
 
-* Simplified Chinese by [Flora Sun](https://twitter.com/sunflora) ([part 1](https://medium.com/@sunflora98/%E6%AF%94%E7%89%B9%E5%B8%81%E7%9C%8B%E6%B6%A8%E8%AE%BA-%E4%B8%80-1e8845bfbdec), [part 2](https://medium.com/@sunflora98/%E6%AF%94%E7%89%B9%E5%B8%81%E7%9C%8B%E6%B6%A8%E8%AE%BA-%E4%BA%8C-e60b2816f353), [part 3](https://medium.com/@sunflora98/%E6%AF%94%E7%89%B9%E5%B8%81%E7%9C%8B%E6%B6%A8%E8%AE%BA-%E4%B8%89-648d1067205), [part 4](https://medium.com/@sunflora98/%E6%AF%94%E7%89%B9%E5%B8%81%E7%9C%8B%E6%B6%A8%E8%AE%BA-%E5%9B%9B-dec12198e20f))
+- Simplified Chinese by [Flora Sun](https://twitter.com/sunflora) ([part 1](https://medium.com/@sunflora98/%E6%AF%94%E7%89%B9%E5%B8%81%E7%9C%8B%E6%B6%A8%E8%AE%BA-%E4%B8%80-1e8845bfbdec), [part 2](https://medium.com/@sunflora98/%E6%AF%94%E7%89%B9%E5%B8%81%E7%9C%8B%E6%B6%A8%E8%AE%BA-%E4%BA%8C-e60b2816f353), [part 3](https://medium.com/@sunflora98/%E6%AF%94%E7%89%B9%E5%B8%81%E7%9C%8B%E6%B6%A8%E8%AE%BA-%E4%B8%89-648d1067205), [part 4](https://medium.com/@sunflora98/%E6%AF%94%E7%89%B9%E5%B8%81%E7%9C%8B%E6%B6%A8%E8%AE%BA-%E5%9B%9B-dec12198e20f))
 
-* Español by [Iñigo](https://twitter.com/luna1999) and [Carlos Beltrán](https://twitter.com/carlitosbeltran) ([part 1](https://medium.com/@vijayb_24615/la-tesis-alcista-de-bitcoin-parte-1-de-4-7b2e7ac5f07), [part 2](https://medium.com/@vijayb_24615/la-tesis-alcista-de-bitcoin-parte-2-de-4-d1107502547f), [part 3](https://medium.com/@vijayb_24615/la-tesis-alcista-de-bitcoin-parte-3-de-4-f4a1d54b7649), [part4](https://medium.com/@vijayb_24615/la-tesis-alcista-de-bitcoin-parte-4-de-4-94c254b8af24)).
+- Español by [Iñigo](https://twitter.com/luna1999) and [Carlos Beltrán](https://twitter.com/carlitosbeltran) ([part 1](https://medium.com/@vijayb_24615/la-tesis-alcista-de-bitcoin-parte-1-de-4-7b2e7ac5f07), [part 2](https://medium.com/@vijayb_24615/la-tesis-alcista-de-bitcoin-parte-2-de-4-d1107502547f), [part 3](https://medium.com/@vijayb_24615/la-tesis-alcista-de-bitcoin-parte-3-de-4-f4a1d54b7649), [part4](https://medium.com/@vijayb_24615/la-tesis-alcista-de-bitcoin-parte-4-de-4-94c254b8af24)).
 
-* Nederlandse by [Wim](https://twitter.com/wejo13), edited by [Koen Swinkels](http://philosophyofbitcoin.blogspot.com/) ([part 1](https://medium.com/@vijayb_24615/het-bullish-argument-voor-bitcoin-deel-1-c589d15083c1), [part 2](https://medium.com/@vijayb_24615/het-bullish-argument-voor-bitcoin-deel-2-1919f2575777), [part 3](https://medium.com/@vijayb_24615/het-bullish-argument-voor-bitcoin-deel-3-86d04057cac4), [part 4](https://medium.com/@vijayb_24615/het-bullish-argument-voor-bitcoin-deel-4-ae7ee0fc0459)).
+- Nederlandse by [Wim](https://twitter.com/wejo13), edited by [Koen Swinkels](http://philosophyofbitcoin.blogspot.com/) ([part 1](https://medium.com/@vijayb_24615/het-bullish-argument-voor-bitcoin-deel-1-c589d15083c1), [part 2](https://medium.com/@vijayb_24615/het-bullish-argument-voor-bitcoin-deel-2-1919f2575777), [part 3](https://medium.com/@vijayb_24615/het-bullish-argument-voor-bitcoin-deel-3-86d04057cac4), [part 4](https://medium.com/@vijayb_24615/het-bullish-argument-voor-bitcoin-deel-4-ae7ee0fc0459)).
 
-* Française by [Greg Guittard](https://twitter.com/GregGuittard) ([part 1](https://medium.com/@gregguittard/un-sc%C3%A9nario-optimiste-pour-le-bitcoin-fdd8bc249e07), [part 2](https://medium.com/@gregguittard/un-sc%C3%A9nario-optimiste-pour-le-bitcoin-partie-2-sur-4-a943395137cb), [part 3](https://medium.com/@gregguittard/un-sc%C3%A9nario-optimiste-pour-le-bitcoin-partie-3-sur-4-c4126aed1b0d), [part 4](https://medium.com/@gregguittard/un-sc%C3%A9nario-optimiste-pour-le-bitcoin-partie-4-sur-4-a097d1435436)).
+- Française by [Greg Guittard](https://twitter.com/GregGuittard) ([part 1](https://medium.com/@gregguittard/un-sc%C3%A9nario-optimiste-pour-le-bitcoin-fdd8bc249e07), [part 2](https://medium.com/@gregguittard/un-sc%C3%A9nario-optimiste-pour-le-bitcoin-partie-2-sur-4-a943395137cb), [part 3](https://medium.com/@gregguittard/un-sc%C3%A9nario-optimiste-pour-le-bitcoin-partie-3-sur-4-c4126aed1b0d), [part 4](https://medium.com/@gregguittard/un-sc%C3%A9nario-optimiste-pour-le-bitcoin-partie-4-sur-4-a097d1435436)).
 
-* [Italiano](https://medium.com/@ryandelongpre/il-futuro-dei-soldi-bitcoin-dfddd5ef7308) by [Ryan DeLongpre](https://twitter.com/jeitoapp).
+- [Italiano](https://medium.com/@ryandelongpre/il-futuro-dei-soldi-bitcoin-dfddd5ef7308) by [Ryan DeLongpre](https://twitter.com/jeitoapp).
 
-* Português by [Allex Fer](https://twitter.com/AllexFer) ([part 1](https://baraodobitcoin.com/o-cen%C3%A1rio-otimista-para-o-bitcoin-parte-1-de-4-785218913e0c), [part 2](https://baraodobitcoin.com/o-cen%C3%A1rio-otimista-para-o-bitcoin-parte-2-de-4-b83a424481a8), [part 3](https://baraodobitcoin.com/o-cen%C3%A1rio-otimista-para-o-bitcoin-parte-3-de-4-4b3a0c0893e4), [part 4](https://baraodobitcoin.com/o-cen%C3%A1rio-otimista-para-o-bitcoin-parte-4-de-4-7f1431f57334)).
+- Português by [Allex Fer](https://twitter.com/AllexFer) ([part 1](https://baraodobitcoin.com/o-cen%C3%A1rio-otimista-para-o-bitcoin-parte-1-de-4-785218913e0c), [part 2](https://baraodobitcoin.com/o-cen%C3%A1rio-otimista-para-o-bitcoin-parte-2-de-4-b83a424481a8), [part 3](https://baraodobitcoin.com/o-cen%C3%A1rio-otimista-para-o-bitcoin-parte-3-de-4-4b3a0c0893e4), [part 4](https://baraodobitcoin.com/o-cen%C3%A1rio-otimista-para-o-bitcoin-parte-4-de-4-7f1431f57334)).
 
-* Tamil by [Balaji Vaidyanath](http://nbalajiv) and Mahadevan Vaidyanath ([part 1](https://medium.com/@vijayboyapati/%E0%AE%8F%E0%AE%B1%E0%AF%81%E0%AE%AE%E0%AF%81%E0%AE%95%E0%AE%AE%E0%AF%8D-%E0%AE%95%E0%AE%BE%E0%AE%A3%E0%AF%81%E0%AE%AE%E0%AF%8D-%E0%AE%AA%E0%AE%BF%E0%AE%9F%E0%AF%8D%E0%AE%95%E0%AE%BE%E0%AE%AF%E0%AE%BF%E0%AE%A9%E0%AF%8D-%E0%AE%B5%E0%AE%BF%E0%AE%B5%E0%AE%95%E0%AE%BE%E0%AE%B0%E0%AE%AE%E0%AF%8D-%E0%AE%AE%E0%AF%81%E0%AE%A4%E0%AE%B2%E0%AF%8D-%E0%AE%AA%E0%AE%95%E0%AF%81%E0%AE%A4%E0%AE%BF-ad7c340f4962)).
+- Tamil by [Balaji Vaidyanath](http://nbalajiv) and Mahadevan Vaidyanath ([part 1](https://medium.com/@vijayboyapati/%E0%AE%8F%E0%AE%B1%E0%AF%81%E0%AE%AE%E0%AF%81%E0%AE%95%E0%AE%AE%E0%AF%8D-%E0%AE%95%E0%AE%BE%E0%AE%A3%E0%AF%81%E0%AE%AE%E0%AF%8D-%E0%AE%AA%E0%AE%BF%E0%AE%9F%E0%AF%8D%E0%AE%95%E0%AE%BE%E0%AE%AF%E0%AE%BF%E0%AE%A9%E0%AF%8D-%E0%AE%B5%E0%AE%BF%E0%AE%B5%E0%AE%95%E0%AE%BE%E0%AE%B0%E0%AE%AE%E0%AF%8D-%E0%AE%AE%E0%AF%81%E0%AE%A4%E0%AE%B2%E0%AF%8D-%E0%AE%AA%E0%AE%95%E0%AF%81%E0%AE%A4%E0%AE%BF-ad7c340f4962)).
 
-* русский/Russian by [CoinSpot](https://twitter.com/CoinSpot) ([part 1](https://coinspot.io/analysis/pochemu-bitcoin-vzletit-chast-1-genezis-i-priroda-deneg/), [part 2](https://coinspot.io/analysis/pochemu-bitcoin-vzletit-chast-2-atributy-horoshego-hranilishha-cennosti/), [part 3](https://coinspot.io/analysis/pochemu-bitcoin-vzletit-chast-3-evolyuciya-deneg/), [part 4](https://coinspot.io/analysis/pochemu-bitcoin-vzletit-chast-4-zabluzhdeniya-realnye-riski-i-zaklyuchenie/)).
+- русский/Russian by [CoinSpot](https://twitter.com/CoinSpot) ([part 1](https://coinspot.io/analysis/pochemu-bitcoin-vzletit-chast-1-genezis-i-priroda-deneg/), [part 2](https://coinspot.io/analysis/pochemu-bitcoin-vzletit-chast-2-atributy-horoshego-hranilishha-cennosti/), [part 3](https://coinspot.io/analysis/pochemu-bitcoin-vzletit-chast-3-evolyuciya-deneg/), [part 4](https://coinspot.io/analysis/pochemu-bitcoin-vzletit-chast-4-zabluzhdeniya-realnye-riski-i-zaklyuchenie/)).
 
-* Bulgarian by [Bo Mirchev](https://twitter.com/BoMirchev) ([part 1](https://hash.bg/%D0%B7%D0%B0%D1%89%D0%BE-%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B9%D0%BD-%D1%89%D0%B5-%D1%83%D1%81%D0%BF%D0%B5%D0%B5-%D1%87%D0%B0%D1%81%D1%82-1/), [part 2](https://hash.bg/%D0%B7%D0%B0%D1%89%D0%BE-%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B9%D0%BD-%D1%89%D0%B5-%D1%83%D1%81%D0%BF%D0%B5%D0%B5-%D1%87%D0%B0%D1%81%D1%82-2/), [part 3](https://hash.bg/%D0%B7%D0%B0%D1%89%D0%BE-%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B9%D0%BD-%D1%89%D0%B5-%D1%83%D1%81%D0%BF%D0%B5%D0%B5-%D1%87%D0%B0%D1%81%D1%82-3/), [part 4](https://hash.bg/%D0%B7%D0%B0%D1%89%D0%BE-%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B9%D0%BD-%D1%89%D0%B5-%D1%83%D1%81%D0%BF%D0%B5%D0%B5-%D1%87%D0%B0%D1%81%D1%82-4/)).
+- Bulgarian by [Bo Mirchev](https://twitter.com/BoMirchev) ([part 1](https://hash.bg/%D0%B7%D0%B0%D1%89%D0%BE-%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B9%D0%BD-%D1%89%D0%B5-%D1%83%D1%81%D0%BF%D0%B5%D0%B5-%D1%87%D0%B0%D1%81%D1%82-1/), [part 2](https://hash.bg/%D0%B7%D0%B0%D1%89%D0%BE-%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B9%D0%BD-%D1%89%D0%B5-%D1%83%D1%81%D0%BF%D0%B5%D0%B5-%D1%87%D0%B0%D1%81%D1%82-2/), [part 3](https://hash.bg/%D0%B7%D0%B0%D1%89%D0%BE-%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B9%D0%BD-%D1%89%D0%B5-%D1%83%D1%81%D0%BF%D0%B5%D0%B5-%D1%87%D0%B0%D1%81%D1%82-3/), [part 4](https://hash.bg/%D0%B7%D0%B0%D1%89%D0%BE-%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B9%D0%BD-%D1%89%D0%B5-%D1%83%D1%81%D0%BF%D0%B5%D0%B5-%D1%87%D0%B0%D1%81%D1%82-4/)).
 
 ### About me
 

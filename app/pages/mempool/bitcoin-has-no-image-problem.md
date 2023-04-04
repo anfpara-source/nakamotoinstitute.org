@@ -28,16 +28,16 @@ First look at this [log
 chart](https://en.wikipedia.org/wiki/Logarithmic_scale) of Bitcoin’s market
 cap.
 
-<div class="my-4 text-center">
-	<img class="img-fluid rounded d-block mx-auto" src="/static/img/mempool/bitcoin-has-no-image-problem/marketcap-chart.png">
-</div>
+<figure>
+  <img src="/static/img/mempool/bitcoin-has-no-image-problem/marketcap-chart.png" alt="" />
+</figure>
 
 Now take a look at the number of MyWallet users over the past two years. This
 is also a log chart.
 
-<div class="my-4 text-center">
-	<img class="img-fluid rounded d-block mx-auto" src="/static/img/mempool/bitcoin-has-no-image-problem/mywallet-chart.png">
-</div>
+<figure>
+  <img src="/static/img/mempool/bitcoin-has-no-image-problem/mywallet-chart.png" alt="" />
+</figure>
 
 That’s an increase of like 500 times in two years. Ooo, I’m so terrified
 Bitcoin’s image will stop people from wanting it.
@@ -110,12 +110,10 @@ were sitting on a swamp made out of crude oil and worrying that people won’t
 accept it because it’s too ugly and gross, so they try to convince people that
 it’s a pretty shiny pink and tastes like cherries.
 
-<div class="my-4 text-center">
-	<img class="img-fluid rounded d-block mx-auto" src="/static/img/mempool/bitcoin-has-no-image-problem/narcissism.jpg">
-	<p>
-		<em>Oh Narcissus, you’ll never understand Bitcoin.</em>
-	</p>
-</div>
+<figure>
+  <img src="/static/img/mempool/bitcoin-has-no-image-problem/narcissism.jpg" alt="" />
+  <figcaption>Oh Narcissus, you’ll never understand Bitcoin.</figcaption>
+</figure>
 
 The only way to think Bitcoin has a bad image is by marketing it to the wrong
 people. Yes, just about everyone could benefit from Bitcoin right now, but for
@@ -156,18 +154,16 @@ if it gives us a little extra time—however brief—to buy more. Every time
 someone figures out how great Bitcoin really is, he makes Bitcoin even _more_
 great by joining in.
 
-<div class="my-4 text-center">
-	<img class="img-fluid rounded d-block mx-auto" src="/static/img/mempool/bitcoin-has-no-image-problem/miss-sunshine.jpg">
-	<p>
-		<em>When you’re an immortal distributed system that can’t be controlled,
-		you don’t have to care what other people think.</em>
-	</p>
-</div>
+<figure>
+  <img src="/static/img/mempool/bitcoin-has-no-image-problem/miss-sunshine.jpg" alt="" />
+  <figcaption>When you’re an immortal distributed system that can’t be controlled, you don’t have to care what other people think.</figcaption>
+</figures>
 
 Bitcoin is stronger than all its enemies put together. It is so strong that
 its image does not matter one bit. It is the 800-pound gorilla that can sleep
 where it pleases. It is only through timidity, and by failing to see its own
 strength, that it will bow to outside forces.
 
-[^1]: I wrote this before Mt.Gox crashed. I’m very glad it’s gone. Bitcoin
-still doesn’t need “help” from regulators and bankers.
+[^1]:
+    I wrote this before Mt.Gox crashed. I’m very glad it’s gone. Bitcoin
+    still doesn’t need “help” from regulators and bankers.

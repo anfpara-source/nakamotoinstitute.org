@@ -82,12 +82,10 @@ fills up or if the computation runs out of
 but these are complications on top of the fundamental problem. A hacker can
 try to ensure that only the last send fails so as to end up with everything.
 
-<div class="my-4 text-center">
-  <img class="img-fluid rounded d-block mx-auto" src="/static/img/mempool/ethereum-is-doomed/the-dao-is-empty.png">
-  <p>
-    <em>via <a href="https://twitter.com/KonradSGraf/status/743843080961409025">Twitter</a></em>
-  </p>
-</div>
+<figure>
+  <img src="/static/img/mempool/ethereum-is-doomed/the-dao-is-empty.png" alt="" />
+  <figcaption>via <a href="https://twitter.com/KonradSGraf/status/743843080961409025">Twitter</a></figcaption>
+</figure>
 
 A naive approach to this bug would be to write `q` so that it keeps track of
 how much is owed to `B` and fails if the money should already have been paid.
@@ -189,16 +187,14 @@ Sirer](http://hackingdistributed.com/2016/06/17/thoughts-on-the-dao-hack/#what-s
 > coins from The DAO, the only consistent response is to call it a job well
 > done.
 
-<div class="my-4 text-center">
-  <img class="img-fluid rounded d-block mx-auto" src="/static/img/mempool/ethereum-is-doomed/vitalik-rai-stones.jpg">
-  <p>
-    <em>Artwork by <a href="https://twitter.com/BigLambda/status/891148584334245888">Big λ</a></em>
-  </p>
-</div>
+<figure>
+  <img src="/static/img/mempool/ethereum-is-doomed/vitalik-rai-stones.jpg" alt="" />
+  <figcaption>Artwork by <a href="https://twitter.com/BigLambda/status/891148584334245888">Big λ</a></figcaption>
+</figure>
 
-
-[^1]: If you don’t believe me read this analysis of the hack
-      [here](http://hackingdistributed.com/2016/06/16/scanning-live-ethereum-contracts-for-bugs/):
+[^1]:
+    If you don’t believe me read this analysis of the hack
+    [here](http://hackingdistributed.com/2016/06/16/scanning-live-ethereum-contracts-for-bugs/):
 
     > To have a contract send Ether to some other address, the most
     > straightforward way is to use the send keyword. This acts like a method
