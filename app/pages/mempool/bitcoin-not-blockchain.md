@@ -105,9 +105,12 @@ Every other fiat currency, commodity money or cryptocurrency is competing for th
 
 A blockchain on the other hand is simply an invention native to bitcoin that enables the removal of trusted third parties. It serves no other purpose. It is only valuable in bitcoin as a piece to a larger puzzle and it would be useless if not functioning in concert with the currency. The integrity of bitcoin’s scarcity and the immutability of its blockchain are ultimately dependent on the value of the currency itself. Confidence in the aggregate function drives incremental adoption and liquidity which reinforces and strengthens the value of the bitcoin network as a whole. As individuals opt in to bitcoin, they are at the same time, opting out of inferior monetary networks. This is fundamentally why the emergent properties in bitcoin are next to impossible to replicate and why its monetary properties become stronger over time (and with greater scale), while also at the direct expense of inferior monetary networks.
 
-> “I don’t believe we shall ever have a good money again before we take the thing out of the hands of government, that is, we can’t take them violently out of the hands of government, all we can do is by some sly roundabout way introduce something that they can’t stop.”
->
-> <footer class="blockquote-footer">F. A. Hayek</footer>
+<figure>
+  <blockquote>
+    <p>“I don’t believe we shall ever have a good money again before we take the thing out of the hands of government, that is, we can’t take them violently out of the hands of government, all we can do is by some sly roundabout way introduce something that they can’t stop.”</p>
+  </blockquote>
+  <figcaption>F. A. Hayek</figcaption>
+</figure>
 
 Ultimately, a blockchain is only useful in the application of money because it is dependent on a native currency for security. Bitcoin represents the most secure blockchain by orders of magnitude. Because all other blockchains are competing for the same fundamental use case of money and because bitcoin’s network effects only continue to increase its security and liquidity advantage over the field, no other digital currency can compete with bitcoin. Liquidity begets liquidity and monetary systems tend to one medium as a derivative function. Bitcoin’s security and liquidity obsoleted any other cryptocurrencies before they left the proverbial gates. Find me a cryptocurrency that comes close to bitcoin relative to security, liquidity or the credibility of its monetary properties, and I will find you a unicorn.
 

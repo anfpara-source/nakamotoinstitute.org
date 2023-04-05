@@ -96,16 +96,18 @@ The hardest mental hurdle to overcome, when evaluating bitcoin as money, is ofte
 
 Remember that the dollar does not have any inherent monetary properties. It leveraged the monetary properties of gold in its ascent to global reserve status, but in itself, there are no unique properties that ground the dollar as a stable form of money, other than its relative scarcity in the construct of its credit-linked monetary system. When evaluating bitcoin, the first principle question to consider is whether something digital could share the quintessential properties that made gold a store of value (and a form of money). Did gold emerge as money because it was physical or because it possessed transcendent properties beyond being physical? Of all the physical objects in the world, why gold? Gold emerged as money not because it was physical, but instead because its aggregate properties were unique. Most importantly, gold is scarce, fungible and highly durable. While gold possessed many properties which made it superior to any money that came before it, its fatal flaw was that it was difficult to transport and susceptible to centralization, which is ultimately why the dollar emerged as its transactional counterpart.
 
-> “As a thought experiment, imagine there was a base metal as scarce as gold but with the following properties:
-> – boring grey in colour
-> – not a good conductor of electricity
-> – not particularly strong, but not ductile or easily malleable either
-> – not useful for any practical or ornamental purpose
->
-> and one special, magical property:
-> – can be transported over a communications channel”
->
-> <footer class="blockquote-footer">Satoshi Nakamoto (August 27, 2010)</footer>
+<figure>
+  <blockquote>
+    <p>“As a thought experiment, imagine there was a base metal as scarce as gold but with the following properties:<br>
+    – boring grey in colour<br>
+    – not a good conductor of electricity<br>
+    – not particularly strong, but not ductile or easily malleable either<br>
+    – not useful for any practical or ornamental purpose</p>
+    <p>and one special, magical property:<br>
+    – can be transported over a communications channel”</p>
+  </blockquote>
+  <figcaption>Satoshi Nakamoto (August 27, 2010)</figcaption>
+</figure>
 
 Bitcoin shares the monetary properties that caused gold to emerge as a monetary medium, but it also improves upon gold’s flaws. While gold is relatively scarce, bitcoin is finitely scarce and both are extremely durable. While gold is fungible, it is difficult to assay; bitcoin is fungible and easy to assay. Gold is difficult to transfer and highly centralized. Bitcoin is easy to transfer and highly decentralized. Essentially, bitcoin possesses all of the desirable traits of both physical gold and the digital dollar combined in one, but without the critical flaws of either. When evaluating monetary mediums, first principles are fundamental. Ignore the conclusion or end point, and start by asking yourself: if bitcoin were actually scarce and finite, ignoring that it is digital, could that be an effective measure of value and ultimately a store of value? Is scarcity a sufficiently powerful property that bitcoin could emerge as money, regardless of whether the form of that scarcity is digital?
 

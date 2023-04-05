@@ -101,9 +101,12 @@ At least, this is the common, predictable defense. The same line has certainly b
 
 While there is never perfect balance, the existence and fluctuation of price levels is how an economy works toward balance through trial and error. Every individual reacts to an ever-changing set of price signals. It is how people evaluate which businesses to create, which skillsets to acquire, and which jobs to pursue, all of which are interdependent on each individual’s own interests and capabilities. Imbalances can naturally arise within an economy as individuals speculate and over-invest in certain segments based on imperfect expectations of consumer preferences. That is the nature of trial and error. Nobody knows or can predict the future; they use price signals to best guide decisions. A business or individual produces a good for X and attempts to sell it for Y, and if insufficient demand exists to make the activity profitable, that is the market communicating information to the producer. Better luck next time; build it for less or build something else that is of greater value or valued by more people. Imbalances are eliminated. Those that took the risk own the consequences, and it’s back to the drawing board in a never-ending game aimed at marrying individual ideas and skillsets with the preferences of other market participants.
 
-> “Prices and profits are all that most producers need to be able to serve the needs of men they do not know. They are tools for searching — just as, for the soldier or hunter or seaman, the telescope extends the range of vision.”
->
-> <footer class="blockquote-footer">Friedrich Hayek</footer>
+<figure>
+  <blockquote>
+    <p>“Prices and profits are all that most producers need to be able to serve the needs of men they do not know. They are tools for searching — just as, for the soldier or hunter or seaman, the telescope extends the range of vision.”</p>
+  </blockquote>
+  <figcaption>Friedrich Hayek</figcaption>
+</figure>
 
 Money is the tool that is used to coordinate resources and to test the market by trial and error; it becomes the lifeblood of an economy because it is the foundation of a price system. It is how information is distributed to all participants. The better the money, the more reliable its price system. And the more reliable a price system, the greater the balance in an economy. Those within an economy that deliver the greatest value to the largest number of people are naturally rewarded with the most money, but money would be of little value to the producer if others were not producing goods that they themselves valued. The system would not sustain itself if balance did not exist; in order to purchase a good or service from another individual, one must have earned money in the first place. Acquiring money by voluntarily providing a service valued by others is a far better outcome for everyone in aggregate than if money were to be acquired through any other means. It is so because it’s the only way for the cycle to be repeatable and symbiotic rather than one-off and zero-sum. What good is a customer that runs out of money or doesn’t have any in the first place? In a balanced economy, every producer is a customer of someone else and vice versa.
 
@@ -121,9 +124,12 @@ The Fed’s economic structure produces inequity by preventing imbalances from r
   <img src="/static/img/mempool/bitcoin-is-one-for-all/powell-aug-27-headline.png" alt="Powell Aug 27 headline" />
 </figure>
 
-> “Inequality is something that has been with us increasingly for more than four decades, it’s not really related to monetary policy. It’s more related to [stutter] there are a lot of theories on what causes it, but it’s been something that’s more or less been going up consistently for more than four decades and there are a lot of different theories, one of which is just that globalization and technology call for rising levels of skills and aptitudes and education and that U.S. educational attainment flattened out, certainly relative to our peers, over that period[.]”
->
-> <footer class="blockquote-footer">[Jay Powell](https://www.youtube.com/watch?v=kz0o3NJQpX0), Chairman of Federal Reserve (June 2020)</footer>
+<figure>
+  <blockquote>
+    <p>“Inequality is something that has been with us increasingly for more than four decades, it’s not really related to monetary policy. It’s more related to [stutter] there are a lot of theories on what causes it, but it’s been something that’s more or less been going up consistently for more than four decades and there are a lot of different theories, one of which is just that globalization and technology call for rising levels of skills and aptitudes and education and that U.S. educational attainment flattened out, certainly relative to our peers, over that period[.]”</p>
+  </blockquote>
+  <figcaption><a href="https://www.youtube.com/watch?v=kz0o3NJQpX0">Jay Powell</a>, Chairman of Federal Reserve (June 2020)</figcaption>
+</figure>
 
 Fed Chairman Powell recently provided this as a response to a question asking whether Fed policy contributes to increasing wealth inequality. Notice how the response is not an argument as to why central bank policy does not cause imbalance and inequality. It is more of a pronouncement followed by a “look over there” defense. Never believe the myths about globalization and technology driving wealth inequality. There is nothing about technology, innovation and globalization that causes sustained economic imbalance or a structurally expanding wealth gap within an economy. For innovation to be valuable, it by definition must solve problems for a range of people, but if those that valued it did not have money or means to afford the innovation, it wouldn’t be valuable. Value becomes self-referencing in that sense. Economic balance is a governing input to value. In order to believe the tall tales of technology and globalization causing economic imbalance, one would have to be willfully blind to the impact of centralizing the money supply, which in turn caused banking to become the epicenter and lifeblood of the economy, and which made it possible for imbalance to actively be sustained over decades as a policy decision. There may be many theories, but the manipulation of every price signal within the economy is ground zero to economic imbalance and inequity; it is the structural flaw in the foundation which creates the unlevel playing field off of which all other contributing factors compound.
 
@@ -131,15 +137,21 @@ Fed Chairman Powell recently provided this as a response to a question asking wh
 
 Money is the bedrock of economic systems. Understanding the fundamental and foundational role money plays in the economic engine establishes the logical connection between systemic economic issues of imbalance and the artificial manipulation of the money supply. Of course, there are other factors at play. The money supply is not the only way economic activity is manipulated. Tax policy, government spending and the regulatory apparatus all contribute. But, focusing there would be like trying to fix the windows on the 100th floor when the bottom ten stories are each being supported by a single Jenga block. That is the relationship between the issues inherent in the monetary system (the foundation) and all other economic issues (higher levels). The core problem that bitcoin solves is the foundation. If everyone were to display a little bit of humility, each would recognize that there is no silver bullet to solve the structural problem of a widening wealth gap and economic imbalance. There is no individual with a plan or piece of legislation that will make everything better. Imbalance created by central command does not get solved by central command. Quite the opposite. The only real hope is to first fix the foundation, such that everyone on net can get back to doing the desirable things without the need for conscious control. Balance will follow from there.
 
-> “But those who clamor for “conscious direction”—and who cannot believe that anything which has evolved without design (and even without our understanding it) should solve problems which we should not be able to solve consciously—should remember this: The problem is precisely how to extend the span of our utilization of resources beyond the span of the control of any one mind; and therefore, how to dispense with the need of conscious control, and how to provide inducements which will make the individuals do the desirable things without anyone having to tell them what to do.”
->
-> <footer class="blockquote-footer">Friedrich A. Hayek, “The Use of Knowledge in Society”</footer>
+<figure>
+  <blockquote>
+    <p>“But those who clamor for “conscious direction”—and who cannot believe that anything which has evolved without design (and even without our understanding it) should solve problems which we should not be able to solve consciously—should remember this: The problem is precisely how to extend the span of our utilization of resources beyond the span of the control of any one mind; and therefore, how to dispense with the need of conscious control, and how to provide inducements which will make the individuals do the desirable things without anyone having to tell them what to do.”</p>
+  </blockquote>
+  <figcaption>Friedrich A. Hayek, “The Use of Knowledge in Society”</figcaption>
+</figure>
 
 With a fixed supply of 21 million, enforced on a decentralized basis and controlled by no one, bitcoin has taken away the ability to manipulate the monetary function entirely. If misbehaving children cannot find a way to share a toy and play nice, what do you do? You take the toy away and put the kids in the penalty box. That is kind of like the relationship between bitcoin and central banks. No human (or institution) can be trusted with control over the money supply, so the only practical solution is to take away the ability and temptation all together. The one constant in bitcoin is its fixed supply; there will only ever be 21 million bitcoin, and there is nothing anyone can do about it. Everything will change around bitcoin, but its supply as a constant will increasingly become the guidepost off of which all other activity is measured. It ensures a level playing field and represents a source of truth, which is absent in the existing economic structure. Because its supply cannot be manipulated, neither can its price signal. Undistorted price signals communicate more perfect information. But never confuse more perfect information and a level playing field with price stability or the issue of volatility. If the value of bitcoin is $12,000 today and $10,000 tomorrow, that is the undistorted communication of information.
 
-> “Variation is information. When there is no variation, there is no information. […] There is no freedom without noise—and no stability without volatility.”
->
-> <footer class="blockquote-footer">Taleb & Blyth, _Foreign Affairs_, May/June 2011 Issue</footer>
+<figure>
+  <blockquote>
+    <p>“Variation is information. When there is no variation, there is no information. […] There is no freedom without noise—and no stability without volatility.”</p>
+  </blockquote>
+  <figcaption>Taleb & Blyth, <em>Foreign Affairs</em>, May/June 2011 Issue</figcaption>
+</figure>
 
 A fixed supply ensures that any change in price is exclusively driven by a change in demand rather than an artificial and unpredictable change in the supply of money (i.e. communicating a change in preferences to the entire economy). It eliminates an entire side of the equation, which heavily influences changes in prices today, and which distorts the communication of preferences. Imagine knowing with absolute certainty that every change in price were dictated by a change in consumer preferences rather than the effects of increases or decreases in the money supply. That is the difference between being able to consistently rely on true economic price signals and playing musical chairs knowing someone else is in control of the stereo. Today and into the future, the same principle will hold true. Everyone will be able to rely upon and trust that changes throughout bitcoin’s price system will always be true and never be influenced by unpredictable changes in supply.
 
@@ -189,9 +201,12 @@ The idea that bitcoin could solve problems today for rich and poor alike stumps 
 
 There is no reason why a superior form of money would perform one function for some and not for others, regardless of wealth, income levels or any other reason. It is a vicious cycle to break, but the inception point of elevating any individual or society is finding a way to produce more value than is consumed or demanded of others. The best way to accomplish that goal is by using money to exchange value and coordinate economic activity. Bitcoin isn’t just a rich person tool that will become serviceable to poor people once enough rich people have it. That is nonsensical. It is the opposite; it is the best way anyone can level the playing field, regardless of whether the path may be harder for some than others. The demand for money is near universal, and over time, anyone using the form of money with the strongest foundation and the most true price signals will benefit. Whereas the dollar (and other fiat currencies) are one for a few in the short-term and all for none in the long-term, bitcoin is one for all, now and in the future, because it fixes the economic foundation for everyone.
 
-> “Whether in Rome, Constantinople, Florence, or Venice, history shows that a sound monetary standard is a necessary prerequisite for human flourishing, without which society stands on the precipice of barbarism and destruction.”
->
-> <footer class="blockquote-footer">Saifedean Ammous, _The Bitcoin Standard_</footer>
+<figure>
+  <blockquote>
+    <p>“Whether in Rome, Constantinople, Florence, or Venice, history shows that a sound monetary standard is a necessary prerequisite for human flourishing, without which society stands on the precipice of barbarism and destruction.”</p>
+  </blockquote>
+  <figcaption>Saifedean Ammous, <em>The Bitcoin Standard</em></figcaption>
+</figure>
 
 ---
 

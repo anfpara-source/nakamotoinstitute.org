@@ -144,9 +144,12 @@ So no, bitcoin is not a pyramid scheme. It is not organized by a sketchy company
 
 That is the promise which bitcoin provides, and it will only proliferate if it creates utility for those that adopt it. Today and into future, that utility will continue to be the ability to reliably store wealth in a monetary medium that cannot be debased. When people make the claim that bitcoin could be “bigger-than-the-internet,” it is generally not a linear application, but instead rooted in the idea that a sovereign, unmanipulatable form of money has the potential to be one of the greatest instruments of freedom ever invented. The success of bitcoin is not a given, but if successful in delivering on its promise, it will facilitate more effective and more peaceable coordination by and amongst people throughout the world. At the end of the day, bitcoin is a communication tool. That is the function of money. Bitcoin simply provides an alternative system, operating on a decentralized basis which no one controls. It is the lack of control and the lack of conscious direction which will allow bitcoin to accumulate and communicate knowledge more effectively than any pre-existing monetary medium. Current volatility is nothing more than the logical path of price discovery, as adoption increases exponentially over time and as we advance toward that future state of full adoption.
 
-> “Many of the greatest things man has achieved are the result not of consciously directed thought, and still less the product of a deliberately coordinated effort of many individuals, but of a process in which the individual plays a part which he can never fully understand. They are greater than any individual because they result from the combination of knowledge more extensive than a single mind can master.”
->
-> <footer class="blockquote-footer">Hayek, [_The Counter-Revolution of Science_](https://www.amazon.com/COUNTER-REVOLUTION-SCIENCE-F-HAYEK/dp/0913966673)</footer>
+<figure>
+  <blockquote>
+    <p>“Many of the greatest things man has achieved are the result not of consciously directed thought, and still less the product of a deliberately coordinated effort of many individuals, but of a process in which the individual plays a part which he can never fully understand. They are greater than any individual because they result from the combination of knowledge more extensive than a single mind can master.”</p>
+  </blockquote>
+  <figcaption>Hayek, <a href="https://www.amazon.com/COUNTER-REVOLUTION-SCIENCE-F-HAYEK/dp/0913966673"><em>The Counter-Revolution of Science</em></a></figcaption>
+</figure>
 
 ---
 

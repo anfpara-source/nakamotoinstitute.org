@@ -17,10 +17,12 @@ However, despite record low interest rates, the global economy has once again be
   <img src="/static/img/mempool/bitcoin-fixes-this/bitcoin-standard-foreword.png" alt="Bitcoin Standard foreword" />
 </figure>
 
-> “The risk that the economy has entered a substantial
-> downturn appears to have diminished over the past month or so.”
->
-> <footer class="blockquote-footer">Former Fed Chair Ben Bernanke, June 2008</footer>
+<figure>
+  <blockquote>
+    <p>“The risk that the economy has entered a substantial downturn appears to have diminished over the past month or so.”</p>
+  </blockquote>
+  <figcaption>Former Fed Chair Ben Bernanke, June 2008</figcaption>
+</figure>
 
 <figure>
   <img src="/static/img/mempool/bitcoin-fixes-this/Yellen.png" alt="Janet Yellen" />
@@ -60,13 +62,19 @@ Through this function, the Fed inadvertently created the instability that existe
 
 In the Fed’s economy, the credit system has become the marginal price mechanism. And because the Fed has a mandate to maintain price stability, it must implicitly maintain the size of the credit system in order to sustain general price levels. During the financial crisis, the credit system began to contract and asset price levels rapidly declined in a disorderly fashion. In order to reverse the impact, the Fed was forced to drastically increase the money supply (quantitative easing) in an effort to maintain the size of the credit system. Even after the height of the crisis, the Fed determined it was necessary to add trillions more in new dollars to continue to support a languishing system, despite acknowledging the limitations of its monetary policy tools. This is the Fed’s catch-22; even when it seemingly knows betters, the Fed’s default position is to err on the side of more quantitative easing, not less.
 
-> “I’m perfectly willing to accept the argument that monetary policy is not the main tool, that this is not the main thing wrong with the economy, but it’s our duty to do what we can, to be palliative, to help where we can, even if we can’t solve fiscal, structural, and other problems.”
->
-> <footer class="blockquote-footer">Ben Bernanke, Former Fed Chair – August 2011</footer>
+<figure>
+  <blockquote>
+    <p>“I’m perfectly willing to accept the argument that monetary policy is not the main tool, that this is not the main thing wrong with the economy, but it’s our duty to do what we can, to be palliative, to help where we can, even if we can’t solve fiscal, structural, and other problems.”</p>
+  </blockquote>
+  <figcaption>Ben Bernanke, Former Fed Chair – August 2011</figcaption>
+</figure>
 
-> “I don’t think it is literally the case that monetary policy is completely ineffective. I think we can see the effects on financial markets, which in turn must be affecting wealth, confidence, and some other determinants of spending and production. To the extent that transmission is weaker, that could be used to argue for more stimulus rather than less stimulus.”
->
-> <footer class="blockquote-footer">Ben Bernanke, Former Fed Chair – September 2011</footer>
+<figure>
+  <blockquote>
+    <p>“I don’t think it is literally the case that monetary policy is completely ineffective. I think we can see the effects on financial markets, which in turn must be affecting wealth, confidence, and some other determinants of spending and production. To the extent that transmission is weaker, that could be used to argue for more stimulus rather than less stimulus.”</p>
+  </blockquote>
+  <figcaption>Ben Bernanke, Former Fed Chair – September 2011</figcaption>
+</figure>
 
 By responding with quantitative easing, the Fed induced a credit system already saddled with too much debt to expand massively. Today, the U.S. credit system supports approximately $73 trillion of fixed maturity debt (system wide), which represents an increase of $20 trillion (+40%) above pre-crisis levels ([Fed Z.1 report, pg. 7](https://www.federalreserve.gov/releases/z1/20190606/z1.pdf)). This debt is stacked against only $1.7 trillion of actual dollars that exist within the banking system ([Fed H.8 report](https://www.federalreserve.gov/releases/h8/current/default.htm)). As a consequence, there remains far too much debt and too few dollars. Because QE induces the creation of trillions more in debt, it is more like heroin than an antibiotic; the more that is applied to a financial system, the more dependent on it that system becomes and the worse off when it is removed.
 
@@ -89,9 +97,12 @@ Bitcoin creates a system that allows for undistorted economic activity, and it a
 
 Bitcoin may be the sly round about way around the Fed’s economic system, but it comes at the direct expense of the legacy system. And, the interim consequence of the shift to bitcoin may very well be macroeconomic volatility. Bitcoin may be mistakenly blamed for the ills of the legacy system but really, withdrawal is just a painful and necessary process. The Jackson Hole crowd may not like this; however, positive externalities will be waiting on the other side. And besides, it’s in the hands of the free market now.
 
-> “I don’t believe we shall ever have a good money again before we take the thing out of the hands of government, that is, we can’t take them violently out of the hands of government, all we can do is by some sly roundabout way introduce something that they can’t stop.”
->
-> <footer class="blockquote-footer">F. A. Hayek</footer>
+<figure>
+  <blockquote>
+    <p>“I don’t believe we shall ever have a good money again before we take the thing out of the hands of government, that is, we can’t take them violently out of the hands of government, all we can do is by some sly roundabout way introduce something that they can’t stop.”</p>
+  </blockquote>
+  <figcaption>F. A. Hayek</figcaption>
+</figure>
 
 ---
 

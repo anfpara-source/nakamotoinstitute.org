@@ -50,9 +50,12 @@ The empirical evidence (price mechanism & value) demonstrates that the market co
 
 [Nassim Taleb](https://twitter.com/nntaleb) writes about how a very small intransigent minority can force its preference on the majority, referring to it as the minority rule and explaining why [“The Most Intolerant Wins”](https://medium.com/incerto/the-most-intolerant-wins-the-dictatorship-of-the-small-minority-3f1f83ce4e15). Bitcoin (and monetary systems) are a perfect example of this phenomenon. If a very small minority converges on the belief that bitcoin has superior monetary properties and will not accept your form of digital (or traditional) currency as money, while less convicted market participants accept both bitcoin and other currencies, the intolerant minority wins. This is exactly what is happening in the global competition for digital currency supremacy. A small minority of market participants has determined that _only bitcoin_ is viable, rejecting the monetary properties of _all other_ digital currencies, while the majority is willing to accept bitcoin along with the field. Because of its intransigence, the minority is slowly forcing its preference on the majority. In the world of digital currencies, diversifying by picking the field is the equivalent of letting the crowd (or the intolerant minority) choose what your future money will be, while resigning yourself to only a fraction of what you otherwise would have saved. Evaluate the trade-offs and consider the minority rule before trading in your hard-earned value for a flyer. Money doesn’t grow on trees.
 
-> Bitcoin is a remarkable cryptographic achievement, and the ability to create something that is not duplicable in the digital world has enormous value.
->
-> <footer class="blockquote-footer">Eric Schmidt (Former Google CEO)</footer>
+<figure>
+  <blockquote>
+    <p>Bitcoin is a remarkable cryptographic achievement, and the ability to create something that is not duplicable in the digital world has enormous value.</p>
+  </blockquote>
+  <figcaption>Eric Schmidt (Former Google CEO)</figcaption>
+</figure>
 
 ---
 

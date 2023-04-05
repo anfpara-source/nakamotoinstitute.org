@@ -33,9 +33,12 @@ Quelques unes des critiques mentionnées plus haut son correctes, mais ce sont d
 
 ## La loi de Thier : le bon argent chasse le mauvais
 
-> Historiquement, ce sont les bonnes monnaies fortes qui ont chassé les mauvaises monnaies faibles. Au cours de plusieurs millénaires, les monnaies fortes ont dominé et chassé les faibles dans la compétition internationale. Le [darique](https://fr.wikipedia.org/wiki/Darique) perse, le [tétradrachme](https://en.wikipedia.org/wiki/Tetradrachm) grec, le [statère](https://fr.wikipedia.org/wiki/Stat%C3%A8re) macédonien et le [denier](<https://fr.wikipedia.org/wiki/Denier_(monnaie)>) romain ne sont pas devenues les monnaies dominantes du monde antique parce qu'elles étaient "mauvaises" ou "faibles". Les [florins](https://fr.wikipedia.org/wiki/Florin), les [ducats](https://fr.wikipedia.org/wiki/Ducat) et les [sequins](https://fr.wikipedia.org/wiki/Sequin) des cité-États italiennes ne sont pas devenus les "dollars du Moyen Âge" parce qu'elles étaient de mauvaises pièce; ils figuraient parmi les meilleures pièces jamais fabriquées. La [livre sterling](https://fr.wikipedia.org/wiki/Livre_sterling) au XIXe siècle et le [dollar](https://en.wikipedia.org/wiki/Nixon_shock) au XXe siècle ne sont pas devenues des monnaies dominantes parce qu'elles étaient faibles. la constance, la stabilité et la haute qualité ont été des attributs des grandes monnaies qui ont remporté la compétition pour l'utilisation comme monnaie internationale.
->
-> <footer class="blockquote-footer">[Robert Mundell](https://fr.wikipedia.org/wiki/Robert_Mundell), "Uses and abuses of Gresham's Law in the History of Money"</footer>
+<figure>
+  <blockquote>
+    <p>Historiquement, ce sont les bonnes monnaies fortes qui ont chassé les mauvaises monnaies faibles. Au cours de plusieurs millénaires, les monnaies fortes ont dominé et chassé les faibles dans la compétition internationale. Le <a href="https://fr.wikipedia.org/wiki/Darique">darique</a> perse, le <a href="https://en.wikipedia.org/wiki/Tetradrachm">tétradrachme</a> grec, le <a href="https://fr.wikipedia.org/wiki/Stat%C3%A8re">statère</a> macédonien et le <a href="https://fr.wikipedia.org/wiki/Denier_(monnaie)">denier</a> romain ne sont pas devenues les monnaies dominantes du monde antique parce qu’elles étaient “mauvaises” ou “faibles”. Les <a href="https://fr.wikipedia.org/wiki/Florin">florins</a>, les <a href="https://fr.wikipedia.org/wiki/Ducat">ducats</a> et les <a href="https://fr.wikipedia.org/wiki/Sequin">sequins</a> des cité-États italiennes ne sont pas devenus les “dollars du Moyen Âge” parce qu’elles étaient de mauvaises pièce; ils figuraient parmi les meilleures pièces jamais fabriquées. La <a href="https://fr.wikipedia.org/wiki/Livre_sterling">livre sterling</a> au XIXe siècle et le <a href="https://en.wikipedia.org/wiki/Nixon_shock">dollar</a> au XXe siècle ne sont pas devenues des monnaies dominantes parce qu’elles étaient faibles. la constance, la stabilité et la haute qualité ont été des attributs des grandes monnaies qui ont remporté la compétition pour l’utilisation comme monnaie internationale.</p>
+  </blockquote>
+  <figcaption><a href="https://fr.wikipedia.org/wiki/Robert_Mundell">Robert Mundell</a>, “Uses and abuses of Gresham’s Law in the History of Money”</figcaption>
+</figure>
 
 Les bitcoins ne sont pas seulement une bonne monnaie, ils sont la meilleur monnaie.[^5] Le réseau Bitcoin a la meilleure politique monétaire[^6] et la meilleure marque[^7]. Nous devons donc nous attendre à ce que les bitcoins chassent les mauvaises monnaies, les monnaies faibles.[^8] Par quel processus les bitcoins deviendront-ils la monnaie dominante ? Quelles monnaies fiduciaires seront les premières à disparaître ? Ce sont les questions qui nous intéressent aujourd'hui, car les prémisses nécessaires à ces questions sont déjà des vérités établies.[^9]
 
@@ -59,9 +62,12 @@ Ma prédiction est que l'hémorragie lente s'est [accélérée](https://trends.g
 
 ## 2\. Les crises monétaires
 
-> Ça pourrait avoir du sens d'en acquérir au cas où ça s'enclenche. Si suffisamment de gens pensent de la même manière, cela devient une prophétie auto-réalisatrice. Une fois qu'il s'est amorcé il y a tellement d'applications si vous pouvez payer quelques centimes à un site web aussi facilement que vous déposez des pièces dans un distributeur automatique.
->
-> <footer class="blockquote-footer">Satoshi Nakamoto, 17 janvier 2009</footer>
+<figure>
+  <blockquote>
+    <p>Ça pourrait avoir du sens d'en acquérir au cas où ça s'enclenche. Si suffisamment de gens pensent de la même manière, cela devient une prophétie auto-réalisatrice. Une fois qu'il s'est amorcé il y a tellement d'applications si vous pouvez payer quelques centimes à un site web aussi facilement que vous déposez des pièces dans un distributeur automatique.</p>
+  </blockquote>
+  <figcaption>Satoshi Nakamoto, 17 janvier 2009</figcaption>
+</figure>
 
 L'hémorragie lente mène à une crise monétaire à mesure que la valeur attendue des bitcoins se solidifie dans l'esprit des gens. Au début, ils sont conservateurs, ils investissent "ce qu'ils peuvent se permettre de perdre". Après 12 à 18 mois, la valeur de leur petite réserve de bitcoins a considérablement augmenté. Ils ne voient aucune raison pour que cette tendance s'inverse à long-terme : les fondamentaux se sont améliorés et pourtant l'adoption reste faible. Leur confiance augmente. Ils achètent plus de bitcoins. Ils rationalisent : "eh bien, ce n'est que \[1-5%\] de mes investissements". Ils voient le prix s'effondrer à quelques reprises, en raison de l'éclatement de bulles ou de simple ventes paniques – cela les incite à en acheter davantage, "une bonne affaire". Le Bitcoin augmente à l'actif de leur bilan.
 

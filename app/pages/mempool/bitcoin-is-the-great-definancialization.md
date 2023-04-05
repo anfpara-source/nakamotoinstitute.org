@@ -112,17 +112,23 @@ Forcing everyone to live in a world in which money loses value creates a negativ
 
 In a free market, money might increase or decrease in value over a particular time horizon, but _guaranteeing_ that money loses value creates an extreme negative outcome, where the majority of participants within an economy lack actual savings. Because money loses its value, opportunity cost is often believed to be a one way street. Spend your money now because it is going to purchase less tomorrow. The very idea of holding cash (formerly known as saving) has been conditioned in mainstream financial circles to be a near crazy proposition as everyone knows that money loses its value. How crazy is that? While money is intended to store value, no one wants to hold it because the predominant currencies used today do the opposite. Rather than seek out a better form of money, everyone just invests instead!
 
-> “I still think that cash is trash relative to other alternatives, particularly those that will retain their value or increase their value during reflationary periods”
->
-> <footer class="blockquote-footer">Ray Dalio ([April 2020](https://markets.businessinsider.com/news/stocks/i-still-think-cash-trash-ray-dalio-dismissed-dollars-reddit-2020-4-1029079224))</footer>
+<figure>
+  <blockquote>
+    <p>“I still think that cash is trash relative to other alternatives, particularly those that will retain their value or increase their value during reflationary periods”</p>
+  </blockquote>
+  <figcaption>Ray Dalio (<a href="https://markets.businessinsider.com/news/stocks/i-still-think-cash-trash-ray-dalio-dismissed-dollars-reddit-2020-4-1029079224">April 2020</a>)</figcaption>
+</figure>
 
 Even the most revered Wall St. investors are susceptible to getting caught up in the madness and can act a fool. Risk taking for inflation’s sake is no better than buying lottery tickets, but that is the consequence of creating a disincentive to save. Economic opportunity cost becomes harder to measure and evaluate when monetary incentives are broken. Today, decisions are rationalized because of broken incentives. Investment decisions are made and financial assets are often purchased merely because the dollar is expected to lose its value. But, the consequence extends far beyond savings and investment. Every economic decision point becomes impaired when money is not fulfilling its intended purpose of storing value.
 
 All spending versus savings decisions, including day-to-day consumption, become negatively biased when money loses its value on a persistent basis. By reintroducing a more explicit opportunity cost to spending money (i.e. an incentive to save), everyone’s risk calculus necessarily changes. Every economic decision becomes sharper when money is fulfilling its proper function of storing value. When a monetary medium is credibly expected to maintain value at minimum, if not increase in value, every spend versus save decision becomes more focused and ultimately informed by a better aligned incentive structure.
 
-> “One of the greatest mistakes is to judge policies and programs by their intentions rather than their results”
->
-> <footer class="blockquote-footer">Milton Friedman</footer>
+<figure>
+  <blockquote>
+    <p>“One of the greatest mistakes is to judge policies and programs by their intentions rather than their results”</p>
+  </blockquote>
+  <figcaption>Milton Friedman</figcaption>
+</figure>
 
 It is a world that Keynesian economists fear, believing that investments will not be made if an incentive to save exists. The flawed theory goes that if people are incentivized to “hoard” money, no one will ever spend money, and investments deemed “necessary” will not be made. If no one spends money and risk-taking investments are not made, unemployment will rise! It truly is economic theory reserved for the classroom; while counterintuitive to the Keynesian, risk _will_ be taken in a world in which savings are incentivized.
 
@@ -173,9 +179,12 @@ If monetary debasement induced financialization, it should be logical that a ret
   <img src="/static/img/mempool/bitcoin-is-the-great-definancialization/negative-yielding-bonds.png" alt="Negative-yielding bonds" />
 </figure>
 
-> “The market value of the Bloomberg Barclays Global Negative Yielding Debt Index rose to $17.05 trillion [November 2020], the highest level ever recorded and narrowly eclipsing the $17.04 trillion it reached in August 2019.”
->
-> <footer class="blockquote-footer">Bloomberg News</footer>
+<figure>
+  <blockquote>
+    <p>“The market value of the Bloomberg Barclays Global Negative Yielding Debt Index rose to $17.05 trillion [November 2020], the highest level ever recorded and narrowly eclipsing the $17.04 trillion it reached in August 2019.”</p>
+  </blockquote>
+  <figcaption>Bloomberg News</figcaption>
+</figure>
 
 More and more people are going to begin to question the idea of investing retirement savings in risky financial assets. Negative yielding debt doesn’t make sense; central banks creating trillions of dollars in a matter of months doesn’t make sense either. All over the world, people are beginning to question the entire construction of the financial system. It might be conventional wisdom, but what if the world didn’t have to work that way? What if this whole time it were all backwards, and rather than everyone buying stocks, bonds and layered financial risk with their savings, all that was ever really needed was just a better form of money?
 

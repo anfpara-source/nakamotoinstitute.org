@@ -29,6 +29,9 @@ In summary, when trying to understand bitcoin as money, start with gold, the dol
 
 Hayek writes about the price mechanism as the greatest distribution system of knowledge in the world ([“The Use of Knowledge in Society”](https://www.kysq.org/docs/Hayek_45.pdf)). When the money supply is manipulated, it distorts global pricing mechanisms which then communicates “bad” information throughout the economic system. When that manipulation is sustained over 30-40 years, massive imbalances in underlying economic activity are created which is where we find ourselves today. Ultimately, gold’s failure was the dollar and the dollar’s failure is the economic distortion which led to, and which has been exacerbated by, QE. Bitcoin’s promise is the solution to both. Because bitcoin’s supply is fixed and cannot be manipulated, it will eventually become the most reliable pricing mechanism in the world and consequently, the greatest distribution system of knowledge. The volatility witnessed today is nothing more than the logical path of price discovery as adoption increases by orders of magnitude and as we advance toward that future state of full adoption.
 
-> Establishment economists deride the fact that bitcoin is volatile as if you can go from something that didn’t exist to a stable form of money overnight, it’s completely ludicrous.
->
-> <footer class="blockquote-footer">[Vijay Boyapati](https://twitter.com/real_vijay) on [SLP](https://stephanlivera.com/episode/2/)</footer>
+<figure>
+  <blockquote>
+    <p>Establishment economists deride the fact that bitcoin is volatile as if you can go from something that didn’t exist to a stable form of money overnight, it’s completely ludicrous.</p>
+  </blockquote>
+  <figcaption><a href="https://twitter.com/real_vijay">Vijay Boyapati</a> on <a href="https://stephanlivera.com/episode/2/">SLP</a></figcaption>
+</figure>

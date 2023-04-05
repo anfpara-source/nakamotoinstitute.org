@@ -9,13 +9,19 @@ We will come back to this, but you will never hope to understand the justificati
 
 Any number of concerned onlookers raise the red flag about the amount of energy consumed by the bitcoin network. This concern stems from the idea that the energy consumed by the bitcoin network could otherwise be utilized for more productive functions, or that it is just plain bad for the environment. Both ignore the fundamental magnitude of how critical bitcoin’s energy consumption actually is. In the long-game, there may be no greater, more important use of energy than that which is deployed to secure the integrity of a monetary network and constructively, in this case, the bitcoin network. But, that doesn’t stop those that do not understand the problem statement from raising concerns.
 
-> “The fundamentally wasteful nature of bitcoin mining means there’s no easy technological solution coming.”
->
-> <footer class="blockquote-footer">[the Guardian](https://www.theguardian.com/technology/2018/jan/17/bitcoin-electricity-usage-huge-climate-cryptocurrency)</footer>
+<figure>
+  <blockquote>
+    <p>“In the context of climate change, raging wildfires, and record-breaking hurricanes, it’s worth asking ourselves hard questions about Bitcoin’s environmental impact.”</p>
+  </blockquote>
+  <figcaption><a href="https://www.theguardian.com/technology/2018/jan/17/bitcoin-electricity-usage-huge-climate-cryptocurrency">The Guardian</a></figcaption>
+</figure>
 
-> “In the context of climate change, raging wildfires, and record-breaking hurricanes, it’s worth asking ourselves hard questions about Bitcoin’s environmental impact.”
->
-> <footer class="blockquote-footer">[Vice Media](https://www.vice.com/en_us/article/ywbbpm/bitcoin-mining-electricity-consumption-ethereum-energy-climate-change)</footer>
+<figure>
+  <blockquote>
+    <p>“The fundamentally wasteful nature of bitcoin mining means there’s no easy technological solution coming.”</p>
+  </blockquote>
+  <figcaption><a href="https://www.vice.com/en_us/article/ywbbpm/bitcoin-mining-electricity-consumption-ethereum-energy-climate-change">Vice Media</a></figcaption>
+</figure>
 
 ## Bitcoin Energy Consumption
 
@@ -44,9 +50,12 @@ The problem of money is enormous, though most people do not recognize it. Most c
 
 Without getting into the details of what money is (read [_The Bitcoin Standard_](https://saifedean.com/the-book/) or Nick Szabo’s [“Shelling Out”](/shelling-out/)), we can more easily describe its function in society. Money is the good that facilitates economic coordination between parties that otherwise would not have a basis to cooperate. Put simply, it is the good that allows society to function, and it allows us to accumulate the capital that makes our lives better, which takes different forms for different people. There is a saying that money is the root of all evil, but as Hayek more appropriately describes it in the Road to Serfdom, money is an agent of freedom.
 
-> “Money is one of the greatest instruments of freedom ever invented by man.”
->
-> <footer class="blockquote-footer">F.A. Hayek, _The Road to Serfdom ([Reader’s Digest Condensed Version](https://mises.org/sites/default/files/Road%20to%20serfdom.pdf))_</footer>
+<figure>
+  <blockquote>
+    <p>“Money is one of the greatest instruments of freedom ever invented by man.”</p>
+  </blockquote>
+  <figcaption>F.A. Hayek, <em>The Road to Serfdom (<a href="https://mises.org/sites/default/files/Road%20to%20serfdom.pdf">Reader’s Digest Condensed Version</a>)</em></figcaption>
+</figure>
 
 <figure>
   <img src="/static/img/mempool/bitcoin-does-not-waste-energy/Money-freedom-hayek.png" alt="Hayek money and freedom" />
@@ -82,9 +91,12 @@ Now, many sitting comfortably in the developed world will look at Venezuela and 
 
 To highlight the U.S. as an example, the Federal Reserve expanded the monetary base from $180 billion in 1984 to a peak of $4.2 trillion following QE3, an increase of 23x. Because of the nature of the Fed’s credit-based economy, the economic distortion of this debasement occurred gradually ([see here](https://www.unchained-capital.com/blog/enders-game/)) until the financial crisis which occurred suddenly, and as a function of quantitative easing, we presently sit further out on the same ledge. If you believe the developed world is not in a precarious situation or not subject to a similar monetary foundation as Venezuela, I would respectfully point to patients zero: the Fed, the ECB and the Bank of Japan. Often, faith placed in these institutions is blind to both first principles and common sense, but consider the quote below from a resident Fed economist during the aftermath of the financial crisis and as the Fed was in the middle innings of creating $3.6 trillion new dollars as part of quantitative easing:
 
-> “Also, I want to just emphasize that I think the gaps in our understanding of the interactions between the financial sector and the real sector are profound”
->
-> <footer class="blockquote-footer">David Wilcox, Fed economist (August 2011)</footer>
+<figure>
+  <blockquote>
+    <p>“Also, I want to just emphasize that I think the gaps in our understanding of the interactions between the financial sector and the real sector are profound”</p>
+  </blockquote>
+  <figcaption>David Wilcox, Fed economist (August 2011)</figcaption>
+</figure>
 
 An honest review of history demonstrates the ill-temperament of those put in charge of managing our economies from central command. While admitting profound gaps in their ability to understand the implications of actions taken on the real economy, the response was to continue down the same path (but in a bigger way) while expecting a different result, the definition of insanity. Now, as we face the consequences of the response to the crisis, we have a choice between two great contrasts. A) a centrally-planned form of currency that is designed to lose its value; or B) a decentralized currency with a fixed supply. The latter comes with cost in the form of energy consumption, but the positive externality will be long-term economic stability.
 
@@ -98,10 +110,12 @@ Any and all concerns about the amount of energy bitcoin consumes or will consume
 
 What would be bad for society is if more countries deteriorated into the economic and humanitarian disaster that is Venezuela, where basic health and human services cannot be reliably provided. And this is not to present a draconian vision or a dystopian future; instead, it is to articulate the importance and interconnectedness of both the money function and the energy function in complex, highly specialized economies.
 
-> “If it prevents one instance of hyperinflation such as Venezuela from
-> happening […], bitcoin’s energy consumption would be the best bargain humanity ever got.”
->
-> <footer class="blockquote-footer">Saifedean Ammous, [_The Bitcoin Standard Research Bulletin_](https://saifedean.com/the-research/)</footer>
+<figure>
+  <blockquote>
+    <p>“If it prevents one instance of hyperinflation such as Venezuela from happening […], bitcoin’s energy consumption would be the best bargain humanity ever got.”</p>
+  </blockquote>
+  <figcaption>Saifedean Ammous, <a href="https://saifedean.com/the-research/"><em>The Bitcoin Standard Research Bulletin</em></a></figcaption>
+</figure>
 
 Bitcoin represents a backup switch to the current architecture of the global financial system and is soon to be its primary engine. Setting aside the systemic risks that currently plague our financial system, bitcoin is a fundamentally more sound monetary system from the ground up. And, it is one secured by the production and consumption of energy. You do not have to believe that the dollar’s fate will be that of the Venezuelan bolivar to recognize the importance and interplay between the stability of a monetary function and the production of energy resources that provide basic economic necessities. And the risk inherent in even the possibility of hyperinflation is so negatively asymmetric that the price of bitcoin energy consumption is of small relative cost.
 

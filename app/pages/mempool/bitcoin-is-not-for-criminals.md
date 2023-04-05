@@ -5,9 +5,12 @@ original_site: Unchained Capital Blog
 
 If you have ever heard (or happen to believe) that bitcoin is primarily a tool used by criminals, stop and take a quick sample of your friends and family that you suspect may own bitcoin, and then ask yourself how many are known criminals. There have in fact been widely publicized cases in which criminals have used bitcoin, and because skeptics cannot otherwise explain why anyone else would use it, use for illicit purposes becomes the default assumption. It is generally founded on a view that bitcoin is inferior to the dollar, either because of the belief that it is [too volatile](/mempool/bitcoin-is-not-too-volatile/) or [too slow](/mempool/bitcoin-is-not-too-slow/), or because it is not widely accepted for day-to-day transactions; with a flawed mental framework, the logical explanation then becomes that, from a practical perspective, someone would _only_ use bitcoin for the purpose of facilitating some illicit activity, generally as a means to evade law enforcement. Your favorite Senator or Treasury Secretary may occasionally make the claim, but thankfully, bitcoin is not for criminals; it is however for everyone.
 
-> “The clear ends of Bitcoin for either transacting in illegal goods and services or speculative gambling make me weary of its use.”
->
-> <footer class="blockquote-footer"><a href="https://www.manchin.senate.gov/newsroom/press-releases/manchin-demands-federal-regulators-ban-bitcoin">Letter</a> to regulators from Senator Joe Manchin (February 2014)</footer>
+<figure>
+  <blockquote>
+    <p>“The clear ends of Bitcoin for either transacting in illegal goods and services or speculative gambling make me weary of its use.”</p>
+  </blockquote>
+  <figcaption><a href="https://www.manchin.senate.gov/newsroom/press-releases/manchin-demands-federal-regulators-ban-bitcoin">Letter</a> to regulators from Senator Joe Manchin (February 2014)</figcaption>
+</figure>
 
 If bitcoin were principally used for illicit purposes, it may more logically follow that bitcoin is primarily used by criminals. Because it is not, the typical follow-on arguments that bitcoin should be banned in order to prevent such activity similarly do not hold water. The very foundation of the idea is based on the false premise that bitcoin is inferior to the dollar; when in fact, it is superior to any form of money that has previously existed, principally as a function of its fixed supply (see [“Bitcoin is Not Backed by Nothing”](/mempool/bitcoin-is-not-backed-by-nothing/) or [“Bitcoin is Not a Pyramid Scheme”](/mempool/bitcoin-is-not-a-pyramid-scheme/)). Bitcoin’s fixed supply forms the basis of the fundamental demand for bitcoin, whether it be related to criminal activity or otherwise. And regardless of how many point-of-sale transactions bitcoin may facilitate daily, it is used every day as a censorship-resistant and inflation-resistant form of savings. Without doubt, bitcoin is definitely used by the likes of drug dealers and nefarious characters on the dark web. However, it would be irrational to believe that is its primary use or to believe bitcoin should be banned because of it. It is logically inconsistent to form a view that bitcoin is sufficiently functional to be viable as a currency for criminals, while at the same time deny the implication that such a view would merely establish that bitcoin is functional for everyone.
 
@@ -21,9 +24,12 @@ But before turning the drugs narrative completely upside down, let’s all first
 
 Such a view becomes that much more untenable once it is understood that bitcoin is not actually for criminals, but in order to understand that, it must also be understood that bitcoin is for criminals. It’s a paradox. The very idea is turned on its head when viewed through the proper lens. The fact that criminals can use (and have used) bitcoin to facilitate commerce merely demonstrates that bitcoin can be used to facilitate any form of commerce. That a very early, and well publicized, use case for bitcoin involved the Silk Road website, which facilitated transactions involving drugs and other illicit goods using bitcoin as a means of payment, changes nothing about the broader implication: that bitcoin worked. But rather than focus here, bitcoin research often attempts to prove the counterfactual, that only a small percentage of bitcoin transactions are used for illicit purposes. For example, a headline from last year:
 
-> “A new study finds less than 1% of bitcoin transactions to exchanges are illicit.”
->
-> <footer class="blockquote-footer">[Coincenter, January 2018](https://coincenter.org/link/a-new-study-finds-less-than-1-of-bitcoin-transactions-to-exchanges-are-illicit)</footer>
+<figure>
+  <blockquote>
+    <p>“A new study finds less than 1% of bitcoin transactions to exchanges are illicit.”</p>
+  </blockquote>
+  <figcaption><a href="https://coincenter.org/link/a-new-study-finds-less-than-1-of-bitcoin-transactions-to-exchanges-are-illicit">Coincenter, January 2018</a></figcaption>
+</figure>
 
 The substance may be true, but these counter-narratives fight the battle along the wrong lines. If the Silk Road demonstrated anything, it was simply that individuals would accept bitcoin as a form of payment in return for goods and services. It does not matter that the goods sold on the Silk Road website were generally illicit. The Silk Road, which is estimated to have facilitated in excess of a million transactions, was one of the earliest demonstrations of a mass real-world use case for bitcoin. So yes, bitcoin is (and was) used for drug deals but it is merely one use case that has helped prove bitcoin’s general utility, nothing more. And when it comes to buying drugs, the dollar remains far preferred to bitcoin among drug dealers despite them all generally being aware of bitcoin and capable of accepting it. Whether it be in response to the Silk Road or otherwise, anyone that comes away with the narrow conclusion that “bitcoin works for drugs” is failing to see the forest through the trees. The more consequential and assumption-shattering implication is simply that bitcoin works. Period.
 
@@ -39,9 +45,12 @@ Despite the existence of bitcoin, drug dealers have not magically stop accepting
 
 Focusing on criminals distracts from the more fundamental question and consequence. If bitcoin could work for a criminal, it could work for anyone, and in order for bitcoin to be viable as a currency, it has to work for everyone, including criminals. However, this is not a promotion of criminal activity using bitcoin as a funding mechanism; it is merely a recognition of the properties that allow bitcoin to function in the first place. Think of criminal activity as a litmus test. If bitcoin does not work for drug dealers, it doesn’t work for anyone. But if it works for drug dealers, it can work for everyone. If it were possible to censor (or prevent) bitcoin transactions related to certain activity or certain individuals, it would be possible to censor any activity and any individuals. And if there were a prime target of activities or individuals to censor, it would be that of a criminal enterprise. The attempts have already begun.
 
-> “The U.S. Treasury Department’s Office of Foreign Assets Control (OFAC) has sanctioned three Chinese nationals and their cryptocurrency addresses, alleging they violated money laundering and drug smuggling laws […] The agency also listed a number of bitcoin addresses […] that the agency claims belong to the Chinese citizens.”
->
-> <footer class="blockquote-footer">[Coindesk, August 2019](https://www.coindesk.com/us-treasury-blacklists-bitcoin-litecoin-addresses-of-chinese-drug-kingpins)</footer>
+<figure>
+  <blockquote>
+    <p>“The U.S. Treasury Department’s Office of Foreign Assets Control (OFAC) has sanctioned three Chinese nationals and their cryptocurrency addresses, alleging they violated money laundering and drug smuggling laws […] The agency also listed a number of bitcoin addresses […] that the agency claims belong to the Chinese citizens.”</p>
+  </blockquote>
+  <figcaption><a href="https://www.coindesk.com/us-treasury-blacklists-bitcoin-litecoin-addresses-of-chinese-drug-kingpins">Coindesk, August 2019</a></figcaption>
+</figure>
 
 Recognize that in this context, bitcoin “working” is specifically a reference to the network protocol layer. Whether a company or individual is willing to accept bitcoin from an address sanctioned by OFAC, or whether a third-party financial institution freezes an account associated with such an address is of little consequence to the long-term viability of bitcoin. What is consequential is whether the network would validate a transaction originated from a sanctioned address or validate a block that includes such a transaction. Stated another way, whether bitcoin miners or nodes would reject such a transaction despite it otherwise being valid based on the network’s consensus rules. Bitcoin is only viable as a currency because it is decentralized. But decentralization is not an end in itself. The end game is censorship-resistance. And it is not an end game to protect criminals. It is an end game to protect the very root level functioning of the currency system.
 
@@ -67,13 +76,19 @@ Ultimately, bitcoin represents a technological advancement in the global competi
 
 The competition for bitcoin is global. Over time, those that produce the most relative value will accumulate the greatest share of bitcoin. To think that those involved in illicit activities will account for a larger share of the future bitcoin economy than today’s dollar economy is not rational. And calling for a ban on bitcoin is somewhat like being scared of your own shadow. Not only would it not be practical to enforce, but the activity such a policy would seek to prevent is enabled today in far greater proportions by the dollar. It would be analogous to throwing the baby out with the bath water. We accept the good with the bad, recognizing that due to the very nature of bitcoin, we do not get to decide. There are always trade-offs, and in this case, that bitcoin will unavoidably be used for illicit purposes is the trade-off we gladly accept in exchange for the economic stability that an unmanipulatable global currency will provide. As with every technology, value will accrue to those that utilize bitcoin in its highest and best use, a function which only the market can determine. The net benefit will not be zero-sum and just as the internet is not for drug dealers and terrorists, bitcoin is not for criminals. It is for everyone.
 
-> “It is more important that innocence be protected than it is that guilt be punished, for guilt and crimes are so frequent in this world that they cannot all be punished. But if innocence itself is brought to the bar and condemned, perhaps to die, then the citizen will say, ‘whether I do good or whether I do evil is immaterial, for innocence itself is no protection,’ and if such an idea as that were to take hold in the mind of the citizen that would be the end of security whatsoever.”
->
-> <footer class="blockquote-footer">John Adams</footer>
+<figure>
+  <blockquote>
+    <p>“It is more important that innocence be protected than it is that guilt be punished, for guilt and crimes are so frequent in this world that they cannot all be punished. But if innocence itself is brought to the bar and condemned, perhaps to die, then the citizen will say, ‘whether I do good or whether I do evil is immaterial, for innocence itself is no protection,’ and if such an idea as that were to take hold in the mind of the citizen that would be the end of security whatsoever.”</p>
+  </blockquote>
+  <figcaption>John Adams</figcaption>
+</figure>
 
-> “Govern wisely, and as little as possible.”
->
-> <footer class="blockquote-footer">Sam Houston</footer>
+<figure>
+  <blockquote>
+    <p>“Govern wisely, and as little as possible.”</p>
+  </blockquote>
+  <figcaption>Sam Houston</figcaption>
+</figure>
 
 _Final thought_ (stealing a page from [@martybent](https://twitter.com/MartyBent/)’s playbook): History will look back far more favorably on Ross Ulbricht, the alleged founder of the Silk Road, than central bankers everywhere. Not for the drugs but for the bitcoin.
 

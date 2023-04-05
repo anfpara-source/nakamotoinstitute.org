@@ -3,9 +3,12 @@ original_link: https://unchained-capital.com/blog/bitcoin-is-common-sense/
 original_site: Unchained Capital Blog
 ---
 
-> “Perhaps the sentiments contained in the following pages, are not yet sufficiently fashionable to procure them general favor; a long habit of not thinking a thing wrong, gives it a superficial appearance of being right, and raises at first a formidable outcry in defense of custom. But the tumult soon subsides. Time makes more converts than reason.”
->
-> <footer class="blockquote-footer">Thomas Paine, _Common Sense_ (February 24, 1776)</footer>
+<figure>
+  <blockquote>
+    <p>“Perhaps the sentiments contained in the following pages, are not yet sufficiently fashionable to procure them general favor; a long habit of not thinking a thing wrong, gives it a superficial appearance of being right, and raises at first a formidable outcry in defense of custom. But the tumult soon subsides. Time makes more converts than reason.”</p>
+  </blockquote>
+  <figcaption>Thomas Paine, <em>Common Sense</em> (February 24, 1776)</figcaption>
+</figure>
 
 These were the opening remarks of Thomas Paine’s call for American independence in early 1776\. At the time, a declaration of independence was far from a certainty, but in Paine’s view, there was no question. It wasn’t a debate; there was only one path forward. Still, he understood that public opinion had not yet caught up and naturally remained anchored to the status quo, with a preference for reconciliation rather than independence. Old habits die hard. The status quo has a tendency of being defended, regardless of merit, merely by its anchoring in time to the way things have always been. However, truths have a way of becoming self-evident in time, more often due to common sense rather than any amount of reason or logic. One day, the truth is more likely to smack you in the face, becoming painfully obvious through some firsthand experience which opens up a perspective that otherwise would not have existed. While Paine was undoubtedly attempting to persuade an undecided populous with reason and logic, it was at the same time an appeal to not overthink that which stands in opposition to what is already self-evident.
 
@@ -15,13 +18,19 @@ But enter bitcoin, and everyone suddenly becomes an expert in what is and isn’
 
 In all perceived-to-be successful applications today, money is issued by a central bank; it is relatively stable and capable of near infinite transaction throughput; it facilitates day-to-day commerce; and by the grace of god, its supply can be rapidly inflated to meet the needs of an ever-changing economy. Bitcoin has none of these traits (some not presently, others not ever), and as a result, it is most often dismissed as not meeting the standards of modern-day money. This is where overthinking a problem can cripple the highest of IQs. Pattern recognition fails because the game fundamentally changed, but the players do not yet realize it. It is akin to getting lost in the weeds or failing to see the forest through the trees. Bitcoin is finitely scarce, it is highly divisible and it is capable of being sent over a communication channel (and on a permissionless basis). There will only ever be 21 million bitcoin. Rocket scientists and the most revered investors of our time could look at this equation relative to other applications in the market and be confounded, not seeing its value. While at the same time, if posed with a very simple question, would you rather be paid either in a currency with a fixed supply that cannot be manipulated or in a currency that is subject to persistent, systemic and significant debasement, an overwhelming majority of individuals would choose the former all day, every day.
 
-> “It’s probably rat poison squared”
->
-> <footer class="blockquote-footer">[Warren Buffett](https://www.cnbc.com/2018/05/05/warren-buffett-says-bitcoin-is-probably-rat-poison-squared.html), on Bitcoin</footer>
+<figure>
+  <blockquote>
+    <p>“It’s probably rat poison squared”</p>
+  </blockquote>
+  <figcaption><a href="https://www.cnbc.com/2018/05/05/warren-buffett-says-bitcoin-is-probably-rat-poison-squared.html">Warren Buffett</a>, on Bitcoin</figcaption>
+</figure>
 
-> “Bitcoin – there’s even less you can do with it […] I’d rather have bananas, I can eat bananas”
->
-> <footer class="blockquote-footer">[Mark Cuban](https://cointelegraph.com/news/id-rather-have-bananas-tech-billionaire-mark-cuban-on-bitcoin)</footer>
+<figure>
+  <blockquote>
+    <p>“Bitcoin – there’s even less you can do with it […] I’d rather have bananas, I can eat bananas”</p>
+  </blockquote>
+  <figcaption><a href="https://cointelegraph.com/news/id-rather-have-bananas-tech-billionaire-mark-cuban-on-bitcoin">Mark Cuban</a></figcaption>
+</figure>
 
 ## Money Doesn’t Grow On Trees
 
@@ -37,9 +46,12 @@ Everything beyond this fundamental reality strays into abstract theory, relying 
 
 #### Defending Existing Custom {:.text-center}
 
-> “There’s money and there’s credit. The only thing that matters is spending and you can spend money and you can spend credit. And when credit goes down, you better put money into the system so you can have the same level of spending. That’s what they did through the financial system (referencing QE in response to the past crisis) and that thing worked.”
->
-> <footer class="blockquote-footer">Ray Dalio, [CNBC September 19, 2017](https://www.cnbc.com/2017/09/19/ray-dalio-talks-the-biggest-economic-and-social-question-of-our-time.html)</footer>
+<figure>
+  <blockquote>
+    <p>“There’s money and there’s credit. The only thing that matters is spending and you can spend money and you can spend credit. And when credit goes down, you better put money into the system so you can have the same level of spending. That’s what they did through the financial system (referencing QE in response to the past crisis) and that thing worked.”</p>
+  </blockquote>
+  <figcaption>Ray Dalio, <a href="https://www.cnbc.com/2017/09/19/ray-dalio-talks-the-biggest-economic-and-social-question-of-our-time.html">CNBC September 19, 2017</a></figcaption>
+</figure>
 
 #### Basic Bitcoin Common Sense {:.text-center}
 
@@ -98,10 +110,13 @@ How the effects manifest in the real economy is very complicated, but it does no
 > “Oh, tanstaafl. Means there ain’t no such thing as a free lunch. And isn’t,” I added, pointing to a FREE LUNCH sign across room, “or these drinks would cost half as much. Was reminding her that anything free costs twice as much in long run or turns out worthless.”
 >
 > “An interesting philosophy.”
->
-> “Not philosophy, fact. One way or other, what you get, you pay for.”
->
-> <footer class="blockquote-footer">Robert Heinlein, _The Moon is a Harsh Mistress_</footer>
+
+<figure>
+  <blockquote>
+    <p>“Not philosophy, fact. One way or other, what you get, you pay for.”</p>
+  </blockquote>
+  <figcaption>Robert Heinlein, <em>The Moon is a Harsh Mistress</em></figcaption>
+</figure>
 
 ## Bitcoin is Common Sense
 
@@ -140,13 +155,19 @@ With bitcoin as a backdrop, it becomes self-evident that there is no advantage e
 
 Bananas grow on trees. Money does not, and bitcoin is the force that reawakens everyone to the reality that was always the case. Similarly, there is no such thing as a free lunch. Everything is being paid for by someone. When governments and central banks can no longer create money out of thin air, it will become crystal clear that backdoor monetary inflation was always just a ruse to allocate resources for which no one was actually willing to be taxed. In common sense, there is no question. There may be debate but bitcoin is the inevitable path forward. _Time makes more converts than reason._
 
-> “You can fool all the people some of the time, and some of the people all the time, but you cannot fool all the people all the time.”
->
-> <footer class="blockquote-footer">Abraham Lincoln</footer>
+<figure>
+  <blockquote>
+    <p>“You can fool all the people some of the time, and some of the people all the time, but you cannot fool all the people all the time.”</p>
+  </blockquote>
+  <figcaption>Abraham Lincoln</figcaption>
+</figure>
 
-> “These proceedings may at first seem strange and difficult, but like all other steps which we have already passed over, will in a little time become familiar and agreeable: and until an independence is declared, the Continent will feel itself like a man who continues putting off some unpleasant business from day to day, yet knows it must be done, hates to set about it, wishes it over, and is continually haunted with the thoughts of its necessity.”
->
-> <footer class="blockquote-footer">Thomas Paine, _Common Sense_
+<figure>
+  <blockquote>
+    <p>“These proceedings may at first seem strange and difficult, but like all other steps which we have already passed over, will in a little time become familiar and agreeable: and until an independence is declared, the Continent will feel itself like a man who continues putting off some unpleasant business from day to day, yet knows it must be done, hates to set about it, wishes it over, and is continually haunted with the thoughts of its necessity.”</p>
+  </blockquote>
+  <figcaption>Thomas Paine, <em>Common Sense</em></figcaption>
+</figure>
 
 ---
 

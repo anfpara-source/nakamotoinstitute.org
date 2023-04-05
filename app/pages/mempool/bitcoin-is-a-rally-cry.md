@@ -30,13 +30,19 @@ Even before the global shutdown (i.e. government-accelerated panic), the Fed had
 
 Yep, the market crashed again, credit markets dislocated and the Fed followed with its “whatever it takes” response, announcing an [unlimited QE program](https://www.federalreserve.gov/newsevents/pressreleases/monetary20200323b.htm). Its three most aggressive moves to date all transpired within a 10-day window. And in its latest unprecedented act, the Fed will begin buying corporate bonds on the secondary market as well as participate in primary issuances of corporate credit. It also expanded its purchases of mortgage backed securities to include commercial mortgage backed securities (commercial real estate). In addition, the Fed established a facility to issue asset backed securities to purchase student loans, auto loans, credit card loans, etc. All of this without a price tag, and just a promise to do whatever it takes. It would be funny if it weren’t so serious, but the real question is, if the Fed were in control, why was it so reactionary? Why did its plans change so drastically in a ten-day period if it ever understood the extent of the issue? Never mind the unintended consequences, it is merely a demonstration that the Fed is not in control. Why would it have announced a $700 billion program if it didn’t expect it to work? It’s a classic game of guess and check, except the consequences can never be checked (only the immediate market reactions). The problem is our economy is at stake.
 
-> “There’s an infinite amount of cash at the Federal Reserve.”
->
-> <footer class="blockquote-footer">[Neel Kashkari](https://www.cbsnews.com/video/coronavirus-crisis-fed-official-neel-kashkari-uncertain-how-economy-will-fare-60-minutes-2020-03-22/), Minneapolis Fed President – March 22, 2020 (60 Minutes)</footer>
+<figure>
+  <blockquote>
+    <p>“There’s an infinite amount of cash at the Federal Reserve.”</p>
+  </blockquote>
+  <figcaption><a href="https://www.cbsnews.com/video/coronavirus-crisis-fed-official-neel-kashkari-uncertain-how-economy-will-fare-60-minutes-2020-03-22/">Neel Kashkari</a>, Minneapolis Fed President – March 22, 2020 (60 Minutes)</figcaption>
+</figure>
 
-> “To lend to a bank, we simply use the computer to mark up the size of the account they have with the Fed […] it’s much more akin to printing money than it is borrowing.”
->
-> <footer class="blockquote-footer">[Ben Bernanke](https://www.youtube.com/watch?v=odPfHY4ekHA), Former Fed Chair –  March 15, 2009 (60 Minutes)</footer>
+<figure>
+  <blockquote>
+    <p>“To lend to a bank, we simply use the computer to mark up the size of the account they have with the Fed […] it’s much more akin to printing money than it is borrowing.”</p>
+  </blockquote>
+  <figcaption><a href="https://www.youtube.com/watch?v=odPfHY4ekHA">Ben Bernanke</a>, Former Fed Chair –  March 15, 2009 (60 Minutes)</figcaption>
+</figure>
 
 <figure>
   <img src="/static/img/mempool/bitcoin-is-a-rally-cry/bitcoin-supply-schedule-march-2020.png" alt="Bitcoin Supply Schedule March 2020" />
@@ -75,9 +81,12 @@ For Joe Squawk (your modern-day average joe), it was Facebook’s Libra that mad
   <img src="/static/img/mempool/bitcoin-is-a-rally-cry/Come-and-take-it.png" alt="Come and take it" />
 </figure>
 
-> “The enemy has demanded a surrender […] I have answered the demand with a cannon shot”
->
-> <footer class="blockquote-footer">Lt. Colonel William B. Travis (February 24, 1836) (Link to [Full Travis Letter](https://en.wikipedia.org/wiki/To_the_People_of_Texas_%26_All_Americans_in_the_World))</footer>
+<figure>
+  <blockquote>
+    <p>“The enemy has demanded a surrender […] I have answered the demand with a cannon shot”</p>
+  </blockquote>
+  <figcaption>Lt. Colonel William B. Travis (February 24, 1836) (Link to <a href="https://en.wikipedia.org/wiki/To_the_People_of_Texas_%26_All_Americans_in_the_World">Full Travis Letter</a>)</figcaption>
+</figure>
 
 ---
 

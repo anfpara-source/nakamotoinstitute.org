@@ -135,9 +135,12 @@ Owning bitcoin is becoming the cost of entry to what will likely be the largest 
 
 It does not matter how complex bitcoin is. At the end of the day, bitcoin becomes an A/B test. The need for money is real and individuals will converge on the form of money that best fulfills the function of exchange. No other currency in the world can ever be more scarce than bitcoin, and scarcity will act like a gravitational force driving adoption and communication of value. Today, most billionaires do not understand bitcoin. Bitcoin is an equal opportunity mind-bender. But even those who do not understand bitcoin will come to rely upon it. There are many fundamental questions. Bitcoin is [volatile](/mempool/bitcoin-is-not-too-volatile/), [seemingly slow, challenges to scaling, not commonly used for payments](/mempool/bitcoin-is-not-too-slow/), [consumes a lot of energy](/mempool/bitcoin-does-not-waste-energy/), etc. Stability is an emergent property that follows adoption, and all other perceived limitations will be solved as a function of the value that is derived from finite scarcity combined with the ability to measure, divide and transfer value. That is the innovation of bitcoin. Currency A has a fixed supply. Currency B does not. Currency A keeps increasing in value relative to Currency B. Currency A continues to increase in purchasing power relative to goods and services while Currency B does the opposite. Which one do I want? A or B? Make the right choice because the opportunity cost is your time and value. All of the rest simply explains why individuals will increasingly opt for A over B, but in practice, it all comes down to basic common sense and survival instincts. Bitcoin obsoletes all other money because economic systems converge on a single currency, and bitcoin has the most credible monetary properties.
 
-> “I don’t believe we shall ever have a good money again before we take the thing out of the hands of government, that is, we can’t take it violently out of the hands of government, all we can do is by some sly roundabout way introduce something that they can’t stop.”
->
-> <footer class="blockquote-footer">F.A. Hayek.</footer>
+<figure>
+  <blockquote>
+    <p>“I don’t believe we shall ever have a good money again before we take the thing out of the hands of government, that is, we can’t take it violently out of the hands of government, all we can do is by some sly roundabout way introduce something that they can’t stop.”</p>
+  </blockquote>
+  <figcaption>F.A. Hayek.</figcaption>
+</figure>
 
 ---
 

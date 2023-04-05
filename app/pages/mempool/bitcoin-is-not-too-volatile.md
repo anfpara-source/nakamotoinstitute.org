@@ -13,9 +13,10 @@ The principal use case for bitcoin today is not as a payments rail but instead a
 
 It is fair to say that volatility and store of value are often confused as mutually exclusive. However, they most certainly are not. If an asset is volatile, it does not mean that asset will be an ineffective store of valueThe opposite is also true; if an asset is not volatile, it will not necessarily be an effective store of value. The dollar is a prime example: not volatile (today at least), bad store of value.
 
-> Volatile things are not necessarily risky, and the reverse is also true.
->
-> <footer class="blockquote-footer">[Nassim Taleb](https://twitter.com/nntaleb) ([Skin in the Game](https://www.amazon.com/Skin-Game-Hidden-Asymmetries-Daily/dp/B077BSK9LC))</footer>
+<figure>
+  <blockquote>Volatile things are not necessarily risky, and the reverse is also true.</blockquote>
+  <figcaption><a href="https://twitter.com/nntaleb">Nassim Taleb</a> (<a href="https://www.amazon.com/Skin-Game-Hidden-Asymmetries-Daily/dp/B077BSK9LC">Skin in the Game</a>)</figcaption>
+</figure>
 
 <figure>
   <img src="/static/img/mempool/bitcoin-is-not-too-volatile/CPI-Value-of-a-Dollar.png" alt="CPI Value of a Dollar" />

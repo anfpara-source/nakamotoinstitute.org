@@ -9,9 +9,12 @@ In Peter Thiel’s _Zero to One_, he outlines the impact new technology has on b
 
 There’s a new meme floating around the internet; whatever the problem, _bitcoin fixes this_. Negative yielding debt? Bitcoin fixes this. Wealth inequality? Bitcoin fixes this. Endless global war? Bitcoin fixes this. Financial crises? Bitcoin fixes this. Rage culture? Bitcoin fixes this. We’re not exactly sure how just yet, but it’s an articulation of the balancing effect a sound and stable monetary system will have on every aspect of society. Money is the coordination function of society. It allows hundreds of millions of people to cooperate who otherwise would not have a basis to do so. And, bitcoin is the tool that will allow for more peaceable coordination because it is both unmanipulatable and devoid of moral hazard. How it globalizes is the “1 to n” problem (not in the express sense as Thiel describes), but the solutions to scale bitcoin will naturally be incremental. The non-zero sum collective benefit that follows may not literally cure every ill in the world, but the invention of a step-function change monetary network is fundamentally different than any single product because money is the economic good that coordinates all other economic activity.
 
-> “The problem is precisely how to extend the span of our utilization of resources beyond the span of the control of any one mind; and therefore, how to dispense with the need of conscious control, and how to provide inducements which will make the individuals do the desirable things without anyone having to tell them what to do.”
->
-> <footer class="blockquote-footer">F.A. Hayek, [“The Use of Knowledge in Society”](http://bev.berkeley.edu/ipe/readings/The%20use%20of%20knowledge%20in%20society.pdf)</footer>
+<figure>
+  <blockquote>
+  <p>“The problem is precisely how to extend the span of our utilization of resources beyond the span of the control of any one mind; and therefore, how to dispense with the need of conscious control, and how to provide inducements which will make the individuals do the desirable things without anyone having to tell them what to do.”</p>
+  </blockquote>
+  <figcaption>F.A. Hayek, <a href="http://bev.berkeley.edu/ipe/readings/The%20use%20of%20knowledge%20in%20society.pdf">“The Use of Knowledge in Society”</a></figcaption>
+</figure>
 
 Hayek writes about the invention of money and the price mechanism as the tool that allows society to dispense with the need of “conscious control.” Bitcoin is the superior successor to this mechanism, and its zero to one innovation is digital scarcity, not payments or speed of transactions. While bitcoin’s property of scarcity still needs further stress testing, it is a profound achievement and what makes bitcoin unique. Never before bitcoin has any asset, let alone a digital one, been finitely scarce; the end result of its innovation is the hardest form of money that has ever existed. That is the zero to one achievement and a phenomenon that almost certainly will not be repeated.</span>
 

@@ -58,7 +58,7 @@ date: "Version 3.0 &ndash; August 2, 2002<br>(Originally published in 2000)"
 
 <p>This was clearly something the computer ought to be doing for me. But none of the existing POP clients knew how! And this brings us to the first lesson:</p>
 
-<blockquote class="blockquote">
+<blockquote>
   1. Every good work of software starts by scratching a developer's personal itch.
 </blockquote>
 
@@ -66,7 +66,7 @@ date: "Version 3.0 &ndash; August 2, 2002<br>(Originally published in 2000)"
 
 <p>So, did I immediately launch into a furious whirl of coding up a brand-new POP3 client to compete with the existing ones? Not on your life! I looked carefully at the POP utilities I had in hand, asking myself "Which one is closest to what I want?" Because:</p>
 
-<blockquote class="blockquote">
+<blockquote>
   2. Good programmers know what to write. Great ones know what to rewrite (and reuse).
 </blockquote>
 
@@ -88,10 +88,12 @@ date: "Version 3.0 &ndash; August 2, 2002<br>(Originally published in 2000)"
 
 <p>But I had a more theoretical reason to think switching might be as good an idea as well, something I learned long before Linux.</p>
 
-<blockquote class="blockquote">
-  3. "Plan to throw one away; you will, anyhow."
-  <footer class="blockquote-footer">Fred Brooks, The Mythical Man-Month, Chapter 11</footer>
-</blockquote>
+<figure>
+  <blockquote>
+    <p>3. "Plan to throw one away; you will, anyhow."</p>
+  </blockquote>
+  <figcaption>Fred Brooks, The Mythical Man-Month, Chapter 11</figcaption>
+</figure>
 
 <p>Or, to put it another way, you often don't really understand the problem until after the first time you implement a solution. The second time, maybe you know enough to do it right. So if you want to get it right, be ready to start over at least once<sup><a href="#fnJB" id="refJB">[JB]</a></sup>.</p>
 
@@ -103,13 +105,13 @@ date: "Version 3.0 &ndash; August 2, 2002<br>(Originally published in 2000)"
 
 <p>In a software culture that encourages code-sharing, this is a natural way for a project to evolve. I was acting out this principle:</p>
 
-<blockquote class="blockquote">
+<blockquote>
   4. If you have the right attitude, interesting problems will find you.
 </blockquote>
 
 <p>But Carl Harris's attitude was even more important. He understood that</p>
 
-<blockquote class="blockquote">
+<blockquote>
   5. When you lose interest in a program, your last duty to it is to hand it off to a competent successor.
 </blockquote>
 
@@ -121,7 +123,7 @@ date: "Version 3.0 &ndash; August 2, 2002<br>(Originally published in 2000)"
 
 <p>Another strength of the Unix tradition, one that Linux pushes to a happy extreme, is that a lot of users are hackers too. Because source code is available, they can be <em>effective</em> hackers. This can be tremendously useful for shortening debugging time. Given a bit of encouragement, your users will diagnose problems, suggest fixes, and help improve the code far more quickly than you could unaided.</p>
 
-<blockquote class="blockquote">
+<blockquote>
   6. Treating your users as co-developers is your least-hassle route to rapid code improvement and effective debugging.
 </blockquote>
 
@@ -147,7 +149,7 @@ date: "Version 3.0 &ndash; August 2, 2002<br>(Originally published in 2000)"
 
 <p>Linus was treating his users as co-developers in the most effective possible way:</p>
 
-<blockquote class="blockquote">
+<blockquote>
   7. Release early. Release often. And listen to your customers.
 </blockquote>
 
@@ -163,7 +165,7 @@ date: "Version 3.0 &ndash; August 2, 2002<br>(Originally published in 2000)"
 
 <p>Linus was directly aiming to maximize the number of person-hours thrown at debugging and development, even at the possible cost of instability in the code and user-base burnout if any serious bug proved intractable. Linus was behaving as though he believed something like this:</p>
 
-<blockquote class="blockquote">
+<blockquote>
   8. Given a large enough beta-tester and co-developer base, almost every problem will be characterized quickly and the fix obvious to someone.
 </blockquote>
 
@@ -235,7 +237,7 @@ date: "Version 3.0 &ndash; August 2, 2002<br>(Originally published in 2000)"
 
 <p>For the first month or so, then, I was simply following out the implications of Carl's basic design. The first serious change I made was to add IMAP support. I did this by reorganizing the protocol machines into a generic driver and three method tables (for POP2, POP3, and IMAP). This and the previous changes illustrate a general principle that's good for programmers to keep in mind, especially in languages like C that don't naturally do dynamic typing:</p>
 
-<blockquote class="blockquote">
+<blockquote>
   9. Smart data structures and dumb code works a lot better than the other way around.
 </blockquote>
 
@@ -254,7 +256,7 @@ date: "Version 3.0 &ndash; August 2, 2002<br>(Originally published in 2000)"
 
 <p>The payoff from these simple measures was immediate. From the beginning of the project, I got bug reports of a quality most developers would kill for, often with good fixes attached. I got thoughtful criticism, I got fan mail, I got intelligent feature suggestions. Which leads to:</p>
 
-<blockquote class="blockquote">
+<blockquote>
   10. If you treat your beta-testers as if they're your most valuable resource, they will respond by becoming your most valuable resource.
 </blockquote>
 
@@ -278,7 +280,7 @@ date: "Version 3.0 &ndash; August 2, 2002<br>(Originally published in 2000)"
 
 <p>Even if you didn't follow the preceding technical jargon, there are several important lessons here. First, this SMTP-forwarding concept was the biggest single payoff I got from consciously trying to emulate Linus's methods. A user gave me this terrific idea&mdash;all I had to do was understand the implications.</p>
 
-<blockquote class="blockquote">
+<blockquote>
   11. The next best thing to having good ideas is recognizing good ideas from your users. Sometimes the latter is better.
 </blockquote>
 
@@ -290,7 +292,7 @@ date: "Version 3.0 &ndash; August 2, 2002<br>(Originally published in 2000)"
 
 <p>But there are two more fundamental, non-political lessons here that are general to all kinds of design.</p>
 
-<blockquote class="blockquote">
+<blockquote>
   12. Often, the most striking and innovative solutions come from realizing that your concept of the problem was wrong.
 </blockquote>
 
@@ -312,7 +314,7 @@ date: "Version 3.0 &ndash; August 2, 2002<br>(Originally published in 2000)"
 
 <p>The moral? Don't hesitate to throw away superannuated features when you can do it without loss of effectiveness. Antoine de Saint-Exupéry (who was an aviator and aircraft designer when he wasn't authoring classic children's books) said:</p>
 
-<blockquote class="blockquote">
+<blockquote>
   13. "Perfection (in design) is achieved not when there is nothing more to add, but rather when there is nothing more to take away."
 </blockquote>
 
@@ -342,7 +344,7 @@ date: "Version 3.0 &ndash; August 2, 2002<br>(Originally published in 2000)"
 
 <p>But multidrop addressing turned out to be an excellent design decision as well. Here's how I knew:</p>
 
-<blockquote class="blockquote">
+<blockquote>
   14. Any tool should be useful in the expected way, but a truly great tool lends itself to uses you never expected.
 </blockquote>
 
@@ -350,7 +352,7 @@ date: "Version 3.0 &ndash; August 2, 2002<br>(Originally published in 2000)"
 
 <p>Another important change demanded by my beta-testers was support for 8-bit MIME (Multipurpose Internet Mail Extensions) operation. This was pretty easy to do, because I had been careful to keep the code 8-bit clean (that is, to not press the 8th bit, unused in the ASCII character set, into service to carry information within the program). Not because I anticipated the demand for this feature, but rather in obedience to another rule:</p>
 
-<blockquote class="blockquote">
+<blockquote>
   15. When writing gateway software of any kind, take pains to disturb the data stream as little as possible&mdash;and <em>never</em> throw away information unless the recipient forces you to!
 </blockquote>
 
@@ -376,7 +378,7 @@ date: "Version 3.0 &ndash; August 2, 2002<br>(Originally published in 2000)"
 
 <p>The fetchmail control syntax seems to avoid these problems because the language domain is extremely restricted. It's nowhere near a general-purpose language; the things it says simply are not very complicated, so there's little potential for confusion in moving mentally between a tiny subset of English and the actual control language. I think there may be a broader lesson here:</p>
 
-<blockquote class="blockquote">
+<blockquote>
   16. When your language is nowhere near Turing-complete, syntactic sugar can be your friend.
 </blockquote>
 
@@ -386,7 +388,7 @@ date: "Version 3.0 &ndash; August 2, 2002<br>(Originally published in 2000)"
 
 <p>All <code>.fetchmailrc</code> password encryption would have done is give a false sense of security to people who don't think very hard. The general rule here is:</p>
 
-<blockquote class="blockquote">
+<blockquote>
   17. A security system is only as secure as its secret. Beware of pseudo-secrets.
 </blockquote>
 
@@ -424,7 +426,7 @@ date: "Version 3.0 &ndash; August 2, 2002<br>(Originally published in 2000)"
 
 <p>It is truly written: the best hacks start out as personal solutions to the author's everyday problems, and spread because the problem turns out to be typical for a large class of users. This takes us back to the matter of rule 1, restated in a perhaps more useful way:</p>
 
-<blockquote class="blockquote">
+<blockquote>
   18. To solve an interesting problem, start by finding a problem that is interesting to you.
 </blockquote>
 
@@ -450,7 +452,7 @@ date: "Version 3.0 &ndash; August 2, 2002<br>(Originally published in 2000)"
 
 <p>But what is this leadership style and what are these customs? They cannot be based on power relationships&mdash;and even if they could be, leadership by coercion would not produce the results we see. Weinberg quotes the autobiography of the 19th-century Russian anarchist Pyotr Alexeyvich Kropotkin's <em>Memoirs of a Revolutionist</em> to good effect on this subject:</p>
 
-<blockquote class="blockquote">
+<blockquote>
   <p>Having been brought up in a serf-owner's family, I entered active life, like all young men of my time, with a great deal of confidence in the necessity of commanding, ordering, scolding, punishing and the like. But when, at an early stage, I had to manage serious enterprises and to deal with [free] men, and when each mistake would lead at once to heavy consequences, I began to appreciate the difference between acting on the principle of command and discipline and acting on the principle of common understanding. The former works admirably in a military parade, but it is worth nothing where real life is concerned, and the aim can be achieved only through the severe effort of many converging wills.</p>
 </blockquote>
 
@@ -468,7 +470,7 @@ date: "Version 3.0 &ndash; August 2, 2002<br>(Originally published in 2000)"
 
 <p>Both the fetchmail and Linux kernel projects show that by properly rewarding the egos of many other hackers, a strong developer/coordinator can use the Internet to capture the benefits of having lots of co-developers without having a project collapse into a chaotic mess. So to Brooks's Law I counter-propose the following:</p>
 
-<blockquote class="blockquote">
+<blockquote>
   19. Provided the development coordinator has a communications medium at least as good as the Internet, and knows how to lead without coercion, many heads are inevitably better than one.
 </blockquote>
 
@@ -564,7 +566,7 @@ date: "Version 3.0 &ndash; August 2, 2002<br>(Originally published in 2000)"
 
 <p>A few days later I wrote the following:</p>
 
-<blockquote class="blockquote">
+<blockquote>
   <p>Netscape is about to provide us with a large-scale, real-world test of the bazaar model in the commercial world. The open-source culture now faces a danger; if Netscape's execution doesn't work, the open-source concept may be so discredited that the commercial world won't touch it again for another decade.</p>
 
   <p>On the other hand, this is also a spectacular opportunity. Initial reaction to the move on Wall Street and elsewhere has been cautiously positive. We're being given a chance to prove ourselves, too. If Netscape regains substantial market share through this move, it just may set off a long-overdue revolution in the software industry.</p>
@@ -596,7 +598,7 @@ date: "Version 3.0 &ndash; August 2, 2002<br>(Originally published in 2000)"
   <li id="fnCV">
     <p><em>[CV]</em> That transparency and peer review are valuable for taming the complexity of OS development turns out, after all, not to be a new concept. In 1965, very early in the history of time-sharing operating systems, Corbató and Vyssotsky, co-designers of the Multics operating system, <a href="http://www.multicians.org/fjcc1.html">wrote</a></p>
 
-    <blockquote class="blockquote">
+    <blockquote>
       <p>It is expected that the Multics system will be published when it is operating substantially... Such publication is desirable for two reasons: First, the system should withstand public scrutiny and criticism volunteered by interested readers; second, in an age of increasing complexity, it is an obligation to present and future system designers to make the inner operating system as lucid as possible so as to reveal the basic system issues.&nbsp;<a href="#refCV">↩</a></p>
     </blockquote>
   </li>
