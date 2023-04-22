@@ -15,9 +15,10 @@ from flask import (
 )
 from sqlalchemy import desc
 
-from app import cache, pages
+from app import cache
 from app.main import bp
 from app.models import BlogPost, Doc, Price, ResearchDoc, Skeptic
+from app.utils.pages import get_literature_doc, get_research_doc
 
 
 @bp.route("/favicon.ico")
@@ -68,7 +69,7 @@ def doc_view(slug):
     if doc is not None:
         formats = [format.name for format in doc.formats]
         if "html" in formats:
-            page = pages.get(f"literature/{slug}")
+            page = get_literature_doc(slug)
             return render_template(
                 "literature/doc.html", doc=doc, page=page, doc_type="literature"
             )
@@ -79,7 +80,7 @@ def doc_view(slug):
         if doc is not None:
             formats = [format.name for format in doc.formats]
             if "html" in formats:
-                page = pages.get(f"research/{slug}")
+                page = get_research_doc(slug)
                 return render_template(
                     "literature/doc.html", doc=doc, page=page, doc_type="research"
                 )

@@ -1,20 +1,12 @@
-from datetime import datetime
-
 from feedgen.feed import FeedGenerator
 from flask import make_response, redirect, render_template, url_for
-from pytz import timezone
 from sqlalchemy import asc, desc
 
-from app import cache, pages
+from app import cache
 from app.mempool import bp
 from app.models import BlogPost, Language
-
-TIMEZONE = timezone("US/Central")
-
-
-def date_to_localized_datetime(date):
-    time = datetime(year=date.year, month=date.month, day=date.day)
-    return TIMEZONE.localize(time)
+from app.utils.pages import get_mempool_post
+from app.utils.timetils import date_to_localized_datetime
 
 
 @bp.route("/", methods=["GET"])
@@ -35,7 +27,7 @@ def detail(slug):
     )
     if blog_post:
         english = Language.query.filter_by(ietf="en").first()
-        page = pages.get(f"mempool/{slug}")
+        page = get_mempool_post(slug)
         translations = [translation.language for translation in blog_post.translations]
         translations.sort(key=lambda t: t.name)
         previous_post = next_post = None
@@ -81,7 +73,7 @@ def detail_translation(slug, language):
         ]:
             return redirect(url_for("mempool.detail", slug=slug))
         else:
-            page = pages.get(f"mempool/{slug}-{language}")
+            page = get_mempool_post(slug, language)
             rtl = False
             if language in ["ar", "fa", "he"]:
                 rtl = True
@@ -123,7 +115,7 @@ def feed():
 
     for article in articles:
         url = url_for("mempool.detail", slug=article.slug, _external=True)
-        page = pages.get(f"mempool/{article.slug}")
+        page = get_mempool_post(article.slug)
 
         fe = fg.add_entry()
         fe.id(url)

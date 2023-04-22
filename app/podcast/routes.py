@@ -2,10 +2,11 @@ from feedgen.feed import FeedGenerator
 from flask import make_response, redirect, render_template, url_for
 from sqlalchemy import asc, desc
 
-from app import cache, pages
+from app import cache
 from app.models import Episode
 from app.podcast import bp
-from app.utils import localize_time
+from app.utils.pages import get_podcast_episode
+from app.utils.timetils import localize_time
 
 
 @bp.route("/", methods=["GET"])
@@ -20,7 +21,7 @@ def index():
 def detail(slug):
     episode = Episode.query.filter_by(slug=slug).order_by(desc(Episode.date)).first()
     if episode is not None:
-        page = pages.get(f"podcast/{slug}")
+        page = get_podcast_episode(slug)
         return render_template("podcast/detail.html", episode=episode, page=page)
     else:
         return redirect(url_for("podcast.index"))

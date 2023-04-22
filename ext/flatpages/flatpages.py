@@ -36,10 +36,12 @@ class FlatPages(object):
     def config(self, key):
         return self.app.config["_".join((self.config_prefix, key.upper()))]
 
-    def get(self, path, default=None):
-        pages = self._pages
+    def get(self, *args, default=None):
+        value = self._pages
         try:
-            return pages[path]
+            for key in args:
+                value = value[key]
+            return value
         except KeyError:
             return default
 
@@ -81,14 +83,14 @@ class FlatPages(object):
         if auto:
             self.reload()
 
-    def _load_file(self, path, filename, rel_path):
+    def _load_file(self, path, filename, rel_path, slug):
         mtime = os.path.getmtime(filename)
         cached = self._file_cache.get(filename)
 
         if cached and cached[1] == mtime:
             page = cached[0]
         else:
-            page = self._parse(filename, rel_path)
+            page = self._parse(filename, rel_path, slug)
             self._file_cache[filename] = (page, mtime)
 
         return page
@@ -121,7 +123,7 @@ class FlatPages(object):
                     path = "/".join(path_prefix + (name_without_extension,))
                     # if self.config("case_insensitive"):
                     #     path = path.lower()
-                    yield (path, full_name, rel_path)
+                    yield (path, full_name, rel_path, name_without_extension)
 
         # Read extension from config
         extension = self.config("extension")
@@ -144,16 +146,24 @@ class FlatPages(object):
                 )
             )
         pages = {}
-        for path, full_name, rel_path in _walker():
-            if path in pages:
+        for path, full_name, rel_path, name_without_extension in _walker():
+            file_path = os.path.normpath(path)
+            path_parts = file_path.split(os.path.sep)
+            current_level = pages
+            for part in path_parts[:-1]:
+                current_level = current_level.setdefault(part, {})
+            if name_without_extension in current_level:
                 raise ValueError(
                     "Multiple pages found which correspond to the same path. "
                     "This error can arise when using multiple extensions."
                 )
-            pages[path] = self._load_file(path, full_name, rel_path)
+            current_level[name_without_extension] = self._load_file(
+                path, full_name, rel_path, name_without_extension
+            )
+
         return pages
 
-    def _parse(self, path, rel_path):
+    def _parse(self, path, rel_path, slug):
         """Parse a flatpage file, i.e. read and parse its meta data and body.
         :return: initialized :class:`Page` instance.
         """
@@ -163,4 +173,4 @@ class FlatPages(object):
         folder = rel_path
 
         # Initialize and return Page instance
-        return Page(path, meta, html, folder)
+        return Page(path, meta, html, folder, slug)
