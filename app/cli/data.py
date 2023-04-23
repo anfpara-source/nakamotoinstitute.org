@@ -38,6 +38,16 @@ bp = Blueprint("data", __name__)
 bp.cli.help = "Update database."
 
 
+def get_file_contents(filepath):
+    with open(filepath) as data_file:
+        return json.load(data_file)
+
+
+def write_file_contents(content, filepath):
+    with open(filepath, "w") as f:
+        json.dump(content, f, indent=4)
+
+
 def model_exists(model_class):
     engine = db.get_engine()
     insp = sa.inspect(engine)
@@ -45,17 +55,16 @@ def model_exists(model_class):
 
 
 def get(model, **kwargs):
-    return db.session.query(model).filter_by(**kwargs).first()
+    return db.session.scalar(db.select(model).filter_by(**kwargs))
 
 
 # See if object already exists for uniqueness
 def get_or_create(model, **kwargs):
-    instance = db.session.query(model).filter_by(**kwargs).first()
+    instance = get(model, **kwargs)
     if instance:
         return instance
     else:
-        instance = model(**kwargs)
-        return instance
+        return model(**kwargs)
 
 
 def flush_db():
@@ -65,26 +74,33 @@ def flush_db():
     click.echo(DONE)
 
 
+def export_prices_to_file():
+    prices = db.session.scalars(db.select(Price))
+    serialized_prices = [price.serialize() for price in prices]
+    write_file_contents(serialized_prices, "data/prices.json")
+
+
 def export_prices():
     if not model_exists(Price):
         return
     click.echo("Exporting Prices...", nl=False)
-    prices = Price.query.all()
-    serialized_prices = [price.serialize() for price in prices]
-    with open("data/prices.json", "w") as f:
-        json.dump(serialized_prices, f, indent=4)
+    export_prices_to_file()
     click.echo(DONE)
 
 
 def import_prices():
     click.echo("Importing Prices...", nl=False)
-    prices = []
     fname = "data/prices.json"
     if os.path.isfile(fname):
-        with open("data/prices.json") as data_file:
-            prices = json.load(data_file)
-
-    if not prices:
+        prices = get_file_contents(fname)
+        for price in prices:
+            new_price = Price(
+                date=parser.parse(price["date"]),
+                price=price["price"],
+            )
+            db.session.add(new_price)
+        db.session.commit()
+    else:
         click.echo("Fetching Prices...", nl=False)
         resp = requests.get(API_URL).json()
         click.echo("Adding Prices...", nl=False)
@@ -97,21 +113,14 @@ def import_prices():
                 price=price,
             )
             db.session.add(new_price)
-    else:
-        for price in prices:
-            new_price = Price(
-                date=parser.parse(price["date"]),
-                price=price["price"],
-            )
-            db.session.add(new_price)
-    db.session.commit()
+        db.session.commit()
+        export_prices()
     click.echo(DONE)
 
 
 def import_language():
     click.echo("Importing Language...", nl=False)
-    with open("data/languages.json") as data_file:
-        languages = json.load(data_file)
+    languages = get_file_contents("data/languages.json")
 
     for language in languages:
         new_language = Language(name=language["name"], ietf=language["ietf"])
@@ -122,8 +131,7 @@ def import_language():
 
 def import_translator():
     click.echo("Importing Translator...", nl=False)
-    with open("data/translators.json") as data_file:
-        translators = json.load(data_file)
+    translators = get_file_contents("data/translators.json")
 
     for translator in translators:
         new_translator = Translator(name=translator["name"], url=translator["url"])
@@ -134,8 +142,7 @@ def import_translator():
 
 def import_email_thread():
     click.echo("Importing EmailThread...", nl=False)
-    with open("data/threads_emails.json") as data_file:
-        threads = json.load(data_file)
+    threads = get_file_contents("data/threads_emails.json")
 
     for thread in threads:
         new_thread = EmailThread(
@@ -148,8 +155,7 @@ def import_email_thread():
 
 def import_email():
     click.echo("Importing Email...", nl=False)
-    with open("./data/emails.json") as data_file:
-        emails = json.load(data_file)
+    emails = get_file_contents("data/emails.json")
 
     for e in emails:
         satoshi_id = None
@@ -157,7 +163,7 @@ def import_email():
             satoshi_id = e["satoshi_id"]
         parent = None
         if "parent" in e.keys():
-            parent = Email.query.get(e["parent"])
+            parent = db.session.get(Email, e["parent"])
         new_email = Email(
             id=e["id"],
             satoshi_id=satoshi_id,
@@ -179,8 +185,7 @@ def import_email():
 
 def import_forum_thread():
     click.echo("Importing ForumThread...", nl=False)
-    with open("data/threads_forums.json") as data_file:
-        threads = json.load(data_file)
+    threads = get_file_contents("data/threads_forums.json")
 
     for thread in threads:
         new_thread = ForumThread(
@@ -196,8 +201,7 @@ def import_forum_thread():
 
 def import_post():
     click.echo("Importing Post...", nl=False)
-    with open("data/posts.json") as data_file:
-        posts = json.load(data_file)
+    posts = get_file_contents("data/posts.json")
 
     for i, p in enumerate(posts, start=1):
         satoshi_id = None
@@ -224,10 +228,9 @@ def import_post():
 
 def import_quote_category():
     click.echo("Importing QuoteCategory...", nl=False)
-    with open("./data/quotecategories.json") as data_file:
-        quotecategories = json.load(data_file)
+    quote_categories = get_file_contents("data/quotecategories.json")
 
-    for qc in quotecategories:
+    for qc in quote_categories:
         quote_category = QuoteCategory(slug=qc["slug"], name=qc["name"])
         db.session.add(quote_category)
     db.session.commit()
@@ -236,8 +239,7 @@ def import_quote_category():
 
 def import_quote():
     click.echo("Importing Quote...", nl=False)
-    with open("./data/quotes.json") as data_file:
-        quotes = json.load(data_file)
+    quotes = get_file_contents("data/quotes.json")
 
     for i, quote in enumerate(quotes, start=1):
         q = Quote(
@@ -261,8 +263,7 @@ def import_quote():
 
 def import_author():
     click.echo("Importing Author...", nl=False)
-    with open("./data/authors.json") as data_file:
-        authors = json.load(data_file)
+    authors = get_file_contents("data/authors.json")
 
     for i, author in enumerate(authors, start=1):
         author = Author(
@@ -279,8 +280,7 @@ def import_author():
 
 def import_doc():
     click.echo("Importing Doc...", nl=False)
-    with open("./data/literature.json") as data_file:
-        docs = json.load(data_file)
+    docs = get_file_contents("data/literature.json")
 
     for doc in docs:
         authorlist = doc["author"]
@@ -317,8 +317,7 @@ def import_doc():
 
 def import_research_doc():
     click.echo("Importing ResearchDoc...", nl=False)
-    with open("./data/research.json") as data_file:
-        docs = json.load(data_file)
+    docs = get_file_contents("data/research.json")
 
     for doc in docs:
         authorlist = doc["author"]
@@ -360,10 +359,9 @@ def import_research_doc():
 
 def import_blog_series():
     click.echo("Importing BlogSeries...", nl=False)
-    with open("./data/blogseries.json") as data_file:
-        blogss = json.load(data_file)
+    blog_series = get_file_contents("data/blogseries.json")
 
-    for i, blogs in enumerate(blogss, start=1):
+    for i, blogs in enumerate(blog_series, start=1):
         blog_series = BlogSeries(
             id=i,
             title=blogs["title"],
@@ -377,10 +375,9 @@ def import_blog_series():
 
 def import_blog_post():
     click.echo("Importing BlogPost...", nl=False)
-    with open("./data/blogposts.json") as data_file:
-        blogposts = json.load(data_file)
+    blog_posts = get_file_contents("data/blogposts.json")
 
-    for i, bp in enumerate(blogposts, start=1):
+    for i, bp in enumerate(blog_posts, start=1):
         blogpost = BlogPost(
             id=i,
             title=bp["title"],
@@ -414,8 +411,7 @@ def import_blog_post():
 
 def import_skeptic():
     click.echo("Importing Skeptic...", nl=False)
-    with open("./data/skeptics.json") as data_file:
-        skeptics = json.load(data_file)
+    skeptics = get_file_contents("data/skeptics.json")
 
     for i, skeptic in enumerate(skeptics, start=1):
         slug_date = datetime.strftime(parser.parse(skeptic["date"]), "%Y-%m-%d")
@@ -450,8 +446,7 @@ def import_skeptic():
 
 def import_episode():
     click.echo("Importing Episode...", nl=False)
-    with open("./data/episodes.json") as data_file:
-        episodes = json.load(data_file)
+    episodes = get_file_contents("data/episodes.json")
 
     for ep in episodes:
         episode = Episode(

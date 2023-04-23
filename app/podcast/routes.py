@@ -1,8 +1,8 @@
 from feedgen.feed import FeedGenerator
-from flask import make_response, redirect, render_template, url_for
+from flask import make_response, render_template, url_for
 from sqlalchemy import asc, desc
 
-from app import cache
+from app import cache, db
 from app.models import Episode
 from app.podcast import bp
 from app.utils.pages import get_podcast_episode
@@ -12,26 +12,23 @@ from app.utils.timetils import localize_time
 @bp.route("/", methods=["GET"])
 @cache.cached()
 def index():
-    episodes = Episode.query.order_by(desc(Episode.date)).all()
+    episodes = db.session.scalars(db.select(Episode).order_by(desc(Episode.date)))
     return render_template("podcast/index.html", episodes=episodes)
 
 
 @bp.route("/<string:slug>/", methods=["GET"])
 @cache.cached()
 def detail(slug):
-    episode = Episode.query.filter_by(slug=slug).order_by(desc(Episode.date)).first()
-    if episode is not None:
-        page = get_podcast_episode(slug)
-        return render_template("podcast/detail.html", episode=episode, page=page)
-    else:
-        return redirect(url_for("podcast.index"))
+    episode = db.first_or_404(db.select(Episode).filter_by(slug=slug))
+    page = get_podcast_episode(slug)
+    return render_template("podcast/detail.html", episode=episode, page=page)
 
 
 @bp.route("/feed/", methods=["GET"])
 @cache.cached()
 def feed():
     # Entries are added backwards
-    episodes = Episode.query.order_by(asc(Episode.date)).all()
+    episodes = db.session.scalars(db.select(Episode).order_by(asc(Episode.date)))
 
     fg = FeedGenerator()
     fg.load_extension("podcast")

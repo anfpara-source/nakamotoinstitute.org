@@ -6,6 +6,7 @@
 import os
 
 from flask import (
+    abort,
     current_app,
     redirect,
     render_template,
@@ -15,7 +16,7 @@ from flask import (
 )
 from sqlalchemy import desc
 
-from app import cache
+from app import cache, db
 from app.main import bp
 from app.models import BlogPost, Doc, Price, ResearchDoc, Skeptic
 from app.utils.pages import get_literature_doc, get_research_doc
@@ -34,7 +35,7 @@ def favicon():
 @bp.route("/")
 @cache.cached()
 def index():
-    blog_post = BlogPost.query.order_by(desc(BlogPost.added)).first()
+    blog_post = db.first_or_404(db.select(BlogPost).order_by(desc(BlogPost.added)))
     return render_template("main/index.html", latest_blog_post=blog_post)
 
 
@@ -65,35 +66,32 @@ def donate():
 @bp.route("/<string:slug>/", methods=["GET"])
 @cache.cached()
 def doc_view(slug):
-    doc = Doc.query.filter_by(slug=slug).first()
-    if doc is not None:
+    doc = db.session.scalar(db.select(Doc).filter_by(slug=slug))
+    if doc:
         formats = [format.name for format in doc.formats]
-        if "html" in formats:
-            page = get_literature_doc(slug)
-            return render_template(
-                "literature/doc.html", doc=doc, page=page, doc_type="literature"
-            )
-        else:
+        if "html" not in formats:
             return redirect(url_for("literature.detail", slug=slug))
-    else:
-        doc = ResearchDoc.query.filter_by(slug=slug).first()
-        if doc is not None:
-            formats = [format.name for format in doc.formats]
-            if "html" in formats:
-                page = get_research_doc(slug)
-                return render_template(
-                    "literature/doc.html", doc=doc, page=page, doc_type="research"
-                )
-            else:
-                return redirect(url_for("research.detail", slug=slug))
-    return redirect(url_for("main.index"))
+        page = get_literature_doc(slug)
+        return render_template(
+            "literature/doc.html", doc=doc, page=page, doc_type="literature"
+        )
+    research_doc = db.session.scalar(db.select(ResearchDoc).filter_by(slug=slug))
+    if not research_doc:
+        abort(404)
+    formats = [format.name for format in research_doc.formats]
+    if "html" not in formats:
+        return redirect(url_for("research.detail", slug=slug))
+    page = get_research_doc(slug)
+    return render_template(
+        "literature/doc.html", doc=research_doc, page=page, doc_type="research"
+    )
 
 
 @bp.route("/the-skeptics/")
 @cache.cached()
 def skeptics():
-    skeptics = Skeptic.query.order_by(Skeptic.date).all()
-    latest_price = Price.query.all()[-1]
+    skeptics = db.session.scalars(db.select(Skeptic).order_by(Skeptic.date))
+    latest_price = db.session.scalar(db.select(Price).order_by(desc(Price.date)))
     return render_template(
         "main/the_skeptics.html", skeptics=skeptics, last_updated=latest_price.date
     )
@@ -109,14 +107,13 @@ def crash_course():
 @bp.route("/<string:url_slug>.<string:ext>/")
 @cache.cached()
 def reroute(url_slug, ext):
-    doc = Doc.query.filter_by(slug=url_slug).first()
-    if doc is not None:
+    doc = db.session.scalar(db.select(Doc).filter_by(slug=url_slug))
+    if doc:
         return redirect(url_for("literature.view", slug=doc.slug, ext=ext))
-    else:
-        doc = ResearchDoc.query.filter_by(slug=url_slug).first()
-        if doc is not None:
-            return redirect(url_for("research.view", slug=doc.slug, ext=ext))
-    return redirect(url_for("main.index"))
+    research_doc = db.session.scalar(db.select(ResearchDoc).filter_by(slug=url_slug))
+    if not research_doc:
+        abort(404)
+    return redirect(url_for("research.view", slug=research_doc.slug, ext=ext))
 
 
 @bp.route("/keybase.txt")
