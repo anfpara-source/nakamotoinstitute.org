@@ -268,9 +268,8 @@ def import_author():
     for i, author in enumerate(authors, start=1):
         author = Author(
             id=i,
-            first=author["first"],
-            middle=author["middle"],
-            last=author["last"],
+            name=author["name"],
+            sort_name=author["sort_name"],
             slug=author["slug"],
         )
         db.session.add(author)

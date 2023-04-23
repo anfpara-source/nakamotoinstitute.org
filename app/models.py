@@ -148,16 +148,15 @@ researchauthors = db.Table(
 
 class Author(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    first = db.Column(db.String())
-    middle = db.Column(db.String())
-    last = db.Column(db.String())
+    name = db.Column(db.String())
+    sort_name = db.Column(db.String())
     slug = db.Column(db.String())
 
     def __repr__(self):
         return f"<Author {self.slug}>"
 
     def __str__(self):
-        return f"{self.first} {self.middle} {self.last}"
+        return f"{self.name}"
 
 
 formats = db.Table(

@@ -8,7 +8,7 @@ from app.models import Author
 @bp.route("/", methods=["GET"])
 @cache.cached()
 def index():
-    authors = db.session.scalars(db.select(Author).order_by(Author.last))
+    authors = db.session.scalars(db.select(Author).order_by(Author.sort_name))
     return render_template("authors/index.html", authors=authors)
 
 

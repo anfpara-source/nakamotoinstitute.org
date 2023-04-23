@@ -1,524 +1,437 @@
 [
   {
-    "first": "Mark",
-    "middle": "S.",
-    "last": "Miller",
-    "slug": "mark-s-miller"
-  },
-  {
-    "first": "Chip",
-    "middle": "",
-    "last": "Morningstar",
-    "slug": "chip-morningstar"
-  },
-  {
-    "first": "Bill",
-    "middle": "",
-    "last": "Frantz",
-    "slug": "bill-frantz"
-  },
-  {
-    "first": "Oleg",
-    "middle": "",
-    "last": "Andreev",
-    "slug": "oleg-andreev"
-  },
-  {
-    "first": "Andrea",
-    "middle": "",
-    "last": "Castillo",
-    "slug": "andrea-castillo"
-  },
-  {
-    "first": "Mircea",
-    "middle": "",
-    "last": "Popescu",
-    "slug": "mircea-popescu"
-  },
-  {
-    "first": "Peter",
-    "middle": "",
-    "last": "Dushenski",
-    "slug": "peter-dushenski"
-  },
-  {
-    "first": "Satoshi",
-    "middle": "",
-    "last": "Nakamoto",
-    "slug": "satoshi-nakamoto"
-  },
-  {
-    "first": "Peter",
-    "middle": "",
-    "last": "Šurda",
-    "slug": "peter-surda"
-  },
-  {
-    "first": "Konrad",
-    "middle": "S.",
-    "last": "Graf",
-    "slug": "konrad-s-graf"
-  },
-  {
-    "first": "Wei",
-    "middle": "",
-    "last": "Dai",
-    "slug": "wei-dai"
-  },
-  {
-    "first": "Henri",
-    "middle": "",
-    "last": "Massias",
-    "slug": "henri-massias"
-  },
-  {
-    "first": "Xavier",
-    "middle": "",
-    "last": "Serret-Avila",
-    "slug": "xavier-serret-avila"
-  },
-  {
-    "first": "Jean-Jacques",
-    "middle": "",
-    "last": "Quisquater",
-    "slug": "jean-jacques-quisquater"
-  },
-  {
-    "first": "Stuart",
-    "middle": "",
-    "last": "Haber",
-    "slug": "stuart-haber"
-  },
-  {
-    "first": "W.",
-    "middle": "Scott",
-    "last": "Stornetta",
-    "slug": "w-scott-stornetta"
-  },
-  {
-    "first": "Dave",
-    "middle": "",
-    "last": "Bayer",
-    "slug": "dave-bayer"
-  },
-  {
-    "first": "Adam",
-    "middle": "",
-    "last": "Back",
-    "slug": "adam-back"
-  },
-  {
-    "first": "Ralph",
-    "middle": "C.",
-    "last": "Merkle",
-    "slug": "ralph-c-merkle"
-  },
-  {
-    "first": "William",
-    "middle": "",
-    "last": "Feller",
-    "slug": "william-feller"
-  },
-  {
-    "first": "Timothy",
-    "middle": "C.",
-    "last": "May",
-    "slug": "timothy-c-may"
-  },
-  {
-    "first": "Nick",
-    "middle": "",
-    "last": "Szabo",
-    "slug": "nick-szabo"
-  },
-  {
-    "first": "David",
-    "middle": "",
-    "last": "Chaum",
-    "slug": "david-chaum"
-  },
-  {
-    "first": "Hal",
-    "middle": "",
-    "last": "Finney",
-    "slug": "hal-finney"
-  },
-  {
-    "first": "Whitfield",
-    "middle": "",
-    "last": "Diffie",
-    "slug": "whitfield-diffie"
-  },
-  {
-    "first": "Martin",
-    "middle": "E.",
-    "last": "Hellman",
-    "slug": "martin-e-hellman"
-  },
-  {
-    "first": "Ronald",
-    "middle": "L.",
-    "last": "Rivest",
-    "slug": "ronald-l-rivest"
-  },
-  {
-    "first": "Adi",
-    "middle": "",
-    "last": "Shamir",
-    "slug": "adi-shamir"
-  },
-  {
-    "first": "Leonard",
-    "middle": "M.",
-    "last": "Adleman",
+    "name": "Leonard M. Adleman",
+    "sort_name": "Adleman, Leonard M.",
     "slug": "leonard-m-adleman"
   },
   {
-    "first": "Oded",
-    "middle": "",
-    "last": "Goldreich",
-    "slug": "oded-goldreich"
-  },
-  {
-    "first": "Silvio",
-    "middle": "",
-    "last": "Micali",
-    "slug": "silvio-micali"
-  },
-  {
-    "first": "Avi",
-    "middle": "",
-    "last": "Wigderson",
-    "slug": "avi-wigderson"
-  },
-  {
-    "first": "Ian",
-    "middle": "",
-    "last": "Grigg",
-    "slug": "ian-grigg"
-  },
-  {
-    "first": "Bill",
-    "middle": "",
-    "last": "St. Clair",
-    "slug": "bill-st-clair"
-  },
-  {
-    "first": "Eric",
-    "middle": "",
-    "last": "Hughes",
-    "slug": "eric-hughes"
-  },
-  {
-    "first": "Julian",
-    "middle": "",
-    "last": "Assange",
-    "slug": "julian-assange"
-  },
-  {
-    "first": "Eric",
-    "middle": "S.",
-    "last": "Raymond",
-    "slug": "eric-s-raymond"
-  },
-  {
-    "first": "Ludwig",
-    "middle": "von",
-    "last": "Mises",
-    "slug": "ludwig-von-mises"
-  },
-  {
-    "first": "Jörg",
-    "middle": "Guido",
-    "last": "Hülsmann",
-    "slug": "jorg-guido-hulsmann"
-  },
-  {
-    "first": "Jesús",
-    "middle": "",
-    "last": "Huerta de Soto",
-    "slug": "jesus-huerta-de-soto"
-  },
-  {
-    "first": "Friedrich",
-    "middle": "A.",
-    "last": "Hayek",
-    "slug": "friedrich-a-hayek"
-  },
-  {
-    "first": "N.",
-    "middle": "Stephan",
-    "last": "Kinsella",
-    "slug": "n-stephan-kinsella"
-  },
-  {
-    "first": "Michele",
-    "middle": "",
-    "last": "Boldrin",
-    "slug": "michele-boldrin"
-  },
-  {
-    "first": "David",
-    "middle": "K.",
-    "last": "Levine",
-    "slug": "david-k-levine"
-  },
-  {
-    "first": "Richard",
-    "middle": "M.",
-    "last": "Stallman",
-    "slug": "richard-m-stallman"
-  },
-  {
-    "first": "John",
-    "middle": "",
-    "last": "Milton",
-    "slug": "john-milton"
-  },
-  {
-    "first": "Amir",
-    "middle": "",
-    "last": "Taaki",
-    "slug": "amir-taaki"
-  },
-  {
-    "first": "Ben",
-    "middle": "",
-    "last": "Laurie",
-    "slug": "ben-laurie"
-  },
-  {
-    "first": "Philip",
-    "middle": "R.",
-    "last": "Zimmermann",
-    "slug": "philip-r-zimmermann"
-  },
-  {
-    "first": "Chuck",
-    "middle": "",
-    "last": "Hammill",
-    "slug": "chuck-hammill"
-  },
-  {
-    "first": "Daniel",
-    "middle": "",
-    "last": "Krawisz",
-    "slug": "daniel-krawisz"
-  },
-  {
-    "first": "Pierre",
-    "middle": "",
-    "last": "Rochard",
-    "slug": "pierre-rochard"
-  },
-  {
-    "first": "Michael",
-    "middle": "",
-    "last": "Goldstein",
-    "slug": "michael-goldstein"
-  },
-  {
-    "first": "David",
-    "middle": "D.",
-    "last": "Friedman",
-    "slug": "david-d-friedman"
-  },
-  {
-    "first": "Andrew",
-    "middle": "",
-    "last": "Miller",
-    "slug": "andrew-miller"
-  },
-  {
-    "first": "Joseph",
-    "middle": "J.",
-    "last": "LaViola, Jr.",
-    "slug": "joseph-j-laviola-jr"
-  },
-  {
-    "first": "Leslie",
-    "middle": "",
-    "last": "Lamport",
-    "slug": "leslie-lamport"
-  },
-  {
-    "first": "Robert",
-    "middle": "",
-    "last": "Shostak",
-    "slug": "robert-shostak"
-  },
-  {
-    "first": "Marshall",
-    "middle": "",
-    "last": "Pease",
-    "slug": "marshall-pease"
-  },
-  {
-    "first": "Fred",
-    "middle": "B.",
-    "last": "Schneider",
-    "slug": "fred-b-schneider"
-  },
-  {
-    "first": "Daniel",
-    "middle": "A.",
-    "last": "Nagy",
-    "slug": "daniel-a-nagy"
-  },
-  {
-    "first": "Andrew",
-    "middle": "",
-    "last": "Poelstra",
-    "slug": "andrew-poelstra"
-  },
-  {
-    "first": "Ken",
-    "middle": "",
-    "last": "Thompson",
-    "slug": "ken-thompson"
-  },
-  {
-    "first": "John",
-    "middle": "R.",
-    "last": "Douceur",
-    "slug": "john-r-douceur"
-  },
-  {
-    "first": "Alexis",
-    "middle": "",
-    "last": "Bonnecaze",
-    "slug": "alexis-bonnecaze"
-  },
-  {
-    "first": "Pierre",
-    "middle": "",
-    "last": "Liardet",
-    "slug": "pierre-liardet"
-  },
-  {
-    "first": "Alban",
-    "middle": "",
-    "last": "Gabillon",
-    "slug": "alban-gabillon"
-  },
-  {
-    "first": "Kaouther",
-    "middle": "",
-    "last": "Blibech",
-    "slug": "kaouther-blibech"
-  },
-  {
-    "first": "Robert",
-    "middle": "",
-    "last": "Hettinga",
-    "slug": "robert-hettinga"
-  },
-  {
-    "first": "John",
-    "middle": "Perry",
-    "last": "Barlow",
-    "slug": "john-perry-barlow"
-  },
-  {
-    "first": "Jimmy",
-    "middle": "",
-    "last": "Song",
-    "slug": "jimmy-song"
-  },
-  {
-    "first": "David",
-    "middle": "A.",
-    "last": "Harding",
-    "slug": "david-a-harding"
-  },
-  {
-    "first": "Saifedean",
-    "middle": "",
-    "last": "Ammous",
+    "name": "Saifedean Ammous",
+    "sort_name": "Ammous, Saifedean",
     "slug": "saifedean-ammous"
   },
   {
-    "first": "Joseph",
-    "middle": "",
-    "last": "Poon",
-    "slug": "joseph-poon"
+    "name": "Oleg Andreev",
+    "sort_name": "Andreev, Oleg",
+    "slug": "oleg-andreev"
   },
   {
-    "first": "Thaddeus",
-    "middle": "",
-    "last": "Dryja",
-    "slug": "thaddeus-dryja"
+    "name": "Julian Assange",
+    "sort_name": "Assange, Julian",
+    "slug": "julian-assange"
   },
   {
-    "first": "Conrad",
-    "middle": "",
-    "last": "Burchert",
-    "slug": "conrad-burchert"
+    "name": "Adam Back",
+    "sort_name": "Back, Adam",
+    "slug": "adam-back"
   },
   {
-    "first": "Christian",
-    "middle": "",
-    "last": "Decker",
-    "slug": "christian-decker"
+    "name": "John Perry Barlow",
+    "sort_name": "Barlow, John Perry",
+    "slug": "john-perry-barlow"
   },
   {
-    "first": "Roger",
-    "middle": "",
-    "last": "Wattenhofer",
-    "slug": "roger-wattenhofer"
+    "name": "Dave Bayer",
+    "sort_name": "Bayer, Dave",
+    "slug": "dave-bayer"
   },
   {
-    "first": "Carl",
-    "middle": "",
-    "last": "Menger",
-    "slug": "carl-menger"
+    "name": "Kaouther Blibech",
+    "sort_name": "Blibech, Kaouther",
+    "slug": "kaouther-blibech"
   },
   {
-    "first": "Murray",
-    "middle": "N.",
-    "last": "Rothbard",
-    "slug": "murray-n-rothbard"
+    "name": "Michele Boldrin",
+    "sort_name": "Boldrin, Michele",
+    "slug": "michele-boldrin"
   },
   {
-    "first": "Vijay",
-    "middle": "",
-    "last": "Boyapati",
+    "name": "Alexis Bonnecaze",
+    "sort_name": "Bonnecaze, Alexis",
+    "slug": "alexis-bonnecaze"
+  },
+  {
+    "name": "Vijay Boyapati",
+    "sort_name": "Boyapati, Vijay",
     "slug": "vijay-boyapati"
   },
   {
-    "first": "Trace",
-    "middle": "",
-    "last": "Mayer",
-    "slug": "trace-mayer"
+    "name": "Conrad Burchert",
+    "sort_name": "Burchert, Conrad",
+    "slug": "conrad-burchert"
   },
   {
-    "first": "Ross",
-    "middle": "",
-    "last": "Ulbricht",
-    "slug": "ross-ulbricht"
+    "name": "Andrea Castillo",
+    "sort_name": "Castillo, Andrea",
+    "slug": "andrea-castillo"
   },
   {
-    "first": "Parker",
-    "middle": "",
-    "last": "Lewis",
-    "slug": "parker-lewis"
+    "name": "David Chaum",
+    "sort_name": "Chaum, David",
+    "slug": "david-chaum"
   },
   {
-    "first": "Hans-Hermann",
-    "middle": "",
-    "last": "Hoppe",
-    "slug": "hans-hermann-hoppe"
+    "name": "Wei Dai",
+    "sort_name": "Dai, Wei",
+    "slug": "wei-dai"
   },
   {
-    "first": "Cynthia",
-    "middle": "",
-    "last": "Dwork",
+    "name": "Christian Decker",
+    "sort_name": "Decker, Christian",
+    "slug": "christian-decker"
+  },
+  {
+    "name": "Whitfield Diffie",
+    "sort_name": "Diffie, Whitfield",
+    "slug": "whitfield-diffie"
+  },
+  {
+    "name": "John R. Douceur",
+    "sort_name": "Douceur, John R.",
+    "slug": "john-r-douceur"
+  },
+  {
+    "name": "Thaddeus Dryja",
+    "sort_name": "Dryja, Thaddeus",
+    "slug": "thaddeus-dryja"
+  },
+  {
+    "name": "Peter Dushenski",
+    "sort_name": "Dushenski, Peter",
+    "slug": "peter-dushenski"
+  },
+  {
+    "name": "Cynthia Dwork",
+    "sort_name": "Dwork, Cynthia",
     "slug": "cynthia-dwork"
   },
   {
-    "first": "Moni",
-    "middle": "",
-    "last": "Naor",
+    "name": "William Feller",
+    "sort_name": "Feller, William",
+    "slug": "william-feller"
+  },
+  {
+    "name": "Hal Finney",
+    "sort_name": "Finney, Hal",
+    "slug": "hal-finney"
+  },
+  {
+    "name": "Bill Frantz",
+    "sort_name": "Frantz, Bill",
+    "slug": "bill-frantz"
+  },
+  {
+    "name": "David D. Friedman",
+    "sort_name": "Friedman, David D.",
+    "slug": "david-d-friedman"
+  },
+  {
+    "name": "Alban Gabillon",
+    "sort_name": "Gabillon, Alban",
+    "slug": "alban-gabillon"
+  },
+  {
+    "name": "Oded Goldreich",
+    "sort_name": "Goldreich, Oded",
+    "slug": "oded-goldreich"
+  },
+  {
+    "name": "Michael Goldstein",
+    "sort_name": "Goldstein, Michael",
+    "slug": "michael-goldstein"
+  },
+  {
+    "name": "Konrad S. Graf",
+    "sort_name": "Graf, Konrad S.",
+    "slug": "konrad-s-graf"
+  },
+  {
+    "name": "Ian Grigg",
+    "sort_name": "Grigg, Ian",
+    "slug": "ian-grigg"
+  },
+  {
+    "name": "Stuart Haber",
+    "sort_name": "Haber, Stuart",
+    "slug": "stuart-haber"
+  },
+  {
+    "name": "Chuck Hammill",
+    "sort_name": "Hammill, Chuck",
+    "slug": "chuck-hammill"
+  },
+  {
+    "name": "David A. Harding",
+    "sort_name": "Harding, David A.",
+    "slug": "david-a-harding"
+  },
+  {
+    "name": "Friedrich A. Hayek",
+    "sort_name": "Hayek, Friedrich A.",
+    "slug": "friedrich-a-hayek"
+  },
+  {
+    "name": "Martin E. Hellman",
+    "sort_name": "Hellman, Martin E.",
+    "slug": "martin-e-hellman"
+  },
+  {
+    "name": "Robert Hettinga",
+    "sort_name": "Hettinga, Robert",
+    "slug": "robert-hettinga"
+  },
+  {
+    "name": "Hans-Hermann Hoppe",
+    "sort_name": "Hoppe, Hans-Hermann",
+    "slug": "hans-hermann-hoppe"
+  },
+  {
+    "name": "Jes\u00fas Huerta de Soto",
+    "sort_name": "Huerta de Soto, Jes\u00fas",
+    "slug": "jesus-huerta-de-soto"
+  },
+  {
+    "name": "Eric Hughes",
+    "sort_name": "Hughes, Eric",
+    "slug": "eric-hughes"
+  },
+  {
+    "name": "J\u00f6rg Guido H\u00fclsmann",
+    "sort_name": "H\u00fclsmann, J\u00f6rg Guido",
+    "slug": "jorg-guido-hulsmann"
+  },
+  {
+    "name": "N. Stephan Kinsella",
+    "sort_name": "Kinsella, N. Stephan",
+    "slug": "n-stephan-kinsella"
+  },
+  {
+    "name": "Daniel Krawisz",
+    "sort_name": "Krawisz, Daniel",
+    "slug": "daniel-krawisz"
+  },
+  {
+    "name": "Joseph J. LaViola, Jr.",
+    "sort_name": "LaViola, Jr., Joseph J.",
+    "slug": "joseph-j-laviola-jr"
+  },
+  {
+    "name": "Leslie Lamport",
+    "sort_name": "Lamport, Leslie",
+    "slug": "leslie-lamport"
+  },
+  {
+    "name": "Ben Laurie",
+    "sort_name": "Laurie, Ben",
+    "slug": "ben-laurie"
+  },
+  {
+    "name": "David K. Levine",
+    "sort_name": "Levine, David K.",
+    "slug": "david-k-levine"
+  },
+  {
+    "name": "Parker Lewis",
+    "sort_name": "Lewis, Parker",
+    "slug": "parker-lewis"
+  },
+  {
+    "name": "Pierre Liardet",
+    "sort_name": "Liardet, Pierre",
+    "slug": "pierre-liardet"
+  },
+  {
+    "name": "Henri Massias",
+    "sort_name": "Massias, Henri",
+    "slug": "henri-massias"
+  },
+  {
+    "name": "Timothy C. May",
+    "sort_name": "May, Timothy C.",
+    "slug": "timothy-c-may"
+  },
+  {
+    "name": "Trace Mayer",
+    "sort_name": "Mayer, Trace",
+    "slug": "trace-mayer"
+  },
+  {
+    "name": "Carl Menger",
+    "sort_name": "Menger, Carl",
+    "slug": "carl-menger"
+  },
+  {
+    "name": "Ralph C. Merkle",
+    "sort_name": "Merkle, Ralph C.",
+    "slug": "ralph-c-merkle"
+  },
+  {
+    "name": "Silvio Micali",
+    "sort_name": "Micali, Silvio",
+    "slug": "silvio-micali"
+  },
+  {
+    "name": "Andrew Miller",
+    "sort_name": "Miller, Andrew",
+    "slug": "andrew-miller"
+  },
+  {
+    "name": "Mark S. Miller",
+    "sort_name": "Miller, Mark S.",
+    "slug": "mark-s-miller"
+  },
+  {
+    "name": "John Milton",
+    "sort_name": "Milton, John",
+    "slug": "john-milton"
+  },
+  {
+    "name": "Ludwig von Mises",
+    "sort_name": "Mises, Ludwig von",
+    "slug": "ludwig-von-mises"
+  },
+  {
+    "name": "Chip Morningstar",
+    "sort_name": "Morningstar, Chip",
+    "slug": "chip-morningstar"
+  },
+  {
+    "name": "Daniel A. Nagy",
+    "sort_name": "Nagy, Daniel A.",
+    "slug": "daniel-a-nagy"
+  },
+  {
+    "name": "Satoshi Nakamoto",
+    "sort_name": "Nakamoto, Satoshi",
+    "slug": "satoshi-nakamoto"
+  },
+  {
+    "name": "Moni Naor",
+    "sort_name": "Naor, Moni",
     "slug": "moni-naor"
+  },
+  {
+    "name": "Marshall Pease",
+    "sort_name": "Pease, Marshall",
+    "slug": "marshall-pease"
+  },
+  {
+    "name": "Andrew Poelstra",
+    "sort_name": "Poelstra, Andrew",
+    "slug": "andrew-poelstra"
+  },
+  {
+    "name": "Joseph Poon",
+    "sort_name": "Poon, Joseph",
+    "slug": "joseph-poon"
+  },
+  {
+    "name": "Mircea Popescu",
+    "sort_name": "Popescu, Mircea",
+    "slug": "mircea-popescu"
+  },
+  {
+    "name": "Jean-Jacques Quisquater",
+    "sort_name": "Quisquater, Jean-Jacques",
+    "slug": "jean-jacques-quisquater"
+  },
+  {
+    "name": "Eric S. Raymond",
+    "sort_name": "Raymond, Eric S.",
+    "slug": "eric-s-raymond"
+  },
+  {
+    "name": "Ronald L. Rivest",
+    "sort_name": "Rivest, Ronald L.",
+    "slug": "ronald-l-rivest"
+  },
+  {
+    "name": "Pierre Rochard",
+    "sort_name": "Rochard, Pierre",
+    "slug": "pierre-rochard"
+  },
+  {
+    "name": "Murray N. Rothbard",
+    "sort_name": "Rothbard, Murray N.",
+    "slug": "murray-n-rothbard"
+  },
+  {
+    "name": "Fred B. Schneider",
+    "sort_name": "Schneider, Fred B.",
+    "slug": "fred-b-schneider"
+  },
+  {
+    "name": "Xavier Serret-Avila",
+    "sort_name": "Serret-Avila, Xavier",
+    "slug": "xavier-serret-avila"
+  },
+  {
+    "name": "Adi Shamir",
+    "sort_name": "Shamir, Adi",
+    "slug": "adi-shamir"
+  },
+  {
+    "name": "Robert Shostak",
+    "sort_name": "Shostak, Robert",
+    "slug": "robert-shostak"
+  },
+  {
+    "name": "Jimmy Song",
+    "sort_name": "Song, Jimmy",
+    "slug": "jimmy-song"
+  },
+  {
+    "name": "Bill St. Clair",
+    "sort_name": "St. Clair, Bill",
+    "slug": "bill-st-clair"
+  },
+  {
+    "name": "Richard M. Stallman",
+    "sort_name": "Stallman, Richard M.",
+    "slug": "richard-m-stallman"
+  },
+  {
+    "name": "W. Scott Stornetta",
+    "sort_name": "Stornetta, W. Scott",
+    "slug": "w-scott-stornetta"
+  },
+  {
+    "name": "Peter \u0160urda",
+    "sort_name": "Surda, Peter",
+    "slug": "peter-surda"
+  },
+  {
+    "name": "Nick Szabo",
+    "sort_name": "Szabo, Nick",
+    "slug": "nick-szabo"
+  },
+  {
+    "name": "Amir Taaki",
+    "sort_name": "Taaki, Amir",
+    "slug": "amir-taaki"
+  },
+  {
+    "name": "Ken Thompson",
+    "sort_name": "Thompson, Ken",
+    "slug": "ken-thompson"
+  },
+  {
+    "name": "Ross Ulbricht",
+    "sort_name": "Ulbricht, Ross",
+    "slug": "ross-ulbricht"
+  },
+  {
+    "name": "Roger Wattenhofer",
+    "sort_name": "Wattenhofer, Roger",
+    "slug": "roger-wattenhofer"
+  },
+  {
+    "name": "Avi Wigderson",
+    "sort_name": "Wigderson, Avi",
+    "slug": "avi-wigderson"
+  },
+  {
+    "name": "Philip R. Zimmermann",
+    "sort_name": "Zimmermann, Philip R.",
+    "slug": "philip-r-zimmermann"
   }
 ]
