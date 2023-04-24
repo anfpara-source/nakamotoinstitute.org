@@ -11,11 +11,6 @@ class Config(object):
     SQLALCHEMY_DATABASE_URI = "sqlite:///" + os.path.join(basedir, "app.db")
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
-    FLATPAGES_ROOT = "pages"
-    FLATPAGES_EXTENSION_CONFIGS = {
-        "extra": {},
-    }
-    FLATPAGES_MARKDOWN_EXTENSIONS = ["extra"]
     FLATPAGES_EXTENSION = [".html", ".md"]
     CACHE_NO_NULL_WARNING = os.environ.get("CACHE_NO_NULL_WARNING", True)
 
