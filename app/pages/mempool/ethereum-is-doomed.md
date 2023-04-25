@@ -1,4 +1,10 @@
 ---
+title: Ethereum is Doomed
+author: daniel-krawisz
+date: 2016-06-20
+added: 2016-06-20
+excerpt: "I fully support the attacker’s actions, and I wish I had thought of\
+  \ it first."
 image: programming-with-solidity.png
 image_alt: Programming with Solidity
 ---

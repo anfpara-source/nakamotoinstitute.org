@@ -1,4 +1,12 @@
 ---
+title: The Two Ideologies in Bitcoin
+author: daniel-krawisz
+date: 2014-10-04
+added: 2015-01-02
+excerpt:
+  "There are two ideologies in the Bitcoin world. They are not political ideologies;\
+  \ they are different visions of Bitcoin’s place in the world and how adoption\
+  \ will happen."
 image: dune-fight.jpg
 image_alt: Dune Fight
 ---

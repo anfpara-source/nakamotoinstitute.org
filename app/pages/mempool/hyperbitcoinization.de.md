@@ -1,7 +1,9 @@
 ---
-translated_title: Hyperbitcoinization
+title: Hyperbitcoinization
 image: BitcoinFace.png
 image_alt: BitcoinFace
+translators:
+  - j-o-g
 ---
 
 ## Eine Geldentwertung, verursacht durch Bitcoin
@@ -32,7 +34,7 @@ Die Anpassung daran ist eher einer Reihe von unternehmerischen Handlungen einzel
 
 Ausgehend von diesen zwei Unterschieden mache ich zwei Voraussagen über eine (mögliche) Hyperbitcoinization:
 
-1.      Die Hyperbitcoinization wird schneller ablaufen als eine Hyperinflation
+1.       Die Hyperbitcoinization wird schneller ablaufen als eine Hyperinflation
 
     Ich habe zwei Gründe für diese Annahme:
     a) Der Staat wird weitaus größere Schwierigkeiten haben Bitcoin am Übertritt von Landesgrenzen

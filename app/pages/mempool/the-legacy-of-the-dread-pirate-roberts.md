@@ -1,4 +1,10 @@
 ---
+title: The Legacy of the Dread Pirate Roberts
+author: daniel-krawisz
+date: 2014-07-10
+added: 2014-11-08
+excerpt: All Bitcoin entrepreneurs today build on top of the success of the Silk Road.
+  Their work was made possible by his.
 image: silk-road-logo.jpg
 image_alt: Silk Road
 ---

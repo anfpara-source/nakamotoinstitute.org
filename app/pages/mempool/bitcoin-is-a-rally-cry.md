@@ -1,6 +1,15 @@
 ---
-original_link: https://unchained-capital.com/blog/bitcoin-is-a-rally-cry/
+title: Bitcoin is a Rally Cry
+author: parker-lewis
+date: 2020-03-26
+added: 2020-04-10
+excerpt: No matter how many cycles of quantitative easing the Fed and its global counterparts
+  have in their bag of tricks, bitcoin is inevitably becoming a rallying cry for all
+  those that see the train wreck coming and are unwilling to stand idly by.
+series: gradually-then-suddenly
+series_index: 13
 original_site: Unchained Capital Blog
+original_url: https://unchained-capital.com/blog/bitcoin-is-a-rally-cry/
 ---
 
 “To the People of Texas and _all Americans in the world_.” In his [open call to arms](https://en.wikipedia.org/wiki/To_the_People_of_Texas_%26_All_Americans_in_the_World) from the Alamo, Lt. Colonel William B. Travis began with an expression of America as an idea extending beyond borders, to all Americans in the world. It was a plea to all those that valued the fight for liberty and freedom. Outnumbered ten-to-one, Travis responded to a demand for surrender with a cannon shot. He was no more than 27 years old at the time. Texas declared its independence a week later, but within days, the Alamo fell. The Travis letter became the rallying cry of a revolution. Remember the Alamo. Ultimately, Texas won its independence. Always outnumbered, it is a reminder that the endless pursuit of freedom is a most powerful equalizer. And it is something inherent to the character of Americans in all the world.

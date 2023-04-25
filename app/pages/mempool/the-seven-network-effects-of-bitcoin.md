@@ -1,6 +1,13 @@
 ---
-original_link: https://www.weusecoins.com/the-seven-network-effects-of-bitcoin/
+title: The Seven Network Effects of Bitcoin
+author: trace-mayer
+date: 2015-06-29
+added: 2019-08-02
+excerpt:
+  "The […] listed network effects can only serve to strengthen [Bitcoin].\
+  \ Competitors beware."
 original_site: WeUseCoins
+original_url: https://www.weusecoins.com/the-seven-network-effects-of-bitcoin/
 ---
 
 The 7 network effects of Bitcoin are as follows:

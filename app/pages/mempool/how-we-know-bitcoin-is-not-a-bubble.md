@@ -1,3 +1,12 @@
+---
+title: How We Know Bitcoin Is Not a Bubble
+author: daniel-krawisz
+date: 2014-05-03
+added: 2014-05-03
+excerpt: The difference between money and a bubble is that a commodity whose price
+  is a bubble actually has some underlying value.
+image: rube-goldberg.jpg
+---
 ## The Value of Money
 
 No matter how many times Bitcoin grows by orders of magnitude, holdouts still remain who argue that it is a bubble destined to fail. To address this claim, I will describe a theory that describes how to appraise Bitcoin according to the Austrian theory of money.

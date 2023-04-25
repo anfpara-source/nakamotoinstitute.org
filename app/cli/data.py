@@ -7,8 +7,9 @@ import requests
 import sqlalchemy as sa
 from dateutil import parser
 from flask import Blueprint
+from flask.cli import with_appcontext
 
-from app import db
+from app import db, pages
 from app.cli.skeptics import API_URL, update_skeptics
 from app.cli.utils import DONE, color_text
 from app.models import (
@@ -32,6 +33,7 @@ from app.models import (
     Skeptic,
     Translator,
 )
+from app.utils.pages import get_mempool_post
 
 bp = Blueprint("data", __name__)
 
@@ -134,7 +136,7 @@ def import_translator():
     translators = get_file_contents("data/translators.json")
 
     for translator in translators:
-        new_translator = Translator(name=translator["name"], url=translator["url"])
+        new_translator = Translator(**translator)
         db.session.add(new_translator)
     db.session.commit()
     click.echo(DONE)
@@ -374,36 +376,49 @@ def import_blog_series():
 
 def import_blog_post():
     click.echo("Importing BlogPost...", nl=False)
-    blog_posts = get_file_contents("data/blogposts.json")
 
-    for i, bp in enumerate(blog_posts, start=1):
+    english_posts = []
+    translated_posts = []
+    for post in pages.get("mempool"):
+        if "." in post:
+            translated_posts.append(post)
+        else:
+            english_posts.append(post)
+
+    for i, post in enumerate(english_posts, start=1):
+        page = get_mempool_post(post)
+        meta = page.meta
         blogpost = BlogPost(
             id=i,
-            title=bp["title"],
-            author=[get(Author, slug=bp["author"])],
-            date=parser.parse(bp["date"]),
-            added=parser.parse(bp["added"]),
-            slug=bp["slug"],
-            excerpt=bp["excerpt"],
+            title=meta["title"],
+            author=[get(Author, slug=meta["author"])],
+            date=meta["date"],
+            added=meta["added"],
+            slug=post,
+            excerpt=meta["excerpt"],
         )
         db.session.add(blogpost)
         try:
-            blogpost.series = get(BlogSeries, slug=bp["series"])
-            blogpost.series_index = bp["series_index"]
+            blogpost.series = get(BlogSeries, slug=meta["series"])
+            blogpost.series_index = meta["series_index"]
         except KeyError:
             pass
         db.session.add(blogpost)
-        for lang in bp["translations"]:
-            translators = bp["translations"][lang]
-            dbtranslator = []
-            for translator in translators:
-                dbtranslator += [get(Translator, name=translator)]
-            blog_translation = BlogPostTranslation(
-                language=get(Language, ietf=lang),
-                translators=dbtranslator,
-            )
-            blogpost.translations.append(blog_translation)
-        db.session.add(blogpost)
+    db.session.commit()
+
+    for post in translated_posts:
+        slug, lang = post.split(".")
+        page = get_mempool_post(slug, lang=lang)
+        meta = page.meta
+        translators = [
+            get(Translator, slug=translator) for translator in meta["translators"]
+        ]
+        post_translation = BlogPostTranslation(
+            language=get(Language, ietf=lang), translators=translators
+        )
+        blog_post = get(BlogPost, slug=slug)
+        blog_post.translations.append(post_translation)
+        db.session.add(blog_post)
     db.session.commit()
     click.echo(DONE)
 
@@ -465,6 +480,7 @@ def import_episode():
 
 
 @bp.cli.command()
+@with_appcontext
 def seed():
     """Initialize and seed database."""
     export_prices()

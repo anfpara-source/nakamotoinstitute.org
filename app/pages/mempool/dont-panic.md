@@ -1,6 +1,13 @@
 ---
+title: "Don’t Panic"
+author: daniel-krawisz
+date: 2014-11-22
+added: 2015-01-03
+excerpt:
+  Working in the Bitcoin world is like working for a drug addict with bipolar
+  disorder.
 image: dont-panic.jpg
-image_alt: "Don't Panic"
+image_alt: Don't Panic
 ---
 
 Working in the Bitcoin world is like working for a drug addict with bipolar disorder. There are brief periods of astonishing, irrational exuberance followed by long periods of deep existential dread over basically nothing. During the good times, nothing can damage Bitcoin’s spirit. But for most of the time, bitcoiners are a bunch of namby-pamby worry-warts who wet their pants over everything.

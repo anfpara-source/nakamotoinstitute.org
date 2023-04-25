@@ -1,3 +1,13 @@
+---
+title: Bitcoin is the Best Unit of Account
+author: daniel-krawisz
+date: 2014-05-10
+added: 2014-05-10
+excerpt: Someone still lost in the dollar world looks at Bitcoin and sees wild and
+  extreme volatility, whereas someone in Bitcoin looking back at the dollar sees the
+  worst and longest economic crash in history.
+image: rube-goldberg.jpg
+---
 In an [earlier article](/mempool/i-love-bitcoins-volatility/), I conceded too
 much and suggested that Bitcoin doesn’t _need_ to be a unit of account.
 What I should have said is that Bitcoin is a great unit of account—much

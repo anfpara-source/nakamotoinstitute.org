@@ -1,4 +1,10 @@
 ---
+title: Bitcoin as a Store of Value, Unit of Account, and Medium of Exchange
+author: daniel-krawisz
+date: 2015-01-12
+added: 2015-01-12
+excerpt: "Bitcoin has the right properties for the world’s money, and the more\
+  \ the world comes to terms with this, the more stable it will become."
 image: king-kong.jpg
 image_alt: King Kong
 ---
@@ -48,11 +54,11 @@ of scarce resources.
 
 Right now the world is deciding whether it wants Bitcoin to be its money.
 That’s kind of a big change, and it’s pretty reasonable that Bitcoin would [be
-volatile](/mempool/i-love-bitcoins-volatility/).  Will Bitcoin take over or
+volatile](/mempool/i-love-bitcoins-volatility/). Will Bitcoin take over or
 will it drop to nothing? Fundamentally we don’t know and the rapid changes in
 Bitcoin’s price reflect the confusion and self-doubt in the minds of real
 people trading it, and this is exactly what they should be doing because
-without price signals, there could be no Bitcoin adoption.  Bitcoin’s
+without price signals, there could be no Bitcoin adoption. Bitcoin’s
 exponential growth is a [very strong
 signal](/mempool/bitcoins-compound-rewards/), and if Bitcoin were stable,
 there would be no such signal. There would be no dedicated community of
@@ -102,12 +108,12 @@ to everyone else, not the engineer. Thus, if Bitcoin is going to succeed, then
 it’s a good store of value.
 
 Now, what about Bitcoin as a [unit of
-account](/mempool/bitcoin-is-the-best-unit-of-account/)?  Unlike _store of
+account](/mempool/bitcoin-is-the-best-unit-of-account/)? Unlike _store of
 value_, this is actually a really good term, but unfortunately people do not
 take it literally. When people say _unit of account_, they seem to want
 something that will reliably measure wealth somehow, or that things can be
 priced in without having to be constantly updated. But these are just other
-ways of chasing the siren song of stability.  Here too, if the world is
+ways of chasing the siren song of stability. Here too, if the world is
 changing then prices should be changing, and one can only imperfectly compare
 one’s wealth at different times. Really, one can only compare different
 alternatives which would have taken place over the _same_ time.

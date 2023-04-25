@@ -1,4 +1,11 @@
 ---
+title: "Babysitting Bitcoin Skeptics: A Response to Krugman and Gobry"
+author: daniel-krawisz
+date: 2014-11-30
+added: 2015-01-04
+excerpt:
+  "Krugman’s article and Gobry’s follow-up are confused, do not establish\
+  \ their case, and say nothing about Bitcoin."
 image: krugman-bitcoin.png
 image_alt: Krugman Bitcoin
 ---
@@ -245,15 +252,16 @@ Finally, Gobry has merely repeated Krugman’s claims without showing any
 relevance to Bitcoin, and failed to deal cogently with the evidence that
 Bitcoin is not at risk of a liquidity trap.
 
-[^1]: I suspect that Krugman did not go back and review the original article
-when he wrote his 1998 column because he makes a few errors that he probably
-would otherwise have caught. For example, he says that one unit of scrip was
-worth an hour of babysitting time, when it was really worth one half-hour. He
-also cites the article incorrectly and gives its year of publication as 1978
-instead of 1977\. He does not quote from the original article to support his
-case or note that his interpretation of the events differs somewhat from that
-of the authors. None of that has any necessary effect on the logic of his
-position, but I think these observations suggest that his column may be
-strongly colored by his own preconceptions without a fresh look at the
-original piece. Gobry also shows no evidence of having read the original
-article.
+[^1]:
+    I suspect that Krugman did not go back and review the original article
+    when he wrote his 1998 column because he makes a few errors that he probably
+    would otherwise have caught. For example, he says that one unit of scrip was
+    worth an hour of babysitting time, when it was really worth one half-hour. He
+    also cites the article incorrectly and gives its year of publication as 1978
+    instead of 1977\. He does not quote from the original article to support his
+    case or note that his interpretation of the events differs somewhat from that
+    of the authors. None of that has any necessary effect on the logic of his
+    position, but I think these observations suggest that his column may be
+    strongly colored by his own preconceptions without a fresh look at the
+    original piece. Gobry also shows no evidence of having read the original
+    article.

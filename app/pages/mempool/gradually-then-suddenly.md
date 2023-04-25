@@ -1,6 +1,13 @@
 ---
-original_link: https://www.unchained-capital.com/blog/dollar-crisis-to-bitcoin/
+title: Gradually, Then Suddenly
+author: parker-lewis
+date: 2019-07-26
+added: 2020-01-04
+excerpt: Bitcoin exists as a solution to the money problem that is global QE.
+series: gradually-then-suddenly
+series_index: 1
 original_site: Unchained Capital Blog
+original_url: https://www.unchained-capital.com/blog/dollar-crisis-to-bitcoin/
 ---
 
 ## Introduction

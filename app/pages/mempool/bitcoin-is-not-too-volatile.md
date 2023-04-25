@@ -1,6 +1,16 @@
 ---
-original_link: https://www.unchained-capital.com/blog/bitcoin-is-not-too-volatile/
+title: Bitcoin is Not Too Volatile
+author: parker-lewis
+date: 2019-08-09
+added: 2020-01-04
+excerpt:
+  Volatility in bitcoin is the natural function of monetary adoption and this
+  volatility ultimately strengthens the resilience of the bitcoin network, driving
+  long-term stability. Variation is information.
+series: gradually-then-suddenly
+series_index: 3
 original_site: Unchained Capital Blog
+original_url: https://www.unchained-capital.com/blog/bitcoin-is-not-too-volatile/
 ---
 
 Has anyone you respect ever told you that bitcoin doesn’t make any sense? Maybe you’ve seen the price of bitcoin rise exponentially and then seen it crash. You write it off, believe your friend was right, don’t hear about it for a while and think bitcoin must have died. But then you wake up a few years later, bitcoin hasn’t died and somehow its value is a lot higher again. And you start thinking maybe your skeptical friend wasn’t right?

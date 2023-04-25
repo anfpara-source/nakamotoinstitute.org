@@ -4,7 +4,7 @@ from app import pages
 def get_mempool_post(slug, lang="en"):
     if lang == "en":
         return pages.get("mempool", slug)
-    return pages.get("mempool", f"{slug}-{lang}")
+    return pages.get("mempool", f"{slug}.{lang}")
 
 
 def get_literature_doc(slug):

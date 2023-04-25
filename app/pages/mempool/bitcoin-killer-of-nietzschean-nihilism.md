@@ -1,6 +1,12 @@
 ---
-original_link: http://contravex.com/2014/04/29/bitcoin-killer-of-nietzschian-nihilism/
+title: 'Bitcoin: Killer of Nietzschean Nihilism'
+author: peter-dushenski
+date: 2014-04-29
+added: 2014-07-04
+excerpt: Only Bitcoin can restore the necessary balance between the Gods. Only Bitcoin
+  can give us life.
 original_site: Contravex
+original_url: http://contravex.com/2014/04/29/bitcoin-killer-of-nietzschian-nihilism/
 ---
 
 Friedrich Nietzsche (1844 – 1900) didn’t believe in facts, God, or Darwinianism. He believed in the Will To Power,[^1] art,[^2] and life. He also foresaw the [scientistic consumer age](http://bitcoinpete.com/2014/04/21/consumerism-the-great-equalizer-the-legacy-of-the-french-revolution/ "Consumerism: The Great Equalizer – The Legacy of the French Revolution") between his life and ours,[^3] as well as the bloody nationalistic wars of the 20th century.[^4] He lived a productive, if tortured and controversial, life. And he would’ve fucking _loved_ Bitcoin.

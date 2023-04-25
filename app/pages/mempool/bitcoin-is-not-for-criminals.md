@@ -1,6 +1,17 @@
 ---
-original_link: https://www.unchained-capital.com/blog/bitcoin-is-not-for-criminals/
+title: Bitcoin is Not for Criminals
+author: parker-lewis
+date: 2019-11-29
+added: 2020-01-04
+excerpt: We accept the good with the bad, recognizing that due to the very nature
+  of bitcoin, we do not get to decide. There are always trade-offs, and in this case,
+  that bitcoin will unavoidably be used for illicit purposes is the trade-off we gladly
+  accept in exchange for the economic stability that an unmanipulable global currency
+  will provide.
+series: gradually-then-suddenly
+series_index: 11
 original_site: Unchained Capital Blog
+original_url: https://www.unchained-capital.com/blog/bitcoin-is-not-for-criminals/
 ---
 
 If you have ever heard (or happen to believe) that bitcoin is primarily a tool used by criminals, stop and take a quick sample of your friends and family that you suspect may own bitcoin, and then ask yourself how many are known criminals. There have in fact been widely publicized cases in which criminals have used bitcoin, and because skeptics cannot otherwise explain why anyone else would use it, use for illicit purposes becomes the default assumption. It is generally founded on a view that bitcoin is inferior to the dollar, either because of the belief that it is [too volatile](/mempool/bitcoin-is-not-too-volatile/) or [too slow](/mempool/bitcoin-is-not-too-slow/), or because it is not widely accepted for day-to-day transactions; with a flawed mental framework, the logical explanation then becomes that, from a practical perspective, someone would _only_ use bitcoin for the purpose of facilitating some illicit activity, generally as a means to evade law enforcement. Your favorite Senator or Treasury Secretary may occasionally make the claim, but thankfully, bitcoin is not for criminals; it is however for everyone.

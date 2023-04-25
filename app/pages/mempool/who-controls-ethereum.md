@@ -1,4 +1,11 @@
 ---
+title: Who Controls Ethereum?
+author: daniel-krawisz
+date: 2016-08-07
+added: 2016-08-07
+excerpt: If it became easier for people to trade different forks of the same currency,
+  then investors could get direct experience with different ideas without endangering
+  the network.
 image: charlie-chaplin-modern-times.jpg
 ---
 

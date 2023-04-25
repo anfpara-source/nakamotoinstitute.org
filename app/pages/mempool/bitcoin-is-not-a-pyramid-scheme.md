@@ -1,6 +1,14 @@
 ---
-original_link: https://www.unchained-capital.com/blog/bitcoin-is-not-a-pyramid-scheme/
+title: Bitcoin is Not a Pyramid Scheme
+author: parker-lewis
+date: 2019-10-18
+added: 2020-01-04
+excerpt: '[Bitcoin] will only proliferate if it creates utility for those that adopt
+  it.'
+series: gradually-then-suddenly
+series_index: 9
 original_site: Unchained Capital Blog
+original_url: https://www.unchained-capital.com/blog/bitcoin-is-not-a-pyramid-scheme/
 ---
 
 A few years ago, I received an email from a friend asking for my opinion about an investment opportunity that a mutual contact of ours was considering. After a quick search on the internet and after having watched a few videos, I explained that it looked like a pyramid scheme. This was my shorthand for “avoid at all cost.” The information was forwarded along to our mutual contact and the reply back was not what I was expecting: “Are all pyramid schemes bad?” Some pyramid schemes are harder to identify than others, but even those that are easy to identify find prey in unassuming victims. A good rule of thumb is to run, not walk, away from anything that even hints of being a pyramid scheme. Thankfully, bitcoin is not one of them. While it may seem obvious, not everyone understands what a pyramid scheme actually is, what the warning signs may be, or why such schemes always fail.

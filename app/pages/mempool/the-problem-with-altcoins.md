@@ -1,4 +1,9 @@
 ---
+title: The Problem with Altcoins
+author: daniel-krawisz
+date: 2013-08-22
+added: 2013-08-22
+excerpt: In short, the altcoin phenomenon is the product of greed and bounded rationality.
 image: elvis-impersonators.jpg
 image_alt: Elvis Impersonators
 ---

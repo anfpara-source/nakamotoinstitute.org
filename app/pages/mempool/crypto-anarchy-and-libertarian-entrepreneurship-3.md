@@ -1,6 +1,14 @@
 ---
+title: The Killer App of Liberty
+author: daniel-krawisz
+date: 2013-05-29
+added: 2013-05-29
+excerpt: "If Bitcoin becomes money, the government’s control of money will have\
+  \ ended."
 image: bitcoincarebears.gif
 image_alt: Bitcoin Carebears
+series: crypto-anarchy-and-libertarian-entrepreneurship
+series_index: 3
 ---
 
 [_Chapter 1: The Strategy_](/mempool/crypto-anarchy-and-libertarian-entrepreneurship-1/ "Crypto-Anarchy and Libertarian Entrepreneurship – Chapter 1: The Strategy")

@@ -1,5 +1,7 @@
 ---
-translated_title: Die Perfekte Geldpolitik der Bitcoin Zentralbank
+title: Die Perfekte Geldpolitik der Bitcoin Zentralbank
+translators:
+- volker-herminghaus
 ---
 
 Der folgende Text liefert den analytischen Rahmen für eine konstruktive Debatte zwischen Befürwortern und Kritikern der Geldpolitik von Bitcoin.

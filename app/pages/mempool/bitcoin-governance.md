@@ -1,6 +1,12 @@
 ---
-original_link: https://medium.com/@pierre_rochard/bitcoin-governance-37e86299470f
+title: Bitcoin Governance
+author: pierre-rochard
+date: 2018-07-08
+added: 2018-11-01
+excerpt: Compromising on trustlessness could help the Bitcoin price find a local maximum,
+  at the expense of finding a much higher global maximum.
 original_site: Pierre Rochard's Medium blog
+original_url: https://medium.com/@pierre_rochard/bitcoin-governance-37e86299470f
 ---
 
 ## Why do we care?

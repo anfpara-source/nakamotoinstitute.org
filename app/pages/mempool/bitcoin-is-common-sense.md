@@ -1,6 +1,14 @@
 ---
-original_link: https://unchained-capital.com/blog/bitcoin-is-common-sense/
+title: Bitcoin is Common Sense
+author: parker-lewis
+date: 2020-05-01
+added: 2020-05-23
+excerpt: There may be debate but bitcoin is the inevitable path forward. Time makes
+  more converts than reason.
+series: gradually-then-suddenly
+series_index: 14
 original_site: Unchained Capital Blog
+original_url: https://unchained-capital.com/blog/bitcoin-is-common-sense/
 ---
 
 <figure>

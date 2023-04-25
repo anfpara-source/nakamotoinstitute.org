@@ -1,9 +1,11 @@
 ---
-translated_title: 对密码朋克梦靥的沉思
+title: 对密码朋克梦靥的沉思
 image: landscape-with-the-colosseum-and-the-monument-to-marcus-aurelius.jpg
-translation_url: http://www.8btc.com/meditations-on-cypherpunk-meditations
-translation_publication: 8btc.com
-translation_publication_url: http://www.8btc.com/
+translators:
+  - shao-ping
+original_url: http://www.8btc.com/meditations-on-cypherpunk-meditations
+publication: 8btc.com
+publication_url: http://www.8btc.com/
 ---
 
 <figure>

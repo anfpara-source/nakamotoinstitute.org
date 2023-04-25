@@ -1,6 +1,15 @@
 ---
-original_link: https://www.unchained-capital.com/blog/bitcoin-does-not-waste-energy/
+title: Bitcoin Does Not Waste Energy
+author: parker-lewis
+date: 2019-08-16
+added: 2020-01-04
+excerpt: Put a price on economic stability and the economic freedom a stable monetary
+  system provides; that is the true justification for the amount of energy bitcoin
+  should and will consume. Everything else is a distraction.
+series: gradually-then-suddenly
+series_index: 4
 original_site: Unchained Capital Blog
+original_url: https://www.unchained-capital.com/blog/bitcoin-does-not-waste-energy/
 ---
 
 How many times have you heard the safety instructions before a standard commercial flight? You probably know them by heart, but every time, prior to takeoff, flight attendants instruct passengers traveling with children to put their oxygen mask on first and then tend to the children. Instinctively, it’s counterintuitive. Logically, it makes all the sense in the world. Make sure you can breathe, so that the child dependent on you can breathe too. The same principle applies to the coordination function of money in an economy and the resources required to protect that function. In a more philosophical safety warning, the flight attendant may say, “please make sure the money supply is secure so that we can continue to coordinate the activity of millions of people to build these hyper complex planes that afford you the opportunity to even contemplate the problem I’m about to explain.”

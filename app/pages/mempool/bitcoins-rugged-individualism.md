@@ -1,4 +1,11 @@
 ---
+title: Bitcoin's Rugged Individualism
+author: daniel-krawisz
+date: 2014-06-29
+added: 2014-06-29
+excerpt: 'There is a fundamental agency problem with Bitcoin: agents can disappear
+  or simulate a heist upon themselves. They cannot rationally be trusted without extreme
+  costs being imposed on them which are more stringent than traditional banks.'
 image: ministry-of-information.jpg
 image_alt: Ministry of Information
 ---

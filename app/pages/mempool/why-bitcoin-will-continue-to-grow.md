@@ -1,4 +1,10 @@
 ---
+title: Why Bitcoin Will Continue to Grow
+author: daniel-krawisz
+date: 2014-02-01
+added: 2014-02-01
+excerpt: "For now at least, Bitcoin’s present trend is self-reinforcing with\
+  \ no equilibrium in sight."
 image: hulk.jpg
 ---
 

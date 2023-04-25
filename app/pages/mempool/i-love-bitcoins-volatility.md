@@ -1,4 +1,10 @@
 ---
+title: I Love Bitcoin's Volatility
+author: daniel-krawisz
+date: 2014-01-28
+added: 2014-01-28
+excerpt: "Those who worry about Bitcoin’s volatility fail to understand what\
+  \ it actually means for Bitcoin."
 image: nami.jpg
 image_alt: Nami
 ---

@@ -1,4 +1,10 @@
 ---
+title: Mastercoin is a Nightmare of Insanity
+author: daniel-krawisz
+date: 2013-12-20
+added: 2013-12-20
+excerpt: No one should ever use Mastercoin under any circumstances or appraise their
+  value as anything above zero.
 image: spongebob-and-patrick.png
 image_alt: Spongebob and Patrick
 ---

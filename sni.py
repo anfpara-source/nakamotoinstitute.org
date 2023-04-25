@@ -1,4 +1,4 @@
-from app import cli, create_app, db
+from app import cli, create_app, db, pages
 from app.models import (
     Author,
     BlogPost,
@@ -29,6 +29,7 @@ cli.register(app)
 def make_shell_context():
     return {
         "db": db,
+        "pages": pages,
         "Author": Author,
         "BlogPost": BlogPost,
         "BlogPostTransaction": BlogPostTranslation,

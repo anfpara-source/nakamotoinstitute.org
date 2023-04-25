@@ -1,6 +1,13 @@
 ---
-original_link: https://gist.github.com/oleganza/8cc921e48f396515c6d6
+title: Proof That Proof-of-Work is the Only Solution to the Byzantine Generals' Problem
+author: oleg-andreev
+date: 2014-05-23
+added: 2015-11-17
+excerpt: If achieving consensus in a non-trust manner is ever possible in practice,
+  then it is only possible with a Proof-of-Work scheme and highly specialized expensive
+  production chains.
 original_site: Oleg Andreev's GitHub
+original_url: https://gist.github.com/oleganza/8cc921e48f396515c6d6
 ---
 
 In reply to "@Vlad_Roberto: No, not a programmer. I just know there's better ways to doing anything without massive energy consumption & Banks."

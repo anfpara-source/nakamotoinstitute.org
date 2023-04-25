@@ -1,4 +1,13 @@
 ---
+title: Bitcoin's Shroud of Subtlety and Allure
+author: daniel-krawisz
+date: 2014-06-29
+added: 2014-06-29
+excerpt: Potential Bitcoin attackers are in a Prisoner's Dilemma. In the same way
+  that the people cannot easily rebel against the king owing to a lack of coordination
+  on their part, governments cannot rebel against Bitcoin for the same reason. The
+  government puts the people in a Prisoner's Dilemma against one another, and Bitcoin
+  does the same to government agents.
 image: american-flag-bitcoin.png
 image_alt: A new banner of freedom
 ---

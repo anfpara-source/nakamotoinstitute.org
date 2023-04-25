@@ -1,4 +1,11 @@
 ---
+title: Meditations on Cypherpunk Nightmares
+author: michael-goldstein
+date: 2014-12-24
+added: 2014-12-24
+excerpt: Protecting ourselves from the dangers of crypto-anarchy requires embracing
+  it even more fully and internalizing and practicing the virtues that have helped
+  great men weather the storms of life since antiquity.
 image: landscape-with-the-colosseum-and-the-monument-to-marcus-aurelius.jpg
 ---
 

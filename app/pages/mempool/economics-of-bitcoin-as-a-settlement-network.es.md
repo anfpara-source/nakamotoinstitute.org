@@ -1,8 +1,8 @@
 ---
-original_link: https://thesaifhouse.wordpress.com/2017/05/19/economics-of-bitcoin-as-a-settlement-network/
-original_site: The Saif House
-translated_title: Los economics de Bitcoin como una red de liquidación
-translation_url: http://queesbitcoin.es/los-economics-bitcoin-una-red-liquidacion/
+title: Los economics de Bitcoin como una red de liquidación
+translators:
+  - acrual
+original_url: http://queesbitcoin.es/los-economics-bitcoin-una-red-liquidacion/
 ---
 
 Mientras la popularidad de Bitcoin sigue aumentando, sus comisiones por transacción siguen subiendo, animando al habitual coro de agoreros todavía anclados en la fase 1 de lidiar con el rechazo a bitcoin:
@@ -37,7 +37,7 @@ Saifedean ha escrito un libro llamado _**The Bitcoin Standard: The Decentralized
 
 El mundo moderno fue construido en el siglo XIX sobre la **base de dinero sólido, el oro**, financiado por inversores con preferencia de tiempo baja, heredada de un dinero sólido. La cultura consumista de la gratificación instantánea del siglo XX (preferencia de tiempo alta), por otra parte, ha sido la cultura de la eternamente devaluable divisa fiduciaria, que desincentiva el ahorro, e incentiva el cortoplacismo.
 
-La obsesión con los pagos para el consumo en la comunidad de Bitcoin es una desafortunada reliquia de la era de las divisas fiduciarias. Generaciones que sólo han conocido patatas calientes fiduciarias que necesitan ser gastadas antes de que devalúen, han terminado viendo la vida como una eterna lucha por consumir masivamente. En un mundo de dinero sólido, la gente seguirá consumiendo, por supuesto, pero este consumo tendrá un importante coste de oportunidad en el futuro, ya que los ahorros se apreciarán. Como resultado de esto, el consumo dejará de ser una importante parte de nuestras vidas, y la gente seguirá comprando cosas que realmente necesite, y sobre todo cosas que duren mucho tiempo. En vez de gastar el dinero en porquerías de plástico y caras adicciones de azúcar*, la gente ahorrará su dinero para el futuro, y lo verá apreciarse, alcanzando independencia financiera.
+La obsesión con los pagos para el consumo en la comunidad de Bitcoin es una desafortunada reliquia de la era de las divisas fiduciarias. Generaciones que sólo han conocido patatas calientes fiduciarias que necesitan ser gastadas antes de que devalúen, han terminado viendo la vida como una eterna lucha por consumir masivamente. En un mundo de dinero sólido, la gente seguirá consumiendo, por supuesto, pero este consumo tendrá un importante coste de oportunidad en el futuro, ya que los ahorros se apreciarán. Como resultado de esto, el consumo dejará de ser una importante parte de nuestras vidas, y la gente seguirá comprando cosas que realmente necesite, y sobre todo cosas que duren mucho tiempo. En vez de gastar el dinero en porquerías de plástico y caras adicciones de azúcar\*, la gente ahorrará su dinero para el futuro, y lo verá apreciarse, alcanzando independencia financiera.
 
 El número de transacciones en una economía con un patrón Bitcoin puede ser aún así tan grande como lo es hoy en día, pero la liquidación de estas transacciones no ocurrirá en la blockchain de Bitcoin, cuya inmutabilidad y falta de necesidad de confianza, es demasiado valiosa para pagos al consumo individuales. La realidad es que comprar café no requiere el nivel de seguridad que Bitcoin ofrece; puede ser más adecuado gestionar este tipo de pequeños pagos en una segunda capa de soluciones respaldadas por Bitcoin.
 

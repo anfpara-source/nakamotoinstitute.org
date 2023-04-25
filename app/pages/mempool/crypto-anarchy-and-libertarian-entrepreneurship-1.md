@@ -1,6 +1,14 @@
 ---
+title: The Strategy
+author: daniel-krawisz
+date: 2013-05-22
+added: 2013-05-22
+excerpt: With cryptography, one libertarian inventor can create an entire libertarian
+  society.
 image: distributed.jpg
 image_alt: Distributed
+series: crypto-anarchy-and-libertarian-entrepreneurship
+series_index: 1
 ---
 
 ## Libertarian Entrepreneurship

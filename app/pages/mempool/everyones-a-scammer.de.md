@@ -1,7 +1,9 @@
 ---
-translated_title: Jeder ist ein Scammer
+title: Jeder ist ein Scammer
 image: eastwood.jpg
 image_alt: Eastwood Scowl
+translators:
+- volker-herminghaus
 ---
 
 _Translator's note: scammer = schwindler_

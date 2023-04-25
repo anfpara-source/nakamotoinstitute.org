@@ -1,3 +1,12 @@
+---
+title: The Correct Strategy of Bitcoin Entrepreneurship
+author: daniel-krawisz
+date: 2014-05-16
+added: 2014-05-16
+excerpt: "Don’t be a venture capitalist—be a speculative philanthropist."
+image: rube-goldberg.jpg
+---
+
 ## We're All in This Together
 
 Bitcoin entrepreneurs have yet to appreciate fully collaborative nature of the Bitcoin economy and its implications for entrepreneurial strategy. Every successful entrepreneurial act improves the Bitcoin economy and attracts more people in, thus raising the value of the coins. Each new service benefits everyone else who is already invested. Consequently, Bitcoin businesses do not necessarily need to see themselves as competitors to one another. Even if they have the same business model, they both have more to gain from the influx of new users from outside than by taking customers from one another.
@@ -28,7 +37,7 @@ Much of the Bitcoin world already works very openly. Lots of terrible ideas get 
 
 It is too much of a waste of resources to test ideas in experiments with real businesses. All business models ought to be carefully critiqued beforehand and only the most necessary ones that we have time for should be created. This is not central planning; it is consensus-based entrepreneurship. No one shall be forced to follow any idea at all; it is simply in everyone's best interest to cooperate. If I am right, then soon investors will learn to back only heavily vetted ideas and entrepreneurs will it as well.
 
-In the early Renaissance, mathematics was practiced in secret and mathematicians carefully guarded their own discoveries because a mathematicians' career depended on being able to show patrons that he could solve problems other mathematicians could not. However, in 1545, [Gerolamo Cardano](https://en.wikipedia.org/wiki/Gerolamo_Cardano) sparked a new trend with _[Ars Magna](https://en.wikipedia.org/wiki/Ars_Magna_%28Gerolamo_Cardano%29)_, the first published work to include the general solutions of the cubic and quartic equations. He even included secret work (with citation) by Niccolò Fontana Tartaglia, which whom Cardano had promised not to reveal. Gradually, mathematics transformed into a tradition characterized by publication rather than secrets. Open-access publishing is now demanded. Entrepreneurship is in its Renaissance still.
+In the early Renaissance, mathematics was practiced in secret and mathematicians carefully guarded their own discoveries because a mathematicians' career depended on being able to show patrons that he could solve problems other mathematicians could not. However, in 1545, [Gerolamo Cardano](https://en.wikipedia.org/wiki/Gerolamo_Cardano) sparked a new trend with _[Ars Magna](https://en.wikipedia.org/wiki/Ars_Magna_%28Gerolamo*Cardano%29)*, the first published work to include the general solutions of the cubic and quartic equations. He even included secret work (with citation) by Niccolò Fontana Tartaglia, which whom Cardano had promised not to reveal. Gradually, mathematics transformed into a tradition characterized by publication rather than secrets. Open-access publishing is now demanded. Entrepreneurship is in its Renaissance still.
 
 ## Conclusion
 

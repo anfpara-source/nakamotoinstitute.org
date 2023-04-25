@@ -1,6 +1,13 @@
 ---
+title: Public-Key Cryptography
+author: daniel-krawisz
+date: 2013-05-24
+added: 2013-05-24
+excerpt: Public-key cryptography is the greatest tool of liberty ever devised.
 image: internet.png
 image_alt: Internet
+series: crypto-anarchy-and-libertarian-entrepreneurship
+series_index: 2
 ---
 
 [_Chapter 1: The Strategy_](/mempool/crypto-anarchy-and-libertarian-entrepreneurship-1/ "Crypto-Anarchy and Libertarian Entrepreneurship – Chapter 1: The Strategy")

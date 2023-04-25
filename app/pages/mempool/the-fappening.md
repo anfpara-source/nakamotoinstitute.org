@@ -1,4 +1,12 @@
 ---
+title: "The Fappening — Brought to You By The Information Marketplace"
+author: daniel-krawisz
+date: 2014-09-03
+added: 2015-01-06
+excerpt:
+  Bitcoin makes conspiratorial group cohesion more difficult. If the Fappening
+  took place as I described, then this effect is right at the center. The possibility
+  of getting bitcoins by releasing secrets caused the group to fall apart.
 image: celebs-yell-at-clouds.jpg
 image_alt: Celebs Yell at Clouds
 ---

@@ -1,6 +1,14 @@
 ---
-original_link: https://medium.com/the-bitcoin-times/bitcoin-is-the-great-definancialization-65b4c27a8371
+title: Bitcoin is the Great Definancialization
+author: parker-lewis
+date: 2020-12-19
+added: 2021-01-09
+excerpt: What that future looks like exactly, no one knows, but bitcoin will definancialize
+  the economy, and it will no doubt be a renaissance.
+series: gradually-then-suddenly
+series_index: 16
 original_site: The Bitcoin Times
+original_url: https://medium.com/the-bitcoin-times/bitcoin-is-the-great-definancialization-65b4c27a8371
 ---
 
 Have you ever had a financial advisor (or maybe even a parent) tell you that you need to make your money grow? This idea has been so hardwired in the minds of hard-working people all over the world that it has become practically second nature to the very idea of work.

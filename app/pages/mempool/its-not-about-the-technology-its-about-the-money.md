@@ -1,4 +1,11 @@
 ---
+title: It's Not About the Technology, It's About the Money
+author: daniel-krawisz
+date: 2016-07-13
+added: 2016-07-13
+excerpt: "If someone says “blockchain tech” to you, you might as well walk\
+  \ away right there. They’re just trying to sell you on their new decentralized\
+  \ crowdfunded blockchain tech internet of bitthings appscam."
 image: lyle-lanley-blockchain-technology.png
 image_alt: Lyle Lanley sells blockchain tech
 ---

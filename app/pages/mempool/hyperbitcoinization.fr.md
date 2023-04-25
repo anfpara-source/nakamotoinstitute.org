@@ -1,10 +1,12 @@
 ---
-translated_title: Hyperbitcoinisation
+title: Hyperbitcoinisation
 image: BitcoinFace.png
 image_alt: BitcoinFace
-translation_url: https://parlonsbitcoin.com/blog/hyperbitcoinisation
-translation_publication: Parlons Bitcoin
-translation_publication_url: https://parlonsbitcoin.com
+translators:
+- singe-optimiste
+original_url: https://parlonsbitcoin.com/blog/hyperbitcoinisation
+publication: Parlons Bitcoin
+publication_url: https://parlonsbitcoin.com
 ---
 
 ## Démonétisation induite par le Bitcoin

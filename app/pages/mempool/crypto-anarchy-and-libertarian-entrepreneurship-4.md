@@ -1,6 +1,13 @@
 ---
+title: The Risk from the Software Industry
+author: daniel-krawisz
+date: 2013-06-05
+added: 2013-06-05
+excerpt: "Stay one step ahead of the government and don’t get embroiled in politics."
 image: make.jpg
 image_alt: Make Install Anarchy
+series: crypto-anarchy-and-libertarian-entrepreneurship
+series_index: 4
 ---
 
 [_Chapter 1: The Strategy_](/mempool/crypto-anarchy-and-libertarian-entrepreneurship-1/ "Crypto-Anarchy and Libertarian Entrepreneurship – Chapter 1: The Strategy")

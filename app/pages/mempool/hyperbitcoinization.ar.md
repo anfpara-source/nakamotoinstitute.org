@@ -1,7 +1,9 @@
 ---
-translated_title: البتكنة المتسارعة
+title: البتكنة المتسارعة
 image: BitcoinFace.png
 image_alt: BitcoinFace
+translators:
+  - mohammed-alshiekh
 ---
 
 ## بطلان العملة بسبب البتكوين

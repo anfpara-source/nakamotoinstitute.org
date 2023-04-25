@@ -1,7 +1,9 @@
 ---
-translated_title: Todos son estafadores
+title: Todos son estafadores
 image: eastwood.jpg
 image_alt: Eastwood Scowl
+translators:
+- camilo-flores
 ---
 
 _[Música sugerida para escuchar con la lectura](https://www.youtube.com/watch?v=dJLWLJgWYqQ)_

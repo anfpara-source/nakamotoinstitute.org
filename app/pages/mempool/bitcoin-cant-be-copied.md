@@ -1,6 +1,14 @@
 ---
-original_link: https://www.unchained-capital.com/blog/bitcoin-cant-be-copied/
+title: Bitcoin Can't Be Copied
+author: parker-lewis
+date: 2019-08-02
+added: 2020-01-04
+excerpt: Those that attempt to copy bitcoin signal a failure to understand the properties
+  that make bitcoin valuable or viable as money.
+series: gradually-then-suddenly
+series_index: 2
 original_site: Unchained Capital Blog
+original_url: https://www.unchained-capital.com/blog/bitcoin-cant-be-copied/
 ---
 
 As kids, we all learn that money doesn’t grow on trees. As a society on the other hand, we have become conditioned to believe that it’s not only possible but that it’s a normal, necessary and productive function of our economy. Before bitcoin, this privilege was reserved to global central banks (see [here](https://fred.stlouisfed.org/series/BASE) for example). Post bitcoin, every Tom, Dick & Harry seems to think that they can create money too. At a root level, this is the audacity of everyone that attempts to create a copy of bitcoin. Whether by hard-forking out of consensus (bitcoin cash), cloning bitcoin (litecoin) or creating a new protocol with “better” features (ethereum), each is an attempt to create a new form of money. If bitcoin could do it, why can’t we?

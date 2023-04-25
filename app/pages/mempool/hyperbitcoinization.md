@@ -1,4 +1,10 @@
 ---
+title: Hyperbitcoinization
+author: daniel-krawisz
+date: 2014-03-29
+added: 2014-03-29
+excerpt: Government currencies will rapidly lose value as Bitcoin supplants it. What
+  will such an event be like and how can it be understood economically?
 image: BitcoinFace.png
 image_alt: BitcoinFace
 ---

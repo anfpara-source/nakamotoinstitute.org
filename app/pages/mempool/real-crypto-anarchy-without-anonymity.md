@@ -1,6 +1,12 @@
 ---
-original_link: http://blog.oleganza.com/post/71410377996/real-crypto-anarchy-without-anonymity
+title: Real Crypto-Anarchy Without Anonymity
+author: oleg-andreev
+date: 2013-12-28
+added: 2014-10-02
+excerpt: Bitcoin raises the cost of many kinds of attacks, going far beyond protecting
+  against central banks meddling with money supply.
 original_site: Oleg Andreev's Blog
+original_url: http://blog.oleganza.com/post/71410377996/real-crypto-anarchy-without-anonymity
 ---
 
 Crypto-anarchy is not some crazy utopian ideology, but a very viable thing that unfolds in front of our eyes this very moment. The Internet and Bitcoin will soon allow people solve social problems in a novel way: instead of ancient formula “the strongest wins and beats the shit out of the loser” we all can achieve a peaceful society where both rich and poor, strong and weak can protect their property and freedom on more equal grounds without relying on violent institutions like governments.

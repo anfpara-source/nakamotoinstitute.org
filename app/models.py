@@ -286,6 +286,7 @@ class Translator(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String())
     url = db.Column(db.String())
+    slug = db.Column(db.String())
     blog_posts = db.relationship(
         "BlogPostTranslation",
         secondary=blog_post_translators,
@@ -298,6 +299,8 @@ class Translator(db.Model):
 
 class BlogPostTranslation(db.Model):
     id = db.Column(db.Integer, primary_key=True)
+    title = db.Column(db.String())
+    excerpt = db.Column(db.String())
     blog_post_id = db.Column(db.Integer, db.ForeignKey("blog_post.id"))
     language_id = db.Column(db.Integer, db.ForeignKey("language.id"))
     blog_post = db.relationship("BlogPost", back_populates="translations")

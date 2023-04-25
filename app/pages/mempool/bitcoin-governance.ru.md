@@ -1,8 +1,10 @@
 ---
-translated_title: Управление Биткоином
-translation_url: https://bitcoin-translated.ru/sources/nakamoto-institute/bitcoin-governance/
-translation_publication: Bitcoin Translated
-translation_publication_url: https://bitcoin-translated.ru
+title: Управление Биткоином
+translators:
+  - tony-b
+original_url: https://bitcoin-translated.ru/sources/nakamoto-institute/bitcoin-governance/
+publication: Bitcoin Translated
+publication_url: https://bitcoin-translated.ru
 ---
 
 ## Какая нам разница?

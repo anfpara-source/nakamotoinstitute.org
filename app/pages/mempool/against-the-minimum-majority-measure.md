@@ -1,6 +1,14 @@
 ---
-original_link: https://dtrt.org/posts/minimum-majority-measure/
+title: Against the Minimum Majority Measure
+author: david-a-harding
+date: 2017-07-28
+added: 2017-07-29
+excerpt: "I personally suspect that Bitcoin’s steadily improving privacy will\
+  \ prevent us from ever measuring decentralization in a truly objective way. Losing\
+  \ easy quantification but gaining stronger privacy seems like a good tradeoff to\
+  \ me."
 original_site: David A. Harding's blog
+original_url: https://dtrt.org/posts/minimum-majority-measure/
 ---
 
 Balaji Srinivasan and Leland Lee of the company 21 Inc. recently posted a [detailed article](https://news.21.co/quantifying-decentralization-e39db233c28e) about measuring Bitcoin’s decentralization. This is a description of some concerns I have with the article:

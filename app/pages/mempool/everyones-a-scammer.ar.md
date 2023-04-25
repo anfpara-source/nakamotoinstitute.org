@@ -1,10 +1,12 @@
 ---
-translated_title: الجميع محتالون
+title: الجميع محتالون
 image: eastwood.jpg
 image_alt: Eastwood Scowl
-translation_url: https://bitcoinarabic.org/everyone-scammer-michael-goldstein/
-translation_publication: Bitcoin Arabic
-translation_publication_url: https://bitcoinarabic.org
+translators:
+  - btc-translator
+original_url: https://bitcoinarabic.org/everyone-scammer-michael-goldstein/
+publication: Bitcoin Arabic
+publication_url: https://bitcoinarabic.org
 ---
 
 ## إنها حرب قائمة

@@ -1,4 +1,12 @@
 ---
+title: "Bitcoin’s Compound Rewards"
+author: daniel-krawisz
+date: 2014-10-25
+added: 2015-01-05
+excerpt:
+  The difference between Bitcoin and a Ponzi scheme is that in a Ponzi scheme,
+  the early adopters benefit by cashing out. With Bitcoin, there is no reason ever
+  to cash out.
 image: baby-godzilla.png
 image_alt: Baby Godzilla
 ---
