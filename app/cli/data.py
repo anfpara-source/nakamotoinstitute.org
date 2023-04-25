@@ -113,7 +113,7 @@ def import_language():
     languages = get_file_contents("data/languages.json")
 
     for language in languages:
-        new_language = Language(name=language["name"], ietf=language["ietf"])
+        new_language = Language(**language)
         db.session.add(new_language)
     db.session.commit()
     click.echo(DONE)
@@ -135,9 +135,7 @@ def import_email_thread():
     threads = get_file_contents("data/threads_emails.json")
 
     for thread in threads:
-        new_thread = EmailThread(
-            id=thread["id"], title=thread["title"], source=thread["source"]
-        )
+        new_thread = EmailThread(**thread)
         db.session.add(new_thread)
     db.session.commit()
     click.echo(DONE)
@@ -178,12 +176,8 @@ def import_forum_thread():
     threads = get_file_contents("data/threads_forums.json")
 
     for thread in threads:
-        new_thread = ForumThread(
-            id=thread["id"],
-            title=thread["title"],
-            url=thread["url"],
-            source=thread["source"],
-        )
+        thread.pop("num_satoshi", None)
+        new_thread = ForumThread(**thread)
         db.session.add(new_thread)
     db.session.commit()
     click.echo(DONE)
@@ -221,7 +215,7 @@ def import_quote_category():
     quote_categories = get_file_contents("data/quotecategories.json")
 
     for qc in quote_categories:
-        quote_category = QuoteCategory(slug=qc["slug"], name=qc["name"])
+        quote_category = QuoteCategory(**qc)
         db.session.add(quote_category)
     db.session.commit()
     click.echo(DONE)
@@ -256,12 +250,7 @@ def import_author():
     authors = get_file_contents("data/authors.json")
 
     for i, author in enumerate(authors, start=1):
-        author = Author(
-            id=i,
-            name=author["name"],
-            sort_name=author["sort_name"],
-            slug=author["slug"],
-        )
+        author = Author(id=i, **author)
         db.session.add(author)
     db.session.commit()
     click.echo(DONE)
@@ -351,12 +340,7 @@ def import_blog_series():
     blog_series = get_file_contents("data/blogseries.json")
 
     for i, blogs in enumerate(blog_series, start=1):
-        blog_series = BlogSeries(
-            id=i,
-            title=blogs["title"],
-            slug=blogs["slug"],
-            chapter_title=blogs["chapter_title"],
-        )
+        blog_series = BlogSeries(id=i, **blogs)
         db.session.add(blog_series)
     db.session.commit()
     click.echo(DONE)
