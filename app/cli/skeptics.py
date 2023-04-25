@@ -19,6 +19,24 @@ API_URL_PARAMS = "?assets=btc&metrics=PriceUSD&frequency=1d&page_size=10000"
 API_URL = API_URL_BASE + API_URL_PARAMS
 
 
+def fetch_prices(start_date=None, done=True):
+    click.echo("Fetching Prices...", nl=False)
+    url = API_URL
+    if start_date:
+        url += f"&start_time={start_date}"
+    resp = requests.get(url).json()
+    click.echo("Adding Prices...", nl=False)
+    series = resp["data"]
+    for se in series:
+        date = parser.parse(se["time"])
+        price = se["PriceUSD"]
+        new_price = Price(date=date, price=price)
+        db.session.add(new_price)
+    db.session.commit()
+    if done:
+        click.echo(DONE)
+
+
 def update_skeptics():
     click.echo("Updating skeptics...", nl=False)
     skeptics = db.session.scalars(db.select(Skeptic))
@@ -52,28 +70,13 @@ def update_skeptics():
 def update():
     """Fetch price data and update skeptics."""
     prices = db.session.scalars(db.select(Price)).all()
-    url = API_URL
+    start_date = None
 
     if prices:
         latest = prices[-1]
         start_date = latest.date + timedelta(days=1)
-        url += f"&start_time={start_date}"
 
-    click.echo("Fetching prices...", nl=False)
-    resp = requests.get(url).json()
-    series = resp["data"]
-    click.echo(DONE)
-    click.echo("Importing prices...", nl=False)
-    for se in series:
-        date = parser.parse(se["time"])
-        price = se["PriceUSD"]
-        new_price = Price(
-            date=date,
-            price=price,
-        )
-        db.session.add(new_price)
-    db.session.commit()
-    click.echo(DONE)
+    fetch_prices(start_date=start_date, done=False)
 
     update_skeptics()
     click.echo(color_text("Finished updating!"))

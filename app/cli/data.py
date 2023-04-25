@@ -3,14 +3,13 @@ import os.path
 from datetime import datetime
 
 import click
-import requests
 import sqlalchemy as sa
 from dateutil import parser
 from flask import Blueprint
 from flask.cli import with_appcontext
 
 from app import db, pages
-from app.cli.skeptics import API_URL, update_skeptics
+from app.cli.skeptics import fetch_prices, update_skeptics
 from app.cli.utils import DONE, color_text
 from app.models import (
     Author,
@@ -95,29 +94,18 @@ def import_prices():
     fname = "data/prices.json"
     if os.path.isfile(fname):
         prices = get_file_contents(fname)
-        for price in prices:
-            new_price = Price(
-                date=parser.parse(price["date"]),
-                price=price["price"],
-            )
-            db.session.add(new_price)
-        db.session.commit()
+        if prices:
+            for price in prices:
+                new_price = Price(
+                    date=parser.parse(price["date"]),
+                    price=price["price"],
+                )
+                db.session.add(new_price)
+            db.session.commit()
+        else:
+            fetch_prices()
     else:
-        click.echo("Fetching Prices...", nl=False)
-        resp = requests.get(API_URL).json()
-        click.echo("Adding Prices...", nl=False)
-        series = resp["data"]
-        for se in series:
-            date = parser.parse(se["time"])
-            price = se["PriceUSD"]
-            new_price = Price(
-                date=date,
-                price=price,
-            )
-            db.session.add(new_price)
-        db.session.commit()
-        export_prices()
-    click.echo(DONE)
+        fetch_prices()
 
 
 def import_language():
