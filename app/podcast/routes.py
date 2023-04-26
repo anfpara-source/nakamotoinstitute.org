@@ -12,7 +12,7 @@ from app.utils.timetils import localize_time
 @bp.route("/", methods=["GET"])
 @cache.cached()
 def index():
-    episodes = db.session.scalars(db.select(Episode).order_by(desc(Episode.date)))
+    episodes = db.session.scalars(db.select(Episode).order_by(desc(Episode.datetime)))
     return render_template("podcast/index.html", episodes=episodes)
 
 
@@ -28,7 +28,7 @@ def detail(slug):
 @cache.cached()
 def feed():
     # Entries are added backwards
-    episodes = db.session.scalars(db.select(Episode).order_by(asc(Episode.date)))
+    episodes = db.session.scalars(db.select(Episode).order_by(asc(Episode.datetime)))
 
     fg = FeedGenerator()
     fg.load_extension("podcast")
@@ -67,7 +67,7 @@ def feed():
         fe.podcast.itunes_author("Satoshi Nakamoto Institute")
         fe.enclosure(enclosure_url, 0, "audio/mpeg")
         fe.podcast.itunes_duration(episode.duration)
-        fe.pubDate(localize_time(episode.time))
+        fe.pubDate(localize_time(episode.datetime))
 
     response = make_response(fg.rss_str(encoding="utf-8", pretty=True))
     response.headers.set("Content-Type", "application/rss+xml")

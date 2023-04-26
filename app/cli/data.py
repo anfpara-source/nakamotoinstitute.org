@@ -4,7 +4,6 @@ from datetime import datetime
 
 import click
 import sqlalchemy as sa
-from dateutil import parser
 from flask import Blueprint
 from flask.cli import with_appcontext
 
@@ -68,6 +67,17 @@ def get_or_create(model, **kwargs):
         return model(**kwargs)
 
 
+def string_to_date(s):
+    return datetime.strptime(s, "%Y-%m-%d")
+
+
+def string_to_datetime(s, tz=False):
+    dt_format = "%Y-%m-%dT%H:%M:%S"
+    if tz:
+        dt_format += "%z"
+    return datetime.strptime(s, dt_format)
+
+
 def flush_db():
     click.echo("Initializing database...", nl=False)
     db.drop_all()
@@ -96,10 +106,8 @@ def import_prices():
         prices = get_file_contents(fname)
         if prices:
             for price in prices:
-                new_price = Price(
-                    date=parser.parse(price["date"]),
-                    price=price["price"],
-                )
+                price["date"] = string_to_date(price["date"])
+                new_price = Price(**price)
                 db.session.add(new_price)
             db.session.commit()
         else:
@@ -111,7 +119,6 @@ def import_prices():
 def import_language():
     click.echo("Importing Language...", nl=False)
     languages = get_file_contents("data/languages.json")
-
     for language in languages:
         new_language = Language(**language)
         db.session.add(new_language)
@@ -122,7 +129,6 @@ def import_language():
 def import_translator():
     click.echo("Importing Translator...", nl=False)
     translators = get_file_contents("data/translators.json")
-
     for translator in translators:
         new_translator = Translator(**translator)
         db.session.add(new_translator)
@@ -133,7 +139,6 @@ def import_translator():
 def import_email_thread():
     click.echo("Importing EmailThread...", nl=False)
     threads = get_file_contents("data/threads_emails.json")
-
     for thread in threads:
         new_thread = EmailThread(**thread)
         db.session.add(new_thread)
@@ -145,27 +150,13 @@ def import_email():
     click.echo("Importing Email...", nl=False)
     emails = get_file_contents("data/emails.json")
 
-    for e in emails:
-        satoshi_id = None
-        if "satoshi_id" in e.keys():
-            satoshi_id = e["satoshi_id"]
-        parent = None
-        if "parent" in e.keys():
-            parent = db.session.get(Email, e["parent"])
-        new_email = Email(
-            id=e["id"],
-            satoshi_id=satoshi_id,
-            url=e["url"],
-            subject=e["subject"],
-            sent_from=e["sender"],
-            date=parser.parse(e["date"]),
-            text=e["text"],
-            source=e["source"],
-            source_id=e["source_id"],
-            thread_id=e["thread_id"],
-        )
+    for email in emails:
+        email.pop("original_date", None)
+        email["date"] = string_to_datetime(email["date"])
+        parent = email.get("parent", None)
         if parent:
-            new_email.parent = parent
+            email["parent"] = db.session.get(Email, parent)
+        new_email = Email(**email)
         db.session.add(new_email)
     db.session.commit()
     click.echo(DONE)
@@ -174,7 +165,6 @@ def import_email():
 def import_forum_thread():
     click.echo("Importing ForumThread...", nl=False)
     threads = get_file_contents("data/threads_forums.json")
-
     for thread in threads:
         thread.pop("num_satoshi", None)
         new_thread = ForumThread(**thread)
@@ -187,25 +177,10 @@ def import_post():
     click.echo("Importing Post...", nl=False)
     posts = get_file_contents("data/posts.json")
 
-    for i, p in enumerate(posts, start=1):
-        satoshi_id = None
-        if "satoshi_id" in p.keys():
-            satoshi_id = p["satoshi_id"]
-        post = Post(
-            id=i,
-            satoshi_id=satoshi_id,
-            url=p["url"],
-            subject=p["subject"],
-            poster_name=p["name"],
-            poster_url=p["poster_url"],
-            post_num=p["post_num"],
-            is_displayed=p["is_displayed"],
-            nested_level=p["nested_level"],
-            date=parser.parse(p["date"]),
-            text=p["content"],
-            thread_id=p["thread_id"],
-        )
-        db.session.add(post)
+    for i, post in enumerate(posts, start=1):
+        post["date"] = string_to_datetime(post["date"])
+        new_post = Post(id=i, **post)
+        db.session.add(new_post)
     db.session.commit()
     click.echo(DONE)
 
@@ -213,10 +188,9 @@ def import_post():
 def import_quote_category():
     click.echo("Importing QuoteCategory...", nl=False)
     quote_categories = get_file_contents("data/quotecategories.json")
-
-    for qc in quote_categories:
-        quote_category = QuoteCategory(**qc)
-        db.session.add(quote_category)
+    for quote_category in quote_categories:
+        new_quote_category = QuoteCategory(**quote_category)
+        db.session.add(new_quote_category)
     db.session.commit()
     click.echo(DONE)
 
@@ -224,23 +198,13 @@ def import_quote_category():
 def import_quote():
     click.echo("Importing Quote...", nl=False)
     quotes = get_file_contents("data/quotes.json")
-
     for i, quote in enumerate(quotes, start=1):
-        q = Quote(
-            id=i,
-            text=quote["text"],
-            date=parser.parse(quote["date"]).date(),
-            medium=quote["medium"],
-        )
-        if "email_id" in quote:
-            q.email_id = quote["email_id"]
-        if "post_id" in quote:
-            q.post_id = quote["post_id"]
-        categories = []
-        for cat in quote["category"].split(", "):
-            categories += [get(QuoteCategory, slug=cat)]
-        q.categories = categories
-        db.session.add(q)
+        quote["date"] = string_to_date(quote["date"])
+        quote["categories"] = [
+            get(QuoteCategory, slug=category) for category in quote["categories"]
+        ]
+        new_quote = Quote(id=i, **quote)
+        db.session.add(new_quote)
     db.session.commit()
     click.echo(DONE)
 
@@ -248,10 +212,9 @@ def import_quote():
 def import_author():
     click.echo("Importing Author...", nl=False)
     authors = get_file_contents("data/authors.json")
-
     for i, author in enumerate(authors, start=1):
-        author = Author(id=i, **author)
-        db.session.add(author)
+        new_author = Author(id=i, **author)
+        db.session.add(new_author)
     db.session.commit()
     click.echo(DONE)
 
@@ -259,36 +222,17 @@ def import_author():
 def import_doc():
     click.echo("Importing Doc...", nl=False)
     docs = get_file_contents("data/literature.json")
-
     for doc in docs:
-        authorlist = doc["author"]
-        dbauthor = []
-        for auth in authorlist:
-            dbauthor += [get(Author, slug=auth)]
-        formlist = doc["formats"]
-        dbformat = []
-        for form in formlist:
-            dbformat += [get_or_create(Format, name=form)]
-        catlist = doc["categories"]
-        dbcat = []
-        for cat in catlist:
-            dbcat += [get_or_create(Category, name=cat)]
-        if "external" in doc:
-            ext = doc["external"]
-        else:
-            ext = None
-        doc = Doc(
-            id=doc["id"],
-            title=doc["title"],
-            author=dbauthor,
-            date=doc["date"],
-            slug=doc["slug"],
-            formats=dbformat,
-            categories=dbcat,
-            doctype=doc["doctype"],
-            external=ext,
-        )
-        db.session.add(doc)
+        doc["authors"] = [get(Author, slug=author) for author in doc["authors"]]
+        doc["formats"] = [
+            get_or_create(Format, name=_format) for _format in doc["formats"]
+        ]
+        doc["categories"] = [
+            get_or_create(Category, name=category) for category in doc["categories"]
+        ]
+        doc["external"] = doc.get("external", None)
+        new_doc = Doc(**doc)
+        db.session.add(new_doc)
     db.session.commit()
     click.echo(DONE)
 
@@ -296,59 +240,34 @@ def import_doc():
 def import_research_doc():
     click.echo("Importing ResearchDoc...", nl=False)
     docs = get_file_contents("data/research.json")
-
     for doc in docs:
-        authorlist = doc["author"]
-        dbauthor = []
-        for auth in authorlist:
-            dbauthor += [get(Author, slug=auth)]
-        formlist = doc["formats"]
-        dbformat = []
-        for form in formlist:
-            dbformat += [get_or_create(Format, name=form)]
-        catlist = doc["categories"]
-        dbcat = []
-        for cat in catlist:
-            dbcat += [get_or_create(Category, name=cat)]
-        if "external" in doc:
-            ext = doc["external"]
-        else:
-            ext = None
-        if "lit_id" in doc:
-            lit = doc["lit_id"]
-        else:
-            lit = None
-        doc = ResearchDoc(
-            id=doc["id"],
-            title=doc["title"],
-            author=dbauthor,
-            date=doc["date"],
-            slug=doc["slug"],
-            formats=dbformat,
-            categories=dbcat,
-            doctype=doc["doctype"],
-            external=ext,
-            lit_id=lit,
-        )
-        db.session.add(doc)
+        doc["authors"] = [get(Author, slug=author) for author in doc["authors"]]
+        doc["formats"] = [
+            get_or_create(Format, name=_format) for _format in doc["formats"]
+        ]
+        doc["categories"] = [
+            get_or_create(Category, name=category) for category in doc["categories"]
+        ]
+        doc["external"] = doc.get("external", None)
+        doc["lit_id"] = doc.get("lit_id", None)
+        new_doc = ResearchDoc(**doc)
+        db.session.add(new_doc)
     db.session.commit()
     click.echo(DONE)
 
 
 def import_blog_series():
     click.echo("Importing BlogSeries...", nl=False)
-    blog_series = get_file_contents("data/blogseries.json")
-
-    for i, blogs in enumerate(blog_series, start=1):
-        blog_series = BlogSeries(id=i, **blogs)
-        db.session.add(blog_series)
+    blog_series_data = get_file_contents("data/blogseries.json")
+    for i, blog_series in enumerate(blog_series_data, start=1):
+        new_blog_series = BlogSeries(id=i, **blog_series)
+        db.session.add(new_blog_series)
     db.session.commit()
     click.echo(DONE)
 
 
 def import_blog_post():
     click.echo("Importing BlogPost...", nl=False)
-
     english_posts = []
     translated_posts = []
     for post in pages.get("mempool"):
@@ -360,33 +279,27 @@ def import_blog_post():
     for i, post in enumerate(english_posts, start=1):
         page = get_mempool_post(post)
         meta = page.meta
-        blogpost = BlogPost(
-            id=i,
-            title=meta["title"],
-            author=[get(Author, slug=meta["author"])],
-            date=meta["date"],
-            added=meta["added"],
-            slug=post,
-            excerpt=meta["excerpt"],
-        )
-        db.session.add(blogpost)
-        try:
-            blogpost.series = get(BlogSeries, slug=meta["series"])
-            blogpost.series_index = meta["series_index"]
-        except KeyError:
-            pass
-        db.session.add(blogpost)
+        meta_keys = ["title", "date", "added", "excerpt"]
+        blog_post_data = {key: meta[key] for key in meta_keys}
+        blog_post_data["slug"] = post
+        blog_post_data["author"] = [get(Author, slug=meta["author"])]
+        series = meta.get("series", None)
+        if series:
+            blog_post_data["series"] = get(BlogSeries, slug=series)
+            blog_post_data["series_index"] = meta["series_index"]
+        new_blog_post = BlogPost(id=i, **blog_post_data)
+        db.session.add(new_blog_post)
     db.session.commit()
 
     for post in translated_posts:
         slug, lang = post.split(".")
         page = get_mempool_post(slug, lang=lang)
         meta = page.meta
-        translators = [
-            get(Translator, slug=translator) for translator in meta["translators"]
-        ]
         post_translation = BlogPostTranslation(
-            language=get(Language, ietf=lang), translators=translators
+            language=get(Language, ietf=lang),
+            translators=[
+                get(Translator, slug=translator) for translator in meta["translators"]
+            ],
         )
         blog_post = get(BlogPost, slug=slug)
         blog_post.translations.append(post_translation)
@@ -398,33 +311,11 @@ def import_blog_post():
 def import_skeptic():
     click.echo("Importing Skeptic...", nl=False)
     skeptics = get_file_contents("data/skeptics.json")
-
     for i, skeptic in enumerate(skeptics, start=1):
-        slug_date = datetime.strftime(parser.parse(skeptic["date"]), "%Y-%m-%d")
-        try:
-            media_embed = skeptic["media_embed"]
-        except KeyError:
-            media_embed = ""
-        try:
-            twitter_screenshot = skeptic["twitter_screenshot"]
-        except KeyError:
-            twitter_screenshot = False
-        skeptic = Skeptic(
-            id=i,
-            name=skeptic["name"],
-            title=skeptic["title"],
-            article=skeptic["article"],
-            date=parser.parse(skeptic["date"]),
-            source=skeptic["source"],
-            excerpt=skeptic["excerpt"],
-            price=skeptic["price"],
-            link=skeptic["link"],
-            waybacklink=skeptic["waybacklink"],
-            media_embed=media_embed,
-            twitter_screenshot=twitter_screenshot,
-            slug=f"{skeptic['slug']}-{slug_date}",
-        )
-        db.session.add(skeptic)
+        skeptic["date"] = string_to_date(skeptic["date"])
+        skeptic["slug"] = f"{skeptic['slug']}-{skeptic['date']}"
+        new_skeptic = Skeptic(id=i, **skeptic)
+        db.session.add(new_skeptic)
     db.session.commit()
     click.echo(DONE)
     update_skeptics()
@@ -433,20 +324,10 @@ def import_skeptic():
 def import_episode():
     click.echo("Importing Episode...", nl=False)
     episodes = get_file_contents("data/episodes.json")
-
-    for ep in episodes:
-        episode = Episode(
-            id=ep["id"],
-            title=ep["title"],
-            date=parser.parse(ep["date"]),
-            duration=ep["duration"],
-            subtitle=ep["subtitle"],
-            summary=ep["summary"],
-            slug=ep["slug"],
-            youtube=ep["youtube"],
-            time=parser.parse(ep["time"]),
-        )
-        db.session.add(episode)
+    for episode in episodes:
+        episode["datetime"] = string_to_datetime(episode["datetime"], tz=True)
+        new_episode = Episode(**episode)
+        db.session.add(new_episode)
     db.session.commit()
     click.echo(DONE)
 

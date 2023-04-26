@@ -202,22 +202,22 @@ class Category(db.Model):
 
 
 def get_authors_string(obj):
-    if len(obj.author) == 1:
-        return str(obj.author[0])
-    elif len(obj.author) == 2:
-        return f"{obj.author[0]} and {obj.author[1]}"
+    if len(obj.authors) == 1:
+        return str(obj.authors[0])
+    elif len(obj.authors) == 2:
+        return f"{obj.authors[0]} and {obj.authors[1]}"
     else:
         author_string = ""
-        for author in obj.author[:-1]:
+        for author in obj.authors[:-1]:
             author_string += f"{author}, "
-        author_string += f"and {author[-1]}"
+        author_string += f"and {authors[-1]}"
         return author_string
 
 
 class Doc(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String())
-    author = db.relationship(
+    authors = db.relationship(
         "Author", secondary=authors, backref=db.backref("docs", lazy="dynamic")
     )
     date = db.Column(db.String())
@@ -242,7 +242,7 @@ class Doc(db.Model):
 class ResearchDoc(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String())
-    author = db.relationship(
+    authors = db.relationship(
         "Author",
         secondary=researchauthors,
         backref=db.backref("researchdocs", lazy="dynamic"),
@@ -356,7 +356,7 @@ class Skeptic(db.Model):
     price = db.Column(db.String())
     link = db.Column(db.String())
     media_embed = db.Column(db.String())
-    twitter_screenshot = db.Column(db.Boolean)
+    twitter_screenshot = db.Column(db.Boolean, default=False)
     waybacklink = db.Column(db.String())
     slug = db.Column(db.String())
     _btc_balance = db.Column(db.String())
@@ -387,14 +387,13 @@ class Skeptic(db.Model):
 class Episode(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String())
-    date = db.Column(db.Date())
+    datetime = db.Column(db.DateTime(timezone=True))
     duration = db.Column(db.String())
     subtitle = db.Column(db.String())
     summary = db.Column(db.String())
     slug = db.Column(db.String())
     youtube = db.Column(db.String())
     length = db.Column(db.String())
-    time = db.Column(db.DateTime(timezone=True))
 
     def __repr__(self):
         return f"<Episode {self.title}>"

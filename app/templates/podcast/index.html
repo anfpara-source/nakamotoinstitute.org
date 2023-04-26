@@ -16,7 +16,7 @@ The Crypto-Mises Podcast | Satoshi Nakamoto Institute
   <h3>
     <a href="{{url_for('podcast.detail', slug=episode.slug)}}">{{episode.title}}</a>
   </h3>
-  <h5>{{episode.date.strftime('%B %d, %Y')}}</h5>
+  <h5>{{episode.datetime.strftime('%B %d, %Y')}}</h5>
   <p>{{episode.subtitle}}</p>
   {% endfor %}
 </div>

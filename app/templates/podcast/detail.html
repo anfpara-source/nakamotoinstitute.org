@@ -9,7 +9,7 @@
 <div class="container">
   <div class="border-bottom mb-3 pb-2 text-center">
     <h1>{{episode.title}}</h1>
-    <h4 class="text-muted">{{episode.date.strftime('%B %d, %Y')}}</h4>
+    <h4 class="text-muted">{{episode.datetime.strftime('%B %d, %Y')}}</h4>
   </div>
 
   <div class="content">{{page.html|safe}}</div>

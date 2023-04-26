@@ -1,9 +1,8 @@
-from datetime import timedelta
+from datetime import datetime, timedelta
 from decimal import Decimal
 
 import click
 import requests
-from dateutil import parser
 from flask import Blueprint
 
 from app import db
@@ -28,9 +27,10 @@ def fetch_prices(start_date=None, done=True):
     click.echo("Adding Prices...", nl=False)
     series = resp["data"]
     for se in series:
-        date = parser.parse(se["time"])
-        price = se["PriceUSD"]
-        new_price = Price(date=date, price=price)
+        new_price = Price(
+            date=datetime.strptime(se["time"], "%Y-%m-%dT%H:%M:%S.%fZ").date(),
+            price=se["PriceUSD"],
+        )
         db.session.add(new_price)
     db.session.commit()
     if done:
