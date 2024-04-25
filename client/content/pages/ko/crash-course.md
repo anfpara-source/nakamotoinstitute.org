@@ -26,7 +26,7 @@
 
 예상되는 성장을 고려하면, 사람들은 비트코인을 축적할 이유가 있습니다. 이는 네트워크의 가치를 높여, 축적할 이유를 더 많이 제공하게 됩니다. 또한 보유자들은 네트워크 전체를 더 가치 있게 만드는 오픈소스 개발에 투자함으로써 보유한 자산의 가치를 높일 수 있습니다.
 
-- 다니엘 크라위츠의  ["I'm Hoarding Bitcoins, and No You Can't Have Any"](/mempool/im-hoarding-bitcoins-and-no-you-cant-have-any)
+- 다니엘 크라위츠의 ["I'm Hoarding Bitcoins, and No You Can't Have Any"](/mempool/im-hoarding-bitcoins-and-no-you-cant-have-any)
 - 다니엘 크라위츠의 ["Bitcoin's Compound Rewards"](/mempool/bitcoins-compound-rewards)
 - 다니엘 크라위츠의 ["The Correct Strategy of Bitcoin Entrepreneurship"](/mempool/the-correct-strategy-of-bitcoin-entrepreneurship)
 
